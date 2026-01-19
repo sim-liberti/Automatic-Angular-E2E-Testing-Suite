@@ -1,2 +1,3 @@
+hook-injector/test-hooks linguist-vendored
 *.html -linguist-detectable
 *.js -linguist-detectable

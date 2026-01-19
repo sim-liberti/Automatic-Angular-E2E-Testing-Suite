@@ -56,7 +56,7 @@ public abstract class BaseTest {
             );
             element.click();
             element.clear();
-            element.sendKeys("sim.liberti@gmail.com");
+            element.sendKeys("redacted");
 
             // Continue
             element = wait.until(
@@ -76,7 +76,7 @@ public abstract class BaseTest {
             );
             element.click();
             element.clear();
-            element.sendKeys("Spotify2025.cucci01");
+            element.sendKeys("redacted");
 
             // Submit
             element = wait.until(

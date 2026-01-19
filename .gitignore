@@ -41,4 +41,6 @@ build/
 ### Custom ###
 node_modules/
 tmp/
+hookInjection.sh
+hookInjection.bat
 mutations.db

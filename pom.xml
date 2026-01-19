@@ -16,6 +16,7 @@
         <module>custom-locators</module>
         <module>mutation-tester</module>
         <module>mutation-generator/llm-generator</module>
+        <module>hook-injector</module>
     </modules>
 
     <properties>

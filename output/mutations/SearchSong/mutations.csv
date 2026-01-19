@@ -33,9 +33,9 @@ SearchInput,beta,c,KO,Target element has no id attribute
 SearchInput,alpha,d,OK,
 SearchInput,delta,d,KO,Target element text content is empty
 SearchInput,beta,d,KO,Target element text content is empty
-SearchInput,alpha,e,KO,Target element text content is empty
+SearchInput,alpha,e,OK,
 SearchInput,delta,e,KO,Target element text content is empty
-SearchInput,beta,e,OK,
+SearchInput,beta,e,KO,Target element text content is empty
 SearchInput,alpha,f,OK,
 SearchInput,delta,f,OK,
 SearchInput,beta,f,KO,The parent is null or empty

@@ -122,7 +122,7 @@ public class TesterEngine {
     private static void saveTestResult(List<MutationBatch> batches) {
         Map<String, LocatorStats> statsMap = new HashMap<>();
         StringBuilder batchCsv = new StringBuilder();
-        batchCsv.append("Nome,Identificativo,Locatore,Tag,Stato,Errore");
+        batchCsv.append("Nome,Identificativo,Locatore,Tag,Stato,Errore\n");
 
         for (MutationBatch batch : batches) {
             BatchStatus status = batch.getBatchStatus();

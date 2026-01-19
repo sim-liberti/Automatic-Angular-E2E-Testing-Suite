@@ -1,481 +1,561 @@
-Nome,Identificativo,Locatore,Tag,Stato,Errore
-SearchInput,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SearchInput,mutation_k_tag_ins_mut_delta,HookTest,delta,PASSED,null
-SearchInput,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
-SearchInput,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SearchInput,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
-SearchInput,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,FAILED,Expected condition failed: waiting for presence of element located by: By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div/as-card[1]/a (tried for 10 second(s) with 500 milliseconds interval)
-SearchInput,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SearchInput,mutation_f_tag_mov_container_mut_alpha,HookTest,alpha,PASSED,null
-SearchInput,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-SearchInput,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SearchInput,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-SearchInput,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
-SearchInput,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_f_tag_mov_container_mut_delta,HookTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SongCard,mutation_g_tag_mov_html_mut_gamma,HookTest,gamma,PASSED,null
-SongCard,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,PASSED,null
-SongCard,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SongCard,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,PASSED,null
-SongCard,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
-NavbarSearch,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-NavbarSearch,mutation_i_tag_rem_mut_alpha,HookTest,alpha,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 10 second(s) with 500 milliseconds interval)
-NavbarSearch,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-NavbarSearch,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-NavbarSearch,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-NavbarSearch,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 10 second(s) with 500 milliseconds interval)
-SearchInput,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SearchInput,mutation_i_tag_rem_mut_alpha,HookTest,alpha,PASSED,null
-SearchInput,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-SearchInput,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SearchInput,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-SearchInput,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 10 second(s) with 500 milliseconds interval)
-NowPlaying,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-NowPlaying,mutation_k_tag_ins_mut_alpha,HookTest,alpha,PASSED,null
-NowPlaying,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-NowPlaying,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-NowPlaying,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-NowPlaying,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
-SongCard,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_h_tag_mov_temp_mut_delta,HookTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SearchInput,mutation_d_text_cont_mod_mut_alpha,HookTest,alpha,PASSED,null
-SearchInput,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-SearchInput,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SearchInput,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-SearchInput,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
-SongCard,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_h_tag_mov_temp_mut_gamma,HookTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+﻿Nome,Identificativo,Locatore,Tag,Stato,Errore
+SongCard,mutation_a_attr_val_mod_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
 SongCard,mutation_a_attr_val_mod_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_a_attr_val_mod_mut_gamma,HookTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
 SongCard,mutation_a_attr_val_mod_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
 SongCard,mutation_a_attr_val_mod_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
 SongCard,mutation_a_attr_val_mod_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_a_attr_val_mod_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
 SongCard,mutation_a_attr_val_mod_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_g_tag_mov_html_mut_alpha,HookTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SongCard,mutation_j_tag_type_mod_mut_beta,HookTest,beta,PASSED,null
-SongCard,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
-SongCard,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SongCard,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
-SongCard,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
-SongCard,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SongCard,mutation_j_tag_type_mod_mut_gamma,HookTest,gamma,PASSED,null
-SongCard,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
-SongCard,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SongCard,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
-SongCard,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
-NavbarSearch,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 10 second(s) with 500 milliseconds interval)
-NavbarSearch,mutation_g_tag_mov_html_mut_alpha,HookTest,alpha,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 10 second(s) with 500 milliseconds interval)
-NavbarSearch,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 10 second(s) with 500 milliseconds interval)
-NavbarSearch,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 10 second(s) with 500 milliseconds interval)
-NavbarSearch,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 10 second(s) with 500 milliseconds interval)
-NavbarSearch,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 10 second(s) with 500 milliseconds interval)
-NavbarSearch,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 10 second(s) with 500 milliseconds interval)
-NavbarSearch,mutation_g_tag_mov_html_mut_beta,HookTest,beta,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 10 second(s) with 500 milliseconds interval)
-NavbarSearch,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 10 second(s) with 500 milliseconds interval)
-NavbarSearch,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 10 second(s) with 500 milliseconds interval)
-NavbarSearch,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 10 second(s) with 500 milliseconds interval)
-NavbarSearch,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 10 second(s) with 500 milliseconds interval)
-SongCard,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SongCard,mutation_i_tag_rem_mut_alpha,HookTest,alpha,PASSED,null
-SongCard,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-SongCard,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SongCard,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-SongCard,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
-SearchInput,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SearchInput,mutation_i_tag_rem_mut_beta,HookTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-input-3]//*[@x-test-tpl-div-1]//*[@x-test-hook-input-4] (tried for 10 second(s) with 500 milliseconds interval)
-SearchInput,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
-SearchInput,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SearchInput,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
-SearchInput,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 10 second(s) with 500 milliseconds interval)
-NowPlaying,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_h_tag_mov_temp_mut_alpha,HookTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_g_tag_mov_html_mut_beta,HookTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NavbarSearch,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NavbarSearch,mutation_i_tag_rem_mut_beta,HookTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NavbarSearch,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NavbarSearch,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NavbarSearch,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NavbarSearch,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_e_text_cont_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_e_text_cont_rem_mut_beta,HookTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_e_text_cont_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_e_text_cont_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_e_text_cont_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_e_text_cont_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_h_tag_mov_temp_mut_delta,HookTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SearchInput,mutation_k_tag_ins_mut_alpha,HookTest,alpha,PASSED,null
-SearchInput,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-SearchInput,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SearchInput,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-SearchInput,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for presence of element located by: By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div/as-card[1]/a (tried for 10 second(s) with 500 milliseconds interval)
-NowPlaying,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-NowPlaying,mutation_i_tag_rem_mut_alpha,HookTest,alpha,PASSED,null
-NowPlaying,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-NowPlaying,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-NowPlaying,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-NowPlaying,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
-NavbarSearch,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 10 second(s) with 500 milliseconds interval)
-NavbarSearch,mutation_h_tag_mov_temp_mut_alpha,HookTest,alpha,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 10 second(s) with 500 milliseconds interval)
-NavbarSearch,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 10 second(s) with 500 milliseconds interval)
-NavbarSearch,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 10 second(s) with 500 milliseconds interval)
-NavbarSearch,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 10 second(s) with 500 milliseconds interval)
-NavbarSearch,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 10 second(s) with 500 milliseconds interval)
-NowPlaying,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-NowPlaying,mutation_h_tag_mov_temp_mut_beta,HookTest,beta,PASSED,null
-NowPlaying,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,PASSED,null
-NowPlaying,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-NowPlaying,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,PASSED,null
-NowPlaying,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,PASSED,null
-SearchInput,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 10 second(s) with 500 milliseconds interval)
-SearchInput,mutation_h_tag_mov_temp_mut_alpha,HookTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-input-3]//*[@x-test-tpl-div-1]//*[@x-test-hook-input-4] (tried for 10 second(s) with 500 milliseconds interval)
-SearchInput,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 10 second(s) with 500 milliseconds interval)
-SearchInput,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 10 second(s) with 500 milliseconds interval)
-SearchInput,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Artists  songs  albums  or playlists'] (tried for 10 second(s) with 500 milliseconds interval)
-SearchInput,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 10 second(s) with 500 milliseconds interval)
-NowPlaying,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-NowPlaying,mutation_g_tag_mov_html_mut_gamma,HookTest,gamma,PASSED,null
-NowPlaying,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,PASSED,null
-NowPlaying,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-NowPlaying,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,PASSED,null
-NowPlaying,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
-SearchInput,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 10 second(s) with 500 milliseconds interval)
-SearchInput,mutation_h_tag_mov_temp_mut_beta,HookTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-input-3]//*[@x-test-tpl-div-1]//*[@x-test-hook-input-4] (tried for 10 second(s) with 500 milliseconds interval)
-SearchInput,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 10 second(s) with 500 milliseconds interval)
-SearchInput,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 10 second(s) with 500 milliseconds interval)
-SearchInput,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Artists  songs  albums  or playlists'] (tried for 10 second(s) with 500 milliseconds interval)
-SearchInput,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 10 second(s) with 500 milliseconds interval)
-SongCard,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_h_tag_mov_temp_mut_alpha,HookTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_g_tag_mov_html_mut_beta,HookTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_h_tag_mov_temp_mut_gamma,HookTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-NowPlaying,mutation_i_tag_rem_mut_gamma,HookTest,gamma,PASSED,null
-NowPlaying,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
-NowPlaying,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-NowPlaying,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
-NowPlaying,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
-SongCard,mutation_b_attr_rem_mut_gamma,SeleniumXPathTest,gamma,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SongCard,mutation_b_attr_rem_mut_gamma,HookTest,gamma,PASSED,null
-SongCard,mutation_b_attr_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
-SongCard,mutation_b_attr_rem_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SongCard,mutation_b_attr_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
-SongCard,mutation_b_attr_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
-SongCard,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_g_tag_mov_html_mut_alpha,HookTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SearchInput,mutation_j_tag_type_mod_mut_beta,HookTest,beta,PASSED,null
-SearchInput,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
-SearchInput,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SearchInput,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
-SearchInput,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 10 second(s) with 500 milliseconds interval)
-SearchInput,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_g_tag_mov_html_mut_delta,HookTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SearchInput,mutation_j_tag_type_mod_mut_alpha,HookTest,alpha,PASSED,null
-SearchInput,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-SearchInput,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SearchInput,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-SearchInput,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 10 second(s) with 500 milliseconds interval)
-NowPlaying,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-NowPlaying,mutation_j_tag_type_mod_mut_gamma,HookTest,gamma,PASSED,null
-NowPlaying,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
-NowPlaying,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-NowPlaying,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
-NowPlaying,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
-SongCard,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SongCard,mutation_i_tag_rem_mut_gamma,HookTest,gamma,PASSED,null
-SongCard,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
-SongCard,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SongCard,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
-SongCard,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
-NowPlaying,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_f_tag_mov_container_mut_gamma,HookTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NavbarSearch,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-NavbarSearch,mutation_j_tag_type_mod_mut_alpha,HookTest,alpha,PASSED,null
-NavbarSearch,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-NavbarSearch,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-NavbarSearch,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-NavbarSearch,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 10 second(s) with 500 milliseconds interval)
-SongCard,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_i_tag_rem_mut_beta,HookTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-NowPlaying,mutation_e_text_cont_rem_mut_alpha,HookTest,alpha,PASSED,null
-NowPlaying,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-NowPlaying,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-NowPlaying,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-NowPlaying,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
-SongCard,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SongCard,mutation_g_tag_mov_html_mut_beta,HookTest,beta,PASSED,null
-SongCard,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,PASSED,null
-SongCard,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SongCard,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,PASSED,null
-SongCard,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,PASSED,null
-SongCard,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_j_tag_type_mod_mut_delta,HookTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SongCard,mutation_b_attr_rem_mut_alpha,HookTest,alpha,PASSED,null
-SongCard,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-SongCard,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SongCard,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-SongCard,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
-SongCard,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SongCard,mutation_h_tag_mov_temp_mut_beta,HookTest,beta,PASSED,null
-SongCard,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,PASSED,null
-SongCard,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SongCard,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,PASSED,null
-SongCard,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,PASSED,null
-NavbarSearch,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NavbarSearch,mutation_h_tag_mov_temp_mut_beta,HookTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NavbarSearch,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NavbarSearch,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NavbarSearch,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NavbarSearch,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_a_attr_val_mod_mut_alpha,HookTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_b_attr_rem_mut_delta,SeleniumXPathTest,delta,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SongCard,mutation_b_attr_rem_mut_delta,HookTest,delta,PASSED,null
-SongCard,mutation_b_attr_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
-SongCard,mutation_b_attr_rem_mut_delta,KatalonXPathTest,delta,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SongCard,mutation_b_attr_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
-SongCard,mutation_b_attr_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
-SongCard,mutation_a_attr_val_mod_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_a_attr_val_mod_mut_delta,HookTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_a_attr_val_mod_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_a_attr_val_mod_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_a_attr_val_mod_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_a_attr_val_mod_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-NowPlaying,mutation_k_tag_ins_mut_gamma,HookTest,gamma,PASSED,null
-NowPlaying,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
-NowPlaying,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-NowPlaying,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
-NowPlaying,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
-NowPlaying,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-NowPlaying,mutation_j_tag_type_mod_mut_alpha,HookTest,alpha,PASSED,null
-NowPlaying,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-NowPlaying,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-NowPlaying,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-NowPlaying,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+SongCard,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+SongCard,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+SongCard,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element Unable to locate element {method xpath selector(.//*[normalize-space(text()) and normalize-space(.)='Michael Jackson'])[10]/followinga[1]}
+SongCard,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+SongCard,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+SongCard,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+SongCard,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+SongCard,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,FAILED,no such element Unable to locate element {method xpath selector(.//*[normalize-space(text()) and normalize-space(.)='Michael Jackson'])[10]/followinga[1]}
+SongCard,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+SongCard,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[2]/div[1]/as-album-track[1]/as-media-table-row[1]/as-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
 SongCard,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_a_attr_val_mod_mut_alpha,HookTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
 SongCard,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
 SongCard,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
 SongCard,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
 SongCard,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_g_tag_mov_html_mut_alpha,HookTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SongCard,mutation_i_tag_rem_mut_delta,HookTest,delta,PASSED,null
-SongCard,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
-SongCard,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SongCard,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
-SongCard,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
-SongCard,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SongCard,mutation_k_tag_ins_mut_beta,HookTest,beta,PASSED,null
-SongCard,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
-SongCard,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SongCard,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
-SongCard,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
-NowPlaying,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-NowPlaying,mutation_j_tag_type_mod_mut_beta,HookTest,beta,PASSED,null
-NowPlaying,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
-NowPlaying,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-NowPlaying,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
-NowPlaying,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
-SongCard,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SongCard,mutation_k_tag_ins_mut_alpha,HookTest,alpha,PASSED,null
-SongCard,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-SongCard,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SongCard,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-SongCard,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
-SongCard,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SongCard,mutation_f_tag_mov_container_mut_delta,HookTest,delta,PASSED,null
-SongCard,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
-SongCard,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SongCard,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
-SongCard,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
-NavbarSearch,mutation_d_text_cont_mod_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-NavbarSearch,mutation_d_text_cont_mod_mut_beta,HookTest,beta,PASSED,null
-NavbarSearch,mutation_d_text_cont_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
-NavbarSearch,mutation_d_text_cont_mod_mut_beta,KatalonXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-NavbarSearch,mutation_d_text_cont_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
-NavbarSearch,mutation_d_text_cont_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
-SearchInput,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SearchInput,mutation_i_tag_rem_mut_delta,HookTest,delta,PASSED,null
-SearchInput,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
-SearchInput,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SearchInput,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
-SearchInput,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
-NowPlaying,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-NowPlaying,mutation_b_attr_rem_mut_alpha,HookTest,alpha,PASSED,null
-NowPlaying,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-NowPlaying,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-NowPlaying,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-NowPlaying,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
-NavbarSearch,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-NavbarSearch,mutation_k_tag_ins_mut_beta,HookTest,beta,PASSED,null
-NavbarSearch,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
-NavbarSearch,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-NavbarSearch,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
-NavbarSearch,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
-SongCard,mutation_b_attr_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_b_attr_rem_mut_beta,HookTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_b_attr_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_b_attr_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_b_attr_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_b_attr_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SongCard,mutation_g_tag_mov_html_mut_delta,HookTest,delta,PASSED,null
-SongCard,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,PASSED,null
-SongCard,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SongCard,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,PASSED,null
-SongCard,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,PASSED,null
-NavbarSearch,mutation_e_text_cont_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NavbarSearch,mutation_e_text_cont_rem_mut_beta,HookTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NavbarSearch,mutation_e_text_cont_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NavbarSearch,mutation_e_text_cont_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NavbarSearch,mutation_e_text_cont_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NavbarSearch,mutation_e_text_cont_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SearchInput,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SearchInput,mutation_k_tag_ins_mut_beta,HookTest,beta,PASSED,null
-SearchInput,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
-SearchInput,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SearchInput,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
-SearchInput,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
-NowPlaying,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-NowPlaying,mutation_k_tag_ins_mut_beta,HookTest,beta,PASSED,null
-NowPlaying,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
-NowPlaying,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-NowPlaying,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
-NowPlaying,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
-SearchInput,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SearchInput,mutation_j_tag_type_mod_mut_delta,HookTest,delta,PASSED,null
-SearchInput,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
-SearchInput,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SearchInput,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
-SearchInput,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-artist/div/as-media-summary/div/h2"}
-SongCard,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_j_tag_type_mod_mut_alpha,HookTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SongCard,mutation_k_tag_ins_mut_gamma,HookTest,gamma,PASSED,null
-SongCard,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
-SongCard,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SongCard,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
-SongCard,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
-NowPlaying,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-NowPlaying,mutation_i_tag_rem_mut_beta,HookTest,beta,PASSED,null
-NowPlaying,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
-NowPlaying,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-NowPlaying,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
-NowPlaying,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
-NavbarSearch,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-NavbarSearch,mutation_k_tag_ins_mut_alpha,HookTest,alpha,PASSED,null
-NavbarSearch,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-NavbarSearch,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-NavbarSearch,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-NavbarSearch,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
-NavbarSearch,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-NavbarSearch,mutation_j_tag_type_mod_mut_beta,HookTest,beta,PASSED,null
-NavbarSearch,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
-NavbarSearch,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-NavbarSearch,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
-NavbarSearch,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 10 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-SongCard,mutation_k_tag_ins_mut_delta,HookTest,delta,PASSED,null
-SongCard,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
-SongCard,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-SongCard,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
-SongCard,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+SongCard,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-album-track-13][1]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+SongCard,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[2]/div[1]/as-album-track[1]/as-media-table-row[1]/as-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_b_attr_rem_mut_delta,HookXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-album-track-13][1]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_b_attr_rem_mut_delta,SeleniumXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_b_attr_rem_mut_delta,RobulaXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_b_attr_rem_mut_delta,KatalonXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_b_attr_rem_mut_delta,RelativeXPathTest,delta,FAILED,Expected condition failed waiting for element to be clickable By.xpath //a[normalize-space()='Search'] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_b_attr_rem_mut_delta,RobulaPlusXPathTest,delta,FAILED,Expected condition failed waiting for element to be clickable By.xpath //*[@ng-reflect-router-link='/search'] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_b_attr_rem_mut_delta,AbsoluteXPathTest,delta,FAILED,Expected condition failed waiting for element to be clickable By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-nav-bar[1]/ul[1]/li[2]/a[1] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+SongCard,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+SongCard,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,FAILED,no such element Unable to locate element {method xpath selector(.//*[normalize-space(text()) and normalize-space(.)='Michael Jackson'])[10]/followinga[1]}
+SongCard,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+SongCard,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+SongCard,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[2]/div[1]/as-album-track[1]/as-media-table-row[1]/as-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+SongCard,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+SongCard,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element Unable to locate element {method xpath selector(.//*[normalize-space(text()) and normalize-space(.)='Michael Jackson'])[10]/followinga[1]}
+SongCard,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error
+SongCard,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+SongCard,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+SongCard,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-album-track-13][1]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+SongCard,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[2]/div[1]/as-album-track[1]/as-media-table-row[1]/as-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_a_attr_val_mod_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
 SongCard,mutation_a_attr_val_mod_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-SongCard,mutation_a_attr_val_mod_mut_beta,HookTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
 SongCard,mutation_a_attr_val_mod_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
 SongCard,mutation_a_attr_val_mod_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
 SongCard,mutation_a_attr_val_mod_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_a_attr_val_mod_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
 SongCard,mutation_a_attr_val_mod_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
-NowPlaying,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Songs]>
-NowPlaying,mutation_d_text_cont_mod_mut_alpha,HookTest,alpha,PASSED,null
-NowPlaying,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-NowPlaying,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Michael Jackson]> but was:<[Billy Joel]>
-NowPlaying,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-NowPlaying,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+SongCard,mutation_b_attr_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+SongCard,mutation_b_attr_rem_mut_gamma,SeleniumXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_b_attr_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+SongCard,mutation_b_attr_rem_mut_gamma,KatalonXPathTest,gamma,FAILED,no such element Unable to locate element {method xpath selector(.//*[normalize-space(text()) and normalize-space(.)='Michael Jackson'])[10]/followinga[1]}
+SongCard,mutation_b_attr_rem_mut_gamma,RelativeXPathTest,gamma,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+SongCard,mutation_b_attr_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+SongCard,mutation_b_attr_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+SongCard,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+SongCard,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+SongCard,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,FAILED,no such element Unable to locate element {method xpath selector(.//*[normalize-space(text()) and normalize-space(.)='Michael Jackson'])[10]/followinga[1]}
+SongCard,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+SongCard,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+SongCard,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+SongCard,mutation_b_attr_rem_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_b_attr_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_b_attr_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_b_attr_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_b_attr_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_b_attr_rem_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_b_attr_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_a_attr_val_mod_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_a_attr_val_mod_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_a_attr_val_mod_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_a_attr_val_mod_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_a_attr_val_mod_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_a_attr_val_mod_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_a_attr_val_mod_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-album-track-13][1]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+SongCard,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[2]/div[1]/as-album-track[1]/as-media-table-row[1]/as-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-album-track-13][1]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+SongCard,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[2]/div[1]/as-album-track[1]/as-media-table-row[1]/as-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-album-track-13][1]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+SongCard,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[2]/div[1]/as-album-track[1]/as-media-table-row[1]/as-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-album-track-13][1]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+SongCard,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[2]/div[1]/as-album-track[1]/as-media-table-row[1]/as-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-album-track-13][1]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+SongCard,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[2]/div[1]/as-album-track[1]/as-media-table-row[1]/as-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-album-track-13][1]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+SongCard,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[2]/div[1]/as-album-track[1]/as-media-table-row[1]/as-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-album-track-13][1]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+SongCard,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[2]/div[1]/as-album-track[1]/as-media-table-row[1]/as-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SongCard,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SongCard,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+SearchInput,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+SearchInput,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element Unable to locate element {method xpath selector(.//*[normalize-space(text()) and normalize-space(.)='Michael Jackson'])[10]/followinga[1]}
+SearchInput,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+SearchInput,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+SearchInput,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[1]/as-input[1]/div[1]/input[1] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-album-track-13][1]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+SearchInput,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[2]/div[1]/as-album-track[1]/as-media-table-row[1]/as-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-input-3]//*[@x-test-tpl-div-1]//*[@x-test-hook-input-4] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+SearchInput,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,FAILED,no such element Unable to locate element {method xpath selector(.//*[normalize-space(text()) and normalize-space(.)='Michael Jackson'])[10]/followinga[1]}
+SearchInput,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+SearchInput,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+SearchInput,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[1]/as-input[1]/div[1]/input[1] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+SearchInput,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+SearchInput,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element Unable to locate element {method xpath selector(.//*[normalize-space(text()) and normalize-space(.)='Michael Jackson'])[10]/followinga[1]}
+SearchInput,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+SearchInput,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+SearchInput,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[2]/div[1]/as-album-track[1]/as-media-table-row[1]/as-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-album-track-13][1]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+SearchInput,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[2]/div[1]/as-album-track[1]/as-media-table-row[1]/as-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_f_tag_mov_container_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_f_tag_mov_container_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-album-track-13][1]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+SearchInput,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[1]/as-input[1]/div[1]/input[1] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-album-track-13][1]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+SearchInput,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[1]/as-input[1]/div[1]/input[1] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-album-track-13][1]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+SearchInput,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[2]/div[1]/as-album-track[1]/as-media-table-row[1]/as-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-album-track-13][1]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+SearchInput,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[2]/div[1]/as-album-track[1]/as-media-table-row[1]/as-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-album-track-13][1]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+SearchInput,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[2]/div[1]/as-album-track[1]/as-media-table-row[1]/as-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+SearchInput,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+SearchInput,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,FAILED,no such element Unable to locate element {method xpath selector//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-now-playing-bar-4]//*[@x-test-tpl-footer-1]//*[@x-test-hook-as-track-current-info-3]//*[@x-test-tpl-div-3]//*[@x-test-hook-a-5]}
+NowPlaying,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element Unable to locate element {method xpath selector//a[@class='text-white hoverunderline']}
+NowPlaying,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element Unable to locate element {method xpath selector(.//*[normalize-space(text()) and normalize-space(.)='Michael Jackson'])[10]/followinga[1]}
+NowPlaying,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+NowPlaying,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,no such element Unable to locate element {method xpath selector//*[@class='text-white hoverunderline']}
+NowPlaying,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element Unable to locate element {method xpath selector/html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-now-playing-bar[1]/footer[1]/div[1]/as-track-current-info[1]/div[2]/div[1]/a[1]}
+NowPlaying,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,FAILED,Expected condition failed waiting for element to be clickable By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,FAILED,Expected condition failed waiting for element to be clickable By.cssSelector .nav-link-containernth-child(2) > .flex (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,FAILED,Expected condition failed waiting for element to be clickable By.xpath //*[@ng-reflect-router-link='/search'] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,FAILED,Expected condition failed waiting for element to be clickable By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/followinga[1] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,FAILED,Expected condition failed waiting for element to be clickable By.xpath //a[normalize-space()='Search'] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,Expected condition failed waiting for element to be clickable By.xpath //*[@ng-reflect-router-link='/search'] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed waiting for element to be clickable By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-nav-bar[1]/ul[1]/li[2]/a[1] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+NowPlaying,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element Unable to locate element {method xpath selector//a[@class='text-white hoverunderline']}
+NowPlaying,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element Unable to locate element {method xpath selector(.//*[normalize-space(text()) and normalize-space(.)='Michael Jackson'])[10]/followinga[1]}
+NowPlaying,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+NowPlaying,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+NowPlaying,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element Unable to locate element {method xpath selector/html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-now-playing-bar[1]/footer[1]/div[1]/as-track-current-info[1]/div[2]/div[1]/a[1]}
+NowPlaying,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,FAILED,expected<[]Billie Jean> but was<[[The following text has been mutated] ]Billie Jean>
+NowPlaying,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,expected<[]Billie Jean> but was<[[The following text has been mutated] ]Billie Jean>
+NowPlaying,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element Unable to locate element {method xpath selector(.//*[normalize-space(text()) and normalize-space(.)='Michael Jackson'])[10]/followinga[1]}
+NowPlaying,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+NowPlaying,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,expected<[]Billie Jean> but was<[[The following text has been mutated] ]Billie Jean>
+NowPlaying,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected<[]Billie Jean> but was<[[The following text has been mutated] ]Billie Jean>
+NowPlaying,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+NowPlaying,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+NowPlaying,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element Unable to locate element {method xpath selector(.//*[normalize-space(text()) and normalize-space(.)='Michael Jackson'])[10]/followinga[1]}
+NowPlaying,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+NowPlaying,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+NowPlaying,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+NowPlaying,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,FAILED,no such element Unable to locate element {method xpath selector//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-now-playing-bar-4]//*[@x-test-tpl-footer-1]//*[@x-test-hook-as-track-current-info-3]//*[@x-test-tpl-div-3]//*[@x-test-hook-a-5]}
+NowPlaying,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+NowPlaying,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,FAILED,no such element Unable to locate element {method xpath selector(.//*[normalize-space(text()) and normalize-space(.)='Michael Jackson'])[10]/followinga[1]}
+NowPlaying,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+NowPlaying,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+NowPlaying,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element Unable to locate element {method xpath selector/html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-now-playing-bar[1]/footer[1]/div[1]/as-track-current-info[1]/div[2]/div[1]/a[1]}
+NowPlaying,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+NowPlaying,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+NowPlaying,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[2]/div[1]/as-album-track[1]/as-media-table-row[1]/as-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-album-track-13][1]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+NowPlaying,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[2]/div[1]/as-album-track[1]/as-media-table-row[1]/as-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-album-track-13][1]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+NowPlaying,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[2]/div[1]/as-album-track[1]/as-media-table-row[1]/as-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-album-track-13][1]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+NowPlaying,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[2]/div[1]/as-album-track[1]/as-media-table-row[1]/as-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-album-track-13][1]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+NowPlaying,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[2]/div[1]/as-album-track[1]/as-media-table-row[1]/as-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_f_tag_mov_container_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-album-track-13][1]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+NowPlaying,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[2]/div[1]/as-album-track[1]/as-media-table-row[1]/as-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-album-track-13][1]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+NowPlaying,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-search[1]/div[1]/div[2]/div[1]/as-album-track[1]/as-media-table-row[1]/as-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+NowPlaying,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NowPlaying,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NavbarSearch,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+NavbarSearch,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed waiting for element to be clickable By.cssSelector .nav-link-containernth-child(2) > .flex (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+NavbarSearch,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element Unable to locate element { method xpath selector (.//*[normalize-space(text()) and normalize-space(.)='Michael Jackson'])[10]/followinga[1] }
+NavbarSearch,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+NavbarSearch,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+NavbarSearch,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+NavbarSearch,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+NavbarSearch,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+NavbarSearch,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element Unable to locate element {method xpath selector(.//*[normalize-space(text()) and normalize-space(.)='Michael Jackson'])[10]/followinga[1]}
+NavbarSearch,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+NavbarSearch,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+NavbarSearch,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed waiting for element to be clickable By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-nav-bar[1]/ul[1]/li[2]/a[1] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_d_text_cont_mod_mut_beta,HookXPathTest,beta,PASSED,null
+NavbarSearch,mutation_d_text_cont_mod_mut_beta,SeleniumXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_d_text_cont_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+NavbarSearch,mutation_d_text_cont_mod_mut_beta,KatalonXPathTest,beta,FAILED,no such element Unable to locate element {method xpath selector(.//*[normalize-space(text()) and normalize-space(.)='Michael Jackson'])[10]/followinga[1]}
+NavbarSearch,mutation_d_text_cont_mod_mut_beta,RelativeXPathTest,beta,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+NavbarSearch,mutation_d_text_cont_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+NavbarSearch,mutation_d_text_cont_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+NavbarSearch,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,FAILED,Expected condition failed waiting for element to be clickable By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,FAILED,Expected condition failed waiting for element to be clickable By.cssSelector .nav-link-containernth-child(2) > .flex (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,FAILED,Expected condition failed waiting for element to be clickable By.xpath //*[@ng-reflect-router-link='/search'] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,FAILED,Expected condition failed waiting for element to be clickable By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/followinga[1] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,FAILED,Expected condition failed waiting for element to be clickable By.xpath //a[normalize-space()='Search'] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,FAILED,Expected condition failed waiting for element to be clickable By.xpath //*[@ng-reflect-router-link='/search'] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed waiting for element to be clickable By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-nav-bar[1]/ul[1]/li[2]/a[1] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,FAILED,Expected condition failed waiting for element to be clickable By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed waiting for element to be clickable By.cssSelector .nav-link-containernth-child(2) > .flex (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed waiting for element to be clickable By.xpath //*[@ng-reflect-router-link='/search'] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed waiting for element to be clickable By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/followinga[1] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed waiting for element to be clickable By.xpath //a[normalize-space()='Search'] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed waiting for element to be clickable By.xpath //*[@ng-reflect-router-link='/search'] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed waiting for element to be clickable By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-nav-bar[1]/ul[1]/li[2]/a[1] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,FAILED,Expected condition failed waiting for element to be clickable By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,FAILED,Expected condition failed waiting for element to be clickable By.cssSelector .nav-link-containernth-child(2) > .flex (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,FAILED,Expected condition failed waiting for element to be clickable By.xpath //*[@ng-reflect-router-link='/search'] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,FAILED,Expected condition failed waiting for element to be clickable By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/followinga[1] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,FAILED,Expected condition failed waiting for element to be clickable By.xpath //a[normalize-space()='Search'] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,FAILED,Expected condition failed waiting for element to be clickable By.xpath //*[@ng-reflect-router-link='/search'] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed waiting for element to be clickable By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-nav-bar[1]/ul[1]/li[2]/a[1] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_e_text_cont_rem_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NavbarSearch,mutation_e_text_cont_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NavbarSearch,mutation_e_text_cont_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NavbarSearch,mutation_e_text_cont_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NavbarSearch,mutation_e_text_cont_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NavbarSearch,mutation_e_text_cont_rem_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NavbarSearch,mutation_e_text_cont_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NavbarSearch,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+NavbarSearch,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+NavbarSearch,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,FAILED,no such element Unable to locate element {method xpath selector(.//*[normalize-space(text()) and normalize-space(.)='Michael Jackson'])[10]/followinga[1]}
+NavbarSearch,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+NavbarSearch,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+NavbarSearch,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed waiting for element to be clickable By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-nav-bar[1]/ul[1]/li[2]/a[1] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,FAILED,Expected condition failed waiting for element to be clickable By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.cssSelector .ng-dirty (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+NavbarSearch,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed waiting for element to be clickable By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-nav-bar[1]/ul[1]/li[2]/a[1] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NavbarSearch,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NavbarSearch,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NavbarSearch,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NavbarSearch,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NavbarSearch,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NavbarSearch,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NavbarSearch,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NavbarSearch,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NavbarSearch,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NavbarSearch,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NavbarSearch,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NavbarSearch,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NavbarSearch,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile. Marking test as not applicable.
+NavbarSearch,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,FAILED,Expected condition failed waiting for element to be clickable By.xpath //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed waiting for element to be clickable By.cssSelector .nav-link-containernth-child(2) > .flex (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //as-album-track[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath (.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/followingas-track-main-info[1] (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,invalid selector Unable to locate an element with the xpath expression //input[@placeholder='Artists  songs  albums  or playlists']) because of the following error SyntaxError Failed to execute 'evaluate' on 'Document' The string '//input[@placeholder='Artists  songs  albums  or playlists'])' is not a valid XPath expression.
+NavbarSearch,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed waiting for visibility of element located by By.xpath //*[@ng-reflect-index='1']/*/as-track-main-info (tried for 10 second(s) with 500 milliseconds interval)
+NavbarSearch,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed waiting for element to be clickable By.xpath /html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-nav-bar[1]/ul[1]/li[2]/a[1] (tried for 10 second(s) with 500 milliseconds interval)

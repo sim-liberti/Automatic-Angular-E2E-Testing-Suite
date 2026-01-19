@@ -9,12 +9,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import static org.junit.Assert.assertEquals;
 
-public class RobulaXPathTest extends BaseTest {
+public class RobulaPlusXPathTest extends BaseTest {
     @Override
     public String getLocator() { return "ROBULAPLUS_XPATH"; }
 
     @Test
-    public void testRobulaXPath() throws Exception {
+    public void testRobulaPlusXPath() throws Exception {
         driver.get(baseUrl);
         // Search link in sidebar
         wait.until(

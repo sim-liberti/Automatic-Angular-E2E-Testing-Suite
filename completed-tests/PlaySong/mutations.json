@@ -1,6 +1,4 @@
 {
-  "seed": "1234",
-  "repositoryRootPath": "/home/simon/Documents/Projects/angular-spotify",
   "mutations": [
     {
       "name": "NavbarSearch",
@@ -21,21 +19,21 @@
       }
     },
     {
-      "name": "ArtistCard",
-      "file_path": "/home/simon/Documents/Projects/angular-spotify/libs/web/search/feature/src/lib/search.component.html",
+      "name": "SongCard",
+      "file_path": "/home/simon/Documents/Projects/angular-spotify/libs/web/album/ui/album-track/src/lib/album-track.component.html",
       "target_matcher": {
         "type": "attribute",
-        "key": "[roundedImage]",
-        "value": "true"
+        "key": "[isPlaying]",
+        "value": "isPlaying"
       }
     },
     {
-      "name": "ArtistName",
-      "file_path": "/home/simon/Documents/Projects/angular-spotify/libs/web/shared/ui/media-summary/src/lib/media-summary.component.html",
+      "name": "NowPlaying",
+      "file_path": "/home/simon/Documents/Projects/angular-spotify/libs/web/shared/ui/track-current-info/src/lib/track-current-info.component.html",
       "target_matcher": {
         "type": "class",
         "key": "",
-        "value": "media-title"
+        "value": "text-white"
       }
     }
   ]

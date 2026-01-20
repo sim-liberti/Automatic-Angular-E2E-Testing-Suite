@@ -43,4 +43,4 @@ node_modules/
 tmp/
 hookInjection.sh
 hookInjection.bat
-mutations.db
+completed-tests/PlaySong/play_song.db

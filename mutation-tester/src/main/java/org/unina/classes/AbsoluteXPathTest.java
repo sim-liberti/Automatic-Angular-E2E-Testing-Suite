@@ -8,6 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 public class AbsoluteXPathTest extends BaseTest {
     @Override
@@ -16,41 +17,50 @@ public class AbsoluteXPathTest extends BaseTest {
     @Test
     public void testAbsoluteXPath() throws Exception {
         driver.get(baseUrl);
-        // Playlists link in sidebar
+        // Liked Songs navbar link
         wait.until(
             ExpectedConditions.elementToBeClickable(
-                By.xpath("/html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[4]/a")
+                By.xpath("/html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-nav-bar[1]/ul[1]/li[6]/a[1]")
             )
         ).click();
 
-        // First playlist
-        wait.until(
-            ExpectedConditions.visibilityOfElementLocated(
-                By.xpath("/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a")
-            )
-        ).click();
-
-        // Double click to start the first song
+        // Start the first song
         WebElement song = wait.until(
             ExpectedConditions.visibilityOfElementLocated(
-                By.xpath("/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlist/div[2]/div/as-playlist-track[1]/as-media-table-row")
+                By.xpath("/html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-tracks[1]/div[1]/div[1]/as-playlist-track[1]/as-media-table-row[1]/as-track-main-info[1]")
             )
         );
         new Actions(driver).doubleClick(song).perform();
 
         // Go back home to refresh the now playing bar
-        wait.until(
-            ExpectedConditions.visibilityOfElementLocated(
-                By.xpath("/html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[1]/a")
-            )
+        driver.findElement(
+            By.xpath("/html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-nav-bar[1]/ul[1]/li[1]/a[1]")
         ).click();
-        Thread.sleep(1000);
 
-        // Assert that the text of the current song is the correct one
-        String text = driver.findElement(
-            By.xpath("/html/body/angular-spotify-root/as-layout/as-now-playing-bar/footer/div[1]/as-track-current-info/div[2]/div[1]/a")
+        // Now playing text
+        String nowPlayingSong = driver.findElement(
+            By.xpath("/html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-now-playing-bar[1]/footer[1]/div[1]/as-track-current-info[1]/div[2]/div[1]/a[1]")
         ).getText();
-        assertEquals("Thriller", text);
+
+        // Play/Pause button
+        WebElement playPauseButton = driver.findElement(
+            By.xpath("/html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-now-playing-bar[1]/footer[1]/div[2]/as-player-controls[1]/div[1]/as-play-button[1]/button[1]")
+        );
+        playPauseButton.click();
+        Thread.sleep(200);
+        playPauseButton.click();
+
+        // Next song button
+        driver.findElement(
+            By.xpath("/html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-now-playing-bar[1]/footer[1]/div[2]/as-player-controls[1]/div[1]/div[2]")
+        ).click();
+
+        // Next playing song text for assertion
+        String nextPlayingSong = driver.findElement(
+            By.xpath("/html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-now-playing-bar[1]/footer[1]/div[1]/as-track-current-info[1]/div[2]/div[1]/a[1]")
+        ).getText();
+
+        assertNotEquals(nowPlayingSong, nextPlayingSong);
     }
 
 }

@@ -8,6 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 public class KatalonXPathTest extends BaseTest {
     @Override
@@ -16,41 +17,50 @@ public class KatalonXPathTest extends BaseTest {
     @Test
     public void testKatalonXPath() throws Exception {
         driver.get(baseUrl);
-        // Playlists link in sidebar
+        // Liked Songs navbar link
         wait.until(
-                ExpectedConditions.elementToBeClickable(
-                        By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Browse'])[1]/following::a[1]")
-                )
+            ExpectedConditions.elementToBeClickable(
+                By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='My Albums'])[1]/following::a[1]")
+            )
         ).click();
 
-        // First playlist
-        wait.until(
-                ExpectedConditions.visibilityOfElementLocated(
-                        By.xpath("//div/as-media-cover")
-                )
-        ).click();
-
-        // Double click to start the first song
+        // Start the first song
         WebElement song = wait.until(
-                ExpectedConditions.visibilityOfElementLocated(
-                        By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Date added'])[1]/following::as-track-main-info[1]")
-                )
+            ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Date added'])[1]/following::as-track-main-info[1]")
+            )
         );
         new Actions(driver).doubleClick(song).perform();
 
         // Go back home to refresh the now playing bar
-        wait.until(
-                ExpectedConditions.visibilityOfElementLocated(
-                        By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::a[1]")
-                )
+        driver.findElement(
+            By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::a[1]")
         ).click();
-        Thread.sleep(1000);
 
-        // Assert that the text of the current song is the correct one
-        String text = driver.findElement(
-                By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Michael Jackson'])[4]/preceding::a[1]")
+        // Now playing text
+        String nowPlayingSong = driver.findElement(
+            By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Megadeth'])[14]/following::button[1]")
         ).getText();
-        assertEquals("Thriller", text);
+
+        // Play/Pause button
+        WebElement playPauseButton = driver.findElement(
+            By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Stop'])[1]/preceding::button[2]")
+        );
+        playPauseButton.click();
+        Thread.sleep(200);
+        playPauseButton.click();
+
+        // Next song button
+        driver.findElement(
+            By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Stop'])[1]/preceding::div[13]")
+        ).click();
+
+        // Next playing song text for assertion
+        String nextPlayingSong = driver.findElement(
+            By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Megadeth'])[14]/following::button[1]")
+        ).getText();
+
+        assertNotEquals(nowPlayingSong, nextPlayingSong);
     }
 
 }

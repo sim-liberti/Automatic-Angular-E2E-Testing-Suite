@@ -4,29 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12d682f-6111-484c-bcef-cc6fdc79eaea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/completed-tests/ArtistSearch/RobulaPlusXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/completed-tests/ArtistSearch/mutations.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-locators/src/main/resources/my-playlists.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-locators/src/main/resources/playlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" />
+    <list default="true" id="b12d682f-6111-484c-bcef-cc6fdc79eaea" name="Changes" comment="[test] completed tests for the MyPlaylists functionality">
+      <change afterPath="$PROJECT_DIR$/completed-tests/MyPlaylists/AbsoluteXPathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/completed-tests/MyPlaylists/HookXPathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/completed-tests/MyPlaylists/KatalonXPathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/completed-tests/MyPlaylists/RelativeXPathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/completed-tests/MyPlaylists/RobulaPlusXPathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/completed-tests/MyPlaylists/RobulaXPathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/completed-tests/MyPlaylists/SeleniumXPathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/completed-tests/MyPlaylists/mutations.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-locators/src/main/resources/liked-songs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/ArtistSearch/AbsoluteXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/ArtistSearch/AbsoluteXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/ArtistSearch/BaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/ArtistSearch/HookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/ArtistSearch/HookXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/ArtistSearch/KatalonXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/ArtistSearch/KatalonXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/ArtistSearch/RelativeXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/ArtistSearch/RelativeXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/ArtistSearch/RobulaXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/ArtistSearch/RobulaXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/ArtistSearch/SeleniumXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/ArtistSearch/SeleniumXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/PlaySong/HookTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/custom-locators/src/main/java/org/unina/robula/Robula.java" beforeDir="false" afterPath="$PROJECT_DIR$/custom-locators/src/main/java/org/unina/robula/Robula.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom-locators/src/main/java/org/unina/robulaplus/RobulaPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/custom-locators/src/main/java/org/unina/robulaplus/RobulaPlus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generator-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/generator-config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutation-generator/static-generator/src/main/java/org/unina/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-generator/static-generator/src/main/java/org/unina/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/AbsoluteXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/AbsoluteXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/HookXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/HookXPathTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/KatalonXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/KatalonXPathTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/RelativeXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/RelativeXPathTest.java" afterDir="false" />
@@ -34,6 +26,8 @@
       <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/RobulaXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/RobulaXPathTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/SeleniumXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/SeleniumXPathTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mutations.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/tests/batches.csv" beforeDir="false" afterPath="$PROJECT_DIR$/output/tests/MyPlaylists/batches.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/tests/stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/output/tests/MyPlaylists/stats.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +109,7 @@
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "/home/simon/Documents/Projects/Automatic-Angular-E2E-Testing-Suite/mutation-tester/src/main/java/org/unina",
-    "last_opened_file_path": "/home/simon/Documents/Projects/Automatic-Angular-E2E-Testing-Suite/completed-tests/ArtistSearch",
+    "last_opened_file_path": "/home/simon/Documents/Projects/Automatic-Angular-E2E-Testing-Suite/completed-tests/MyPlaylists",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -137,18 +131,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/completed-tests/MyPlaylists" />
       <recent name="$PROJECT_DIR$/completed-tests/ArtistSearch" />
       <recent name="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes" />
       <recent name="$PROJECT_DIR$/completed-tests/PlaySong" />
       <recent name="$PROJECT_DIR$/hook-injector" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/output/tests/MyPlaylists" />
       <recent name="$PROJECT_DIR$/output/mutations/MyPlaylists" />
       <recent name="$PROJECT_DIR$/output/mutations/ArtistSearch" />
       <recent name="$PROJECT_DIR$/completed-tests/PlaySong" />
       <recent name="$PROJECT_DIR$/output/mutations/SearchSong" />
-      <recent name="$PROJECT_DIR$/output/mutations/Ricerca e riproduzione brano" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.unina.data" />
@@ -247,10 +241,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MutationTester" />
-        <item itemvalue="JUnit.HookXPathTest.testHookXPath" />
         <item itemvalue="Application.StaticMutationGenerator" />
         <item itemvalue="Application.Robula" />
         <item itemvalue="Application.RobulaPlus" />
+        <item itemvalue="JUnit.HookXPathTest.testHookXPath" />
       </list>
     </recent_temporary>
   </component>
@@ -323,6 +317,7 @@
       <workItem from="1768861612829" duration="378000" />
       <workItem from="1768935407543" duration="8630000" />
       <workItem from="1769104113437" duration="8543000" />
+      <workItem from="1769170689660" duration="5592000" />
     </task>
     <task id="LOCAL-00001" summary="[initial] caricamento di file di progetto">
       <option name="closed" value="true" />
@@ -556,7 +551,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768861752249</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="[test] completed tests for the MyPlaylists functionality">
+      <option name="closed" value="true" />
+      <created>1769170771970</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1769170771970</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,7 +581,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[feat] tag matchers provided to expand the search capability of a target tag" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Refactoring and start of user interaction&#10;[refactor] refactored folders and files to better divide the functionalities&#10;[feat] started implementing a cli tool to allow for user interaction using cmd parameters, an interactive prompt or a config file" />
     <MESSAGE value="[misc] removed README.md" />
     <MESSAGE value="First working version of a cli tool&#10;[feat] implemented configuration loading from json&#10;[feat] created MutationEngine to run all the mutation rules&#10;[feat] added mutation names for file exporting" />
@@ -603,7 +607,8 @@
     <MESSAGE value="[feat] implemented the Robula algorithm and added the hook-injector module" />
     <MESSAGE value="[misc] redacted and changed auth credentials" />
     <MESSAGE value="[misc] removed test-hooks as a github language" />
-    <option name="LAST_COMMIT_MESSAGE" value="[misc] removed test-hooks as a github language" />
+    <MESSAGE value="[test] completed tests for the MyPlaylists functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="[test] completed tests for the MyPlaylists functionality" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

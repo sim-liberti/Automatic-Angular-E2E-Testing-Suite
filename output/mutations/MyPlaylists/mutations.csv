@@ -1,4 +1,4 @@
-Nome,Elemento,Mutazione,Stato,Errore
+﻿Nome,Elemento,Mutazione,Stato,Errore
 NavbarSearch,alpha,a,KO,Target element has no attributes
 NavbarSearch,beta,a,KO,Target element has no attributes
 NavbarSearch,alpha,b,KO,Target element has no valid candidate attributes
@@ -119,4 +119,4 @@ NowPlaying,beta,j,OK,
 NowPlaying,gamma,j,OK,
 NowPlaying,alpha,k,OK,
 NowPlaying,beta,k,OK,
-NowPlaying,gamma,k,OK,
+NowPlaying,gamma,k,OK

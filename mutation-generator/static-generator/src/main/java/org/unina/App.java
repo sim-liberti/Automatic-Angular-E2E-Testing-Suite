@@ -18,7 +18,7 @@ public class App {
         try {
             File jsonFile = new File("generator-config.json");
             config = mapper.readValue(jsonFile, Config.class);
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
 

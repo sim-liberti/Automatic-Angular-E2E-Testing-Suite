@@ -26,7 +26,7 @@ public abstract class BaseTest {
 
     @Before
     public final void setUp() {
-        baseUrl = "https://192.168.20.4:4200";
+        baseUrl = "https://192.168.1.81:4200";
         driver = WebDriverFactory.getDriver();
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         if (driver == null) {
@@ -64,27 +64,10 @@ public abstract class BaseTest {
             );
             element.click();
 
-            // Go to password
-            element = wait.until(
-                    ExpectedConditions.elementToBeClickable(By.xpath("//button[contains(., 'Log in with a password')]"))
-            );
-            element.click();
-
-            // Password
-            element = wait.until(
-                    ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='password']"))
-            );
-            element.click();
-            element.clear();
-            element.sendKeys("redacted");
-
-            // Submit
-            element = wait.until(
-                    ExpectedConditions.elementToBeClickable(By.xpath("//button[contains(., 'Log in')]"))
-            );
-            element.click();
-
-            element = wait.until(
+            // Manually insert the code sent by email
+            // Then click the "Agree" button
+            WebDriverWait loginWait = new WebDriverWait(driver, Duration.ofSeconds(60));
+            element = loginWait.until(
                     ExpectedConditions.elementToBeClickable(By.xpath("//button[contains(., 'Agree')]"))
             );
             element.click();

@@ -4,6 +4,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import static org.junit.Assert.assertEquals;
@@ -15,33 +16,41 @@ public class KatalonXPathTest extends BaseTest {
     @Test
     public void testKatalonXPath() throws Exception {
         driver.get(baseUrl);
-        // Search link in sidebar
-        wait.until(ExpectedConditions.elementToBeClickable(
-            By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1]"))
+        // Playlists link in sidebar
+        wait.until(
+                ExpectedConditions.elementToBeClickable(
+                        By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Browse'])[1]/following::a[1]")
+                )
         ).click();
 
-        // Search input
-        WebElement searchInput = wait.until(
+        // First playlist
+        wait.until(
                 ExpectedConditions.visibilityOfElementLocated(
-                        By.xpath("//input")
+                        By.xpath("//div/as-media-cover")
+                )
+        ).click();
+
+        // Double click to start the first song
+        WebElement song = wait.until(
+                ExpectedConditions.visibilityOfElementLocated(
+                        By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Date added'])[1]/following::as-track-main-info[1]")
                 )
         );
-        searchInput.clear();
-        searchInput.sendKeys("Billie Jean");
+        new Actions(driver).doubleClick(song).perform();
+
+        // Go back home to refresh the now playing bar
+        wait.until(
+                ExpectedConditions.visibilityOfElementLocated(
+                        By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::a[1]")
+                )
+        ).click();
         Thread.sleep(1000);
 
-        // Click the artist
-        WebElement artistCardLink = wait.until(ExpectedConditions.presenceOfElementLocated(
-            By.xpath("//a/div/as-media-cover")
-        ));
-        JavascriptExecutor executor = (JavascriptExecutor) driver;
-        executor.executeScript("arguments[0].click();", artistCardLink);
-
-        // Assert that the text of the current artist is the correct one
+        // Assert that the text of the current song is the correct one
         String text = driver.findElement(
-                By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Artist'])[1]/following::h2[1]")
+                By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Michael Jackson'])[4]/preceding::a[1]")
         ).getText();
-        assertEquals("Michael Jackson", text);
+        assertEquals("Thriller", text);
     }
 
 }

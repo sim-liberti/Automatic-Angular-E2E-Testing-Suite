@@ -36,11 +36,24 @@ To start using the tool, configure the `generator-config.json` file.
     - `key`: The key of the attribute of the target element. Only necessary if you choose the `attribute` type.
     - `value`: The value of the class, text, id or attribute of the target element.
 
-### Generate the mutations
-Once you have the configuration file set up, you can simply run the [App.java](https://github.com/sim-liberti/Automatic-Angular-E2E-Testing-Suite/blob/master/mutation-generator/static-generator/src/main/java/org/unina/App.java) file in the `mutation-generator/static-generator/` module using your preferred IDE. 
+### 2. Generate Mutations
+With the configuration in place, you need to compile the generator module and then execute it.
+
+**Step 1: Build the Module**
+
+Run the following Maven command to build specifically the static-generator module and its dependencies:
+```bash
+mvn clean install -pl :static-generator -am
+```
+
+**Step 2: Run the Generator**
+
+After a successful build, a `static-generator.jar` file will be created at the project root. Execute it with:
+```bash
+java -jar static-generator.jar
+```
 
 A `mutations.db` file will be generated at the project root. This database stores every mutation, including its name, type, ID, and the associated file path.
-> In later releases a standalone `.jar` file will be provided for better use.
 
 ### Test the application
 Currently, tests are executed manually via an IDE.
@@ -48,7 +61,9 @@ Currently, tests are executed manually via an IDE.
 2. Extend BaseTest: Ensure every test class extends BaseTest. This class handles the Selenium WebDriver initialization and authentication logic (which can be customized). 
 3. Run the Tester: Run the App.java file located in the `mutation-tester/` module.
 
-Test Results: Upon completion, two files are generated in the output folder:
+**Test Results:** 
+
+Upon completion, two files are generated in the output folder:
 - `stats.csv`: Results grouped by test class name (fragility, obsolescence, and skipped tests). 
 - `batches.csv`: A detailed log of every test execution, including results and error messages.
 

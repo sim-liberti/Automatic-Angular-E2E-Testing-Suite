@@ -7,6 +7,7 @@ import org.unina.util.RandomSelector;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
@@ -15,8 +16,19 @@ public class App {
         ObjectMapper mapper = new ObjectMapper();
         Config config = new Config();
 
+        String jsonConfigPath = "";
+        if (args.length == 0) {
+            jsonConfigPath = "generator-config.json";
+        } else {
+            jsonConfigPath = args[0];
+        }
+
+        if (!Files.exists(Paths.get(jsonConfigPath))) {
+            throw new RuntimeException("Config file not found: " + jsonConfigPath);
+        }
+
         try {
-            File jsonFile = new File("generator-config.json");
+            File jsonFile = new File(jsonConfigPath);
             config = mapper.readValue(jsonFile, Config.class);
         } catch (Exception e) {
             e.printStackTrace();

@@ -20,7 +20,7 @@ public class RobulaPlusXPathTest extends BaseTest {
         // Liked Songs navbar link
         wait.until(
             ExpectedConditions.elementToBeClickable(
-                By.xpath("//*[@ng-reflect-router-link='/collection/tracks'")
+                By.xpath("//*[@ng-reflect-router-link='/collection/tracks']")
             )
         ).click();
 
@@ -36,6 +36,7 @@ public class RobulaPlusXPathTest extends BaseTest {
         driver.findElement(
             By.xpath("//*[@ng-reflect-router-link='']")
         ).click();
+        Thread.sleep(500);
 
         // Now playing text
         String nowPlayingSong = driver.findElement(
@@ -54,6 +55,7 @@ public class RobulaPlusXPathTest extends BaseTest {
         driver.findElement(
             By.xpath("//*[@_ngcontent-ng-c38434958='' and @x-test-hook-div-5='']")
         ).click();
+        Thread.sleep(500);
 
         // Next playing song text for assertion
         String nextPlayingSong = driver.findElement(

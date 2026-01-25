@@ -24,6 +24,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/output/tests/LikedSongs/batches.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/output/tests/MyPlaylists/batches.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/output/tests/SearchSong/batches.csv">
           <value>
             <Attribute>

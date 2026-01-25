@@ -36,6 +36,7 @@ public class RobulaXPathTest extends BaseTest {
         driver.findElement(
             By.xpath("//a[@ng-reflect-router-link='']")
         ).click();
+        Thread.sleep(500);
 
         // Now playing text
         String nowPlayingSong = driver.findElement(
@@ -54,6 +55,7 @@ public class RobulaXPathTest extends BaseTest {
         driver.findElement(
             By.xpath("//div[@x-test-hook-div-5=''][@_ngcontent-ng-c38434958='']")
         ).click();
+        Thread.sleep(500);
 
         // Next playing song text for assertion
         String nextPlayingSong = driver.findElement(

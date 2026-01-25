@@ -36,6 +36,7 @@ public class KatalonXPathTest extends BaseTest {
         driver.findElement(
             By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::a[1]")
         ).click();
+        Thread.sleep(500);
 
         // Now playing text
         String nowPlayingSong = driver.findElement(
@@ -54,6 +55,7 @@ public class KatalonXPathTest extends BaseTest {
         driver.findElement(
             By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Stop'])[1]/preceding::div[13]")
         ).click();
+        Thread.sleep(500);
 
         // Next playing song text for assertion
         String nextPlayingSong = driver.findElement(

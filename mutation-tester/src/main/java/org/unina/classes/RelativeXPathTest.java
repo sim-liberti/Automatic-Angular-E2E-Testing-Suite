@@ -36,6 +36,7 @@ public class RelativeXPathTest extends BaseTest {
         driver.findElement(
             By.xpath("//a[normalize-space()='Home']")
         ).click();
+        Thread.sleep(500);
 
         // Now playing text
         String nowPlayingSong = driver.findElement(
@@ -54,6 +55,7 @@ public class RelativeXPathTest extends BaseTest {
         driver.findElement(
             By.xpath("//div[@class='now-playing-bar-center']//div[2]")
         ).click();
+        Thread.sleep(500);
 
         // Next playing song text for assertion
         String nextPlayingSong = driver.findElement(

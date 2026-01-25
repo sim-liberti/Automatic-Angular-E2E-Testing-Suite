@@ -10,42 +10,41 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 
-public class SeleniumXPathTest extends BaseTest {
+public class RelativeXPathTest extends BaseTest {
     @Override
-    public String getLocator() { return "SELENIUM_LOCATOR"; }
+    public String getLocator() { return "RELATIVE_LOCATOR"; }
 
     @Test
-    public void testSeleniumXPath() throws Exception {
+    public void testRelativeXPath() throws Exception {
         driver.get(baseUrl);
         // Liked Songs navbar link
         wait.until(
             ExpectedConditions.elementToBeClickable(
-                By.cssSelector(".nav-link-container:nth-child(6) > .flex")
+                By.xpath("//a[normalize-space()='Liked songs']")
             )
         ).click();
 
         // Start the first song
         WebElement song = wait.until(
             ExpectedConditions.visibilityOfElementLocated(
-                By.cssSelector(".ng-star-inserted:nth-child(1) > .playlist-tracks-grid > .ng-star-inserted:nth-child(2)")
+                By.xpath("//as-playlist-track[1]//as-media-table-row[1]//as-track-main-info[1]")
             )
         );
         new Actions(driver).doubleClick(song).perform();
 
         // Go back home to refresh the now playing bar
         driver.findElement(
-            By.cssSelector(".nav-link-container:nth-child(1) > .flex")
+            By.xpath("//a[normalize-space()='Home']")
         ).click();
-        Thread.sleep(500);
 
         // Now playing text
         String nowPlayingSong = driver.findElement(
-            By.cssSelector(".ellipsis-one-line > .text-white")
+            By.xpath("//a[@class='text-white hover:underline']")
         ).getText();
 
         // Play/Pause button
         WebElement playPauseButton = driver.findElement(
-            By.cssSelector(".text-black svg")
+            By.xpath("//button[@class='flex play-button control-button text-black bg-white']")
         );
         playPauseButton.click();
         Thread.sleep(200);
@@ -53,16 +52,14 @@ public class SeleniumXPathTest extends BaseTest {
 
         // Next song button
         driver.findElement(
-            By.cssSelector(".svg-icon-step-forward > svg")
+            By.xpath("//div[@class='now-playing-bar-center']//div[2]")
         ).click();
-        Thread.sleep(500);
 
         // Next playing song text for assertion
         String nextPlayingSong = driver.findElement(
-            By.cssSelector(".ellipsis-one-line > .text-white")
+            By.xpath("//a[@class='text-white hover:underline']")
         ).getText();
 
         assertNotEquals(nowPlayingSong, nextPlayingSong);
     }
-
 }

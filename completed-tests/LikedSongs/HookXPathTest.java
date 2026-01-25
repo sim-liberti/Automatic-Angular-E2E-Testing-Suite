@@ -36,7 +36,6 @@ public class HookXPathTest extends BaseTest {
         driver.findElement(
             By.xpath("//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][1]//*[@x-test-hook-a-5]")
         ).click();
-        Thread.sleep(500);
 
         // Now playing text
         String nowPlayingSong = driver.findElement(
@@ -55,7 +54,6 @@ public class HookXPathTest extends BaseTest {
         driver.findElement(
             By.xpath("//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-now-playing-bar-4]//*[@x-test-tpl-footer-1]//*[@x-test-hook-as-player-controls-5]//*[@x-test-tpl-div-1]//*[@x-test-hook-div-5]")
         ).click();
-        Thread.sleep(500);
 
         // Next playing song text for assertion
         String nextPlayingSong = driver.findElement(

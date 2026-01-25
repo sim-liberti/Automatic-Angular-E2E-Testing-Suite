@@ -36,6 +36,7 @@ public class AbsoluteXPathTest extends BaseTest {
         driver.findElement(
             By.xpath("/html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-nav-bar[1]/ul[1]/li[1]/a[1]")
         ).click();
+        Thread.sleep(500);
 
         // Now playing text
         String nowPlayingSong = driver.findElement(
@@ -54,6 +55,7 @@ public class AbsoluteXPathTest extends BaseTest {
         driver.findElement(
             By.xpath("/html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-now-playing-bar[1]/footer[1]/div[2]/as-player-controls[1]/div[1]/div[2]")
         ).click();
+        Thread.sleep(500);
 
         // Next playing song text for assertion
         String nextPlayingSong = driver.findElement(

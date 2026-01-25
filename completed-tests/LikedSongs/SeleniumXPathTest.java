@@ -36,7 +36,6 @@ public class SeleniumXPathTest extends BaseTest {
         driver.findElement(
             By.cssSelector(".nav-link-container:nth-child(1) > .flex")
         ).click();
-        Thread.sleep(500);
 
         // Now playing text
         String nowPlayingSong = driver.findElement(
@@ -55,7 +54,6 @@ public class SeleniumXPathTest extends BaseTest {
         driver.findElement(
             By.cssSelector(".svg-icon-step-forward > svg")
         ).click();
-        Thread.sleep(500);
 
         // Next playing song text for assertion
         String nextPlayingSong = driver.findElement(

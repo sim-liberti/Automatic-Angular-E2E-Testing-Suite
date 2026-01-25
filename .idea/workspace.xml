@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12d682f-6111-484c-bcef-cc6fdc79eaea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-locators/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hook-injector/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b12d682f-6111-484c-bcef-cc6fdc79eaea" name="Changes" comment="[docs] created all the README.md files needed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hook-injector/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/hook-injector/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hook-injector/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hook-injector/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hook-injector/src/main/java/org/unina/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/hook-injector/src/main/java/org/unina/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,7 +303,7 @@
       <workItem from="1769247311220" duration="17643000" />
       <workItem from="1769347415362" duration="778000" />
       <workItem from="1769349789707" duration="12000" />
-      <workItem from="1769349863297" duration="5322000" />
+      <workItem from="1769349863297" duration="6749000" />
     </task>
     <task id="LOCAL-00001" summary="[initial] caricamento di file di progetto">
       <option name="closed" value="true" />
@@ -557,7 +553,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769349697786</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="[docs] created all the README.md files needed">
+      <option name="closed" value="true" />
+      <created>1769355294965</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1769355294965</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,7 +585,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="[misc] removed README.md" />
     <MESSAGE value="First working version of a cli tool&#10;[feat] implemented configuration loading from json&#10;[feat] created MutationEngine to run all the mutation rules&#10;[feat] added mutation names for file exporting" />
     <MESSAGE value="[refactor] renamed ObjectType into MutationTagType" />
     <MESSAGE value="feat: implementato spostamento target tra template e inizio modifiche per la gestione dei test" />
@@ -606,7 +609,8 @@
     <MESSAGE value="[misc] removed test-hooks as a github language" />
     <MESSAGE value="[test] completed tests for the MyPlaylists functionality" />
     <MESSAGE value="[test] ended the first complete batch of tests (2121 total)" />
-    <option name="LAST_COMMIT_MESSAGE" value="[test] ended the first complete batch of tests (2121 total)" />
+    <MESSAGE value="[docs] created all the README.md files needed" />
+    <option name="LAST_COMMIT_MESSAGE" value="[docs] created all the README.md files needed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

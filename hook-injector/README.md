@@ -41,5 +41,12 @@ Execute the generated JAR file with the following three required arguments:
 
 **Example:**
 ```shell
-java -jar target/Tesi-injector-plugin-1.0-SNAPSHOT.jar ".html" "angularjs" "C:\Users\Name\Projects\MyAngularApp\src"
+java -jar hook-injector/target/hook-injector-1.0.0.jar ".html" "angularjs" "C:\Users\Name\Projects\MyAngularApp\src"
 ```
+
+> **Troubleshooting:** 
+> If you are on Linux and the script execution exits with code != 0, you might need to make the script executable:
+> ```shell
+> sudo chmod +x hook-injector/hookInjection.sh
+>```
+> Then you can manually run the script file to inject the hooks.

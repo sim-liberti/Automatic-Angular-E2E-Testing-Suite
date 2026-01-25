@@ -12,10 +12,10 @@ import java.util.stream.Stream;
 public class App {
     static final String[] args = new String[5];
 
-    public static void main(String[] unused){
-        args[0] = ".html";
-        args[1] = "angularjs";
-        args[2] = "/home/simon/Documents/Projects/angular-spotify";
+    public static void main(String[] args){
+//        args[0] = ".html";
+//        args[1] = "angularjs";
+//        args[2] = "/home/simon/Documents/Projects/angular-spotify";
 
         Path start = Paths.get(args[2]);
         String osName = System.getProperty("os.name").toLowerCase();

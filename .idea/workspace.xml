@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12d682f-6111-484c-bcef-cc6fdc79eaea" name="Changes" comment="[docs] packaged the hook-injector module and edited the related readme file">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="b12d682f-6111-484c-bcef-cc6fdc79eaea" name="Changes" comment="[docs] packaged the static-generator module and edited the main readme file">
+      <change afterPath="$PROJECT_DIR$/.idea/betterCommentsSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/TestRunnerEngine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutation-generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-generator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hook-injector/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hook-injector/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mutation-generator/static-generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-generator/static-generator/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutation-generator/static-generator/src/main/java/org/unina/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-generator/static-generator/src/main/java/org/unina/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutations.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutation-tester/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-tester/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/MutationTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/NxConsoleWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/NpmConsoleWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/TesterEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/data/TestExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/data/TestExecution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +27,8 @@
         <option value="Interface" />
         <option value="JavaScript File" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -103,7 +106,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "Errors",
+    "settings.editor.selected.configurable": "preferences.editor",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   },
@@ -137,7 +140,7 @@
   </component>
   <component name="RunManager" selected="Application.StaticMutationGenerator">
     <configuration name="MutationTester" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.unina.App" />
+      <option name="MAIN_CLASS_NAME" value="org.unina.MutationTester" />
       <module name="mutation-tester" />
       <extension name="coverage">
         <pattern>
@@ -224,11 +227,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HookXPathTest.testHookXPath" />
         <item itemvalue="Application.StaticMutationGenerator" />
-        <item itemvalue="Application.MutationTester" />
         <item itemvalue="Application.Robula" />
         <item itemvalue="Application.RobulaPlus" />
-        <item itemvalue="JUnit.HookXPathTest.testHookXPath" />
+        <item itemvalue="Application.MutationTester" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +309,11 @@
       <workItem from="1769247311220" duration="17643000" />
       <workItem from="1769347415362" duration="778000" />
       <workItem from="1769349789707" duration="12000" />
-      <workItem from="1769349863297" duration="8853000" />
+      <workItem from="1769349863297" duration="9794000" />
+      <workItem from="1769436555757" duration="85000" />
+      <workItem from="1769439490999" duration="1739000" />
+      <workItem from="1769456626100" duration="1199000" />
+      <workItem from="1769539193195" duration="11618000" />
     </task>
     <task id="LOCAL-00001" summary="[initial] caricamento di file di progetto">
       <option name="closed" value="true" />
@@ -572,7 +579,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769356640380</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="[docs] packaged the static-generator module and edited the main readme file">
+      <option name="closed" value="true" />
+      <created>1769358972985</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1769358972985</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,7 +611,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="[refactor] renamed ObjectType into MutationTagType" />
     <MESSAGE value="feat: implementato spostamento target tra template e inizio modifiche per la gestione dei test" />
     <MESSAGE value="[feat] implemented sqlite database for mutations" />
     <MESSAGE value="[feat] Added indexing of components at the start of the program and modified ComponentMetadata.java into Component.java&#10;[misc] Refactored some of the rules" />
@@ -621,7 +635,8 @@
     <MESSAGE value="[test] ended the first complete batch of tests (2121 total)" />
     <MESSAGE value="[docs] created all the README.md files needed" />
     <MESSAGE value="[docs] packaged the hook-injector module and edited the related readme file" />
-    <option name="LAST_COMMIT_MESSAGE" value="[docs] packaged the hook-injector module and edited the related readme file" />
+    <MESSAGE value="[docs] packaged the static-generator module and edited the main readme file" />
+    <option name="LAST_COMMIT_MESSAGE" value="[docs] packaged the static-generator module and edited the main readme file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

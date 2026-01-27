@@ -13,6 +13,14 @@ public class TestExecution {
         this.mutatedTag = mutatedTag;
     }
 
+    public TestExecution(String mutationName, String locatorName, String mutatedTag, TestStatus status, String errorMessage) {
+        this.mutationName = mutationName;
+        this.locatorName = locatorName;
+        this.mutatedTag = mutatedTag;
+        this.status = status;
+        this.errorMessage = errorMessage;
+    }
+
     public boolean isPassed() {
         return this.status == TestStatus.PASSED;
     }

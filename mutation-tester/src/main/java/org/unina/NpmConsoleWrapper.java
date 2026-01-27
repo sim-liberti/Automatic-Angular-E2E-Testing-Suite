@@ -8,7 +8,7 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-public class NxConsoleWrapper {
+public class NpmConsoleWrapper {
     private Process process;
     private Thread outputThread;
     private final AtomicBoolean isRunning = new AtomicBoolean(false);
@@ -21,11 +21,11 @@ public class NxConsoleWrapper {
 
     private final boolean debug;
 
-    public NxConsoleWrapper(boolean debug) {
+    public NpmConsoleWrapper(boolean debug) {
         this.debug = debug;
     }
 
-    public void start(String workingDir) throws IOException {
+    public void start(String workingDir, String runCommand) throws IOException {
         this.compilationLatch = new CountDownLatch(1);
         this.lastCompilationSuccess = false;
 
@@ -36,12 +36,11 @@ public class NxConsoleWrapper {
         }
 
         ProcessBuilder pb = new ProcessBuilder();
-        pb.command("node", nxBin.getAbsolutePath(), "serve", "angular-spotify");
-        //        if (System.getProperty("os.name").toLowerCase().startsWith("windows")) {
-//            pb.command("cmd.exe", "/c", "npm", "start");
-//        } else {
-//            pb.command("bash", "-c", "npm start");
-//        }
+        if (System.getProperty("os.name").toLowerCase().startsWith("windows")) {
+            pb.command("cmd.exe", "/c", runCommand);
+        } else {
+            pb.command("bash", "-c", runCommand);
+        }
         pb.environment().put("FORCE_COLOR", "1");
         pb.environment().put("NPM_CONFIG_COLOR", "always");
         pb.environment().put("CI", "true");

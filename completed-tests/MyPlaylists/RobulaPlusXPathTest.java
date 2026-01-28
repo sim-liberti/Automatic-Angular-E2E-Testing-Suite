@@ -1,4 +1,4 @@
-package org.unina.classes;
+package org.unina.tests;
 
 import org.junit.Test;
 import org.openqa.selenium.By;

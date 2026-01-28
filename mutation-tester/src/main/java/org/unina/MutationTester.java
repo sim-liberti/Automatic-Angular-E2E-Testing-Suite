@@ -19,7 +19,7 @@ public class MutationTester implements Callable<Integer> {
     @CommandLine.Option(names = {"-c", "--config"}, description = "The path to the configuration file. Defaults to the current directory.")
     private final File configuration = new File("generator-config.json");
 
-    @CommandLine.Option(names = {"-c", "--config"}, required = true, description = "The path to the test directory.")
+    @CommandLine.Option(names = {"-td", "--test-dir"}, required = true, description = "The path to the test directory.")
     private File testDirectory;
 
     @Override
@@ -61,7 +61,7 @@ public class MutationTester implements Callable<Integer> {
 
     public static void main(String[] unused) {
         String[] args = {
-            "--test-dir", "/absolute/path/to/your/test/directory"
+            "--test-dir", "/home/simon/Documents/Projects/Automatic-Angular-E2E-Testing-Suite/ext-test-classes/target/classes/"
         };
         int exitCode = new CommandLine(new MutationTester()).execute(args);
         System.exit(exitCode);

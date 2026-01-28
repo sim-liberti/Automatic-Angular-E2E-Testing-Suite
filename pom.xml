@@ -17,6 +17,7 @@
         <module>mutation-tester</module>
         <module>mutation-generator/llm-generator</module>
         <module>hook-injector</module>
+        <module>ext-test-classes</module>
     </modules>
 
     <properties>

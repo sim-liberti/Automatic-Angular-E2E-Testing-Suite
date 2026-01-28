@@ -1,4 +1,4 @@
-package org.unina.data;
+package org.ext;
 
 import com.google.common.collect.ImmutableList;
 import org.openqa.selenium.WebDriver;
@@ -18,12 +18,14 @@ public class WebDriverFactory {
     public static void init() {
         if (driver == null) {
             ChromeOptions options = new ChromeOptions();
+            options.setAcceptInsecureCerts(true);
             options.addArguments(
                     //"--headless",
                     "--disable-gpu",
                     "--window-size=1920,1080",
                     "--no-sandbox",
-                    "--ignore-certificate-errors");
+                    "--ignore-certificate-errors",
+                    "--allow-running-insecure-content");
             driver = new ChromeDriver(options);
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 

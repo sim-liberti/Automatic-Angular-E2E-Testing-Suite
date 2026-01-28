@@ -25,7 +25,6 @@ public class TestRunnerEngine {
 
     private static final int NPM_START_TIMEOUT_SEC = 120;
     private static final int REBUILD_TIMEOUT_SEC = 20;
-    private static final String EXCLUDED_TEST_CLASS = "BaseTest";
 
     public static void runTests(Config config, MutationDatabase db, File testsRootFolder) throws Exception {
         ClassLoader externalLoader = createClassLoader(testsRootFolder);
@@ -146,19 +145,47 @@ public class TestRunnerEngine {
         return new URLClassLoader(urls, Thread.currentThread().getContextClassLoader());
     }
 
-    private static List<Class<?>> loadTestClasses(File rootFolder, ClassLoader loader) throws Exception {
-        File[] files = rootFolder.listFiles((dir, name) -> name.endsWith(".class"));
-        if (files == null) throw new Exception("No tests found in " + rootFolder.getAbsolutePath());
-
+    private static List<Class<?>> loadTestClasses(File rootFolder, ClassLoader loader) {
         List<Class<?>> classes = new ArrayList<>();
-        for (File file : files) {
-            String className = file.getName().replace(".class", "");
-            if (className.equals(EXCLUDED_TEST_CLASS)) continue;
-
-            classes.add(loader.loadClass(className));
-            System.out.println("Loaded class: " + className);
-        }
+        scanFolder(rootFolder, rootFolder, loader, classes);
         return classes;
+    }
+
+    private static void scanFolder(File currentFolder, File rootFolder, ClassLoader loader, List<Class<?>> classes) {
+        File[] files = currentFolder.listFiles();
+
+        if (files == null) {
+            System.err.println("Cannot read folder: " + currentFolder.getAbsolutePath());
+            return;
+        }
+
+        for (File file : files) {
+            if (file.isDirectory()) {
+                scanFolder(file, rootFolder, loader, classes);
+            } else if (file.getName().endsWith(".class")) {
+                try {
+                    String absoluteFilePath = file.getAbsolutePath();
+                    String absoluteRootPath = rootFolder.getAbsolutePath();
+                    String relativePath = absoluteFilePath.substring(absoluteRootPath.length() + 1);
+                    String className = relativePath
+                            .replace(File.separatorChar, '.')
+                            .replace(".class", "");
+
+                    Class<?> clazz = loader.loadClass(className);
+                    if (java.lang.reflect.Modifier.isAbstract(clazz.getModifiers()))
+                        System.out.println("Loaded abstract class: " + clazz.getSimpleName());
+                    else if (clazz.getSimpleName().contains("Factory"))
+                        System.out.println("Loaded factory class: " + clazz.getSimpleName());
+                    else {
+                        classes.add(clazz);
+                        System.out.println("Loaded class: " + clazz.getSimpleName());
+                    }
+                } catch (Exception e) {
+                    System.err.println("Error while reading file: " + file.getName());
+                    e.printStackTrace();
+                }
+            }
+        }
     }
 
     private static TestExecutionResult analyzeResult(TestExecutionSummary summary) {

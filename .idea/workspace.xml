@@ -4,17 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12d682f-6111-484c-bcef-cc6fdc79eaea" name="Changes" comment="[docs] packaged the static-generator module and edited the main readme file">
-      <change afterPath="$PROJECT_DIR$/.idea/betterCommentsSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/TestRunnerEngine.java" afterDir="false" />
+    <list default="true" id="b12d682f-6111-484c-bcef-cc6fdc79eaea" name="Changes" comment="[feat] reimplemented the tester engine&#10;- Using picocli to implement the .jar as a command line application&#10;- Updated the tester to allow execution from any directory using compiled .class files&#10;- Renamed the console wrapper and made it so the npm starting command can be passed as a parameter">
+      <change afterPath="$PROJECT_DIR$/ext-test-classes/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hook-injector/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hook-injector/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutation-generator/static-generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-generator/static-generator/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutation-tester/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-tester/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/MutationTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/NxConsoleWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/NpmConsoleWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/TesterEngine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/data/TestExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/data/TestExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/ArtistSearch/AbsoluteXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/ArtistSearch/AbsoluteXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/ArtistSearch/HookXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/ArtistSearch/HookXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/ArtistSearch/KatalonXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/ArtistSearch/KatalonXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/ArtistSearch/RelativeXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/ArtistSearch/RelativeXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/ArtistSearch/RobulaPlusXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/ArtistSearch/RobulaPlusXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/ArtistSearch/RobulaXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/ArtistSearch/RobulaXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/ArtistSearch/SeleniumXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/ArtistSearch/SeleniumXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/LikedSongs/AbsoluteXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/LikedSongs/AbsoluteXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/LikedSongs/HookXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/LikedSongs/HookXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/LikedSongs/KatalonXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/LikedSongs/KatalonXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/LikedSongs/RelativeXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/LikedSongs/RelativeXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/LikedSongs/RobulaPlusXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/LikedSongs/RobulaPlusXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/LikedSongs/RobulaXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/LikedSongs/RobulaXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/LikedSongs/SeleniumXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/LikedSongs/SeleniumXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/MyPlaylists/AbsoluteXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/MyPlaylists/AbsoluteXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/MyPlaylists/HookXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/MyPlaylists/HookXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/MyPlaylists/KatalonXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/MyPlaylists/KatalonXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/MyPlaylists/RelativeXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/MyPlaylists/RelativeXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/MyPlaylists/RobulaPlusXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/MyPlaylists/RobulaPlusXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/MyPlaylists/RobulaXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/MyPlaylists/RobulaXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/MyPlaylists/SeleniumXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/MyPlaylists/SeleniumXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/PlaySong/AbsoluteXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/PlaySong/AbsoluteXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/PlaySong/HookXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/PlaySong/HookXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/PlaySong/KatalonXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/PlaySong/KatalonXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/PlaySong/RelativeXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/PlaySong/RelativeXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/PlaySong/RobulaPlusXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/PlaySong/RobulaPlusXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/PlaySong/RobulaXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/PlaySong/RobulaXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed-tests/PlaySong/SeleniumXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/PlaySong/SeleniumXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutation-generator/common/src/main/java/org/unina/data/MutationDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-generator/common/src/main/java/org/unina/data/MutationDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/MutationTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/MutationTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/TestRunnerEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/TestRunnerEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/AbsoluteXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/AbsoluteXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/HookXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/HookXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/KatalonXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/KatalonXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/RelativeXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/RelativeXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/RobulaPlusXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/RobulaPlusXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/RobulaXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/RobulaXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/SeleniumXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/SeleniumXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/data/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/WebDriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +89,10 @@
     &quot;accountId&quot;: &quot;0a2110fd-0859-4b7d-81d6-7b6bf2f6283e&quot;
   }
 }</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -85,6 +124,7 @@
     "JUnit.UntitledTestCase.testUntitledTestCase.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -96,7 +136,7 @@
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "/home/simon/Documents/Projects/Automatic-Angular-E2E-Testing-Suite/mutation-tester/src/main/java/org/unina",
-    "last_opened_file_path": "/home/simon/Documents/Projects/Automatic-Angular-E2E-Testing-Suite/custom-locators",
+    "last_opened_file_path": "/home/simon/Documents/Projects/Automatic-Angular-E2E-Testing-Suite/ext-test-classes/src/main/java/org/ext",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -118,11 +158,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext" />
       <recent name="$PROJECT_DIR$/custom-locators" />
       <recent name="$PROJECT_DIR$/output/tests" />
       <recent name="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes" />
       <recent name="$PROJECT_DIR$/completed-tests/LikedSongs" />
-      <recent name="$PROJECT_DIR$/completed-tests/MyPlaylists" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -132,13 +172,14 @@
       <recent name="$PROJECT_DIR$/output/mutations/ArtistSearch" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.ext" />
       <recent name="org.unina.data" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.unina" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StaticMutationGenerator">
+  <component name="RunManager" selected="Application.MutationTester">
     <configuration name="MutationTester" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="org.unina.MutationTester" />
       <module name="mutation-tester" />
@@ -195,12 +236,12 @@
       <module name="mutation-tester" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.unina.classes.*" />
+          <option name="PATTERN" value="org.ext.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.unina.classes" />
-      <option name="MAIN_CLASS_NAME" value="org.unina.classes.HookXPathTest" />
+      <option name="MAIN_CLASS_NAME" value="org.unina.tests.HookXPathTest" />
       <option name="METHOD_NAME" value="testHookXPath" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -227,11 +268,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HookXPathTest.testHookXPath" />
+        <item itemvalue="Application.MutationTester" />
         <item itemvalue="Application.StaticMutationGenerator" />
+        <item itemvalue="JUnit.HookXPathTest.testHookXPath" />
         <item itemvalue="Application.Robula" />
         <item itemvalue="Application.RobulaPlus" />
-        <item itemvalue="Application.MutationTester" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +354,9 @@
       <workItem from="1769436555757" duration="85000" />
       <workItem from="1769439490999" duration="1739000" />
       <workItem from="1769456626100" duration="1199000" />
-      <workItem from="1769539193195" duration="11618000" />
+      <workItem from="1769539193195" duration="12083000" />
+      <workItem from="1769606935586" duration="8150000" />
+      <workItem from="1769627630020" duration="1016000" />
     </task>
     <task id="LOCAL-00001" summary="[initial] caricamento di file di progetto">
       <option name="closed" value="true" />
@@ -587,7 +630,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769358972985</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="[feat] reimplemented the tester engine&#10;- Using picocli to implement the .jar as a command line application&#10;- Updated the tester to allow execution from any directory using compiled .class files&#10;- Renamed the console wrapper and made it so the npm starting command can be passed as a parameter">
+      <option name="closed" value="true" />
+      <created>1769552386964</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1769552386964</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,7 +662,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat: implementato spostamento target tra template e inizio modifiche per la gestione dei test" />
     <MESSAGE value="[feat] implemented sqlite database for mutations" />
     <MESSAGE value="[feat] Added indexing of components at the start of the program and modified ComponentMetadata.java into Component.java&#10;[misc] Refactored some of the rules" />
     <MESSAGE value="[feat] re-implemented TagMovementToAnyHtmlTreePointRule&#10;[fix] fixed jsoup document parsing with xmlParser" />
@@ -636,7 +686,8 @@
     <MESSAGE value="[docs] created all the README.md files needed" />
     <MESSAGE value="[docs] packaged the hook-injector module and edited the related readme file" />
     <MESSAGE value="[docs] packaged the static-generator module and edited the main readme file" />
-    <option name="LAST_COMMIT_MESSAGE" value="[docs] packaged the static-generator module and edited the main readme file" />
+    <MESSAGE value="[feat] reimplemented the tester engine&#10;- Using picocli to implement the .jar as a command line application&#10;- Updated the tester to allow execution from any directory using compiled .class files&#10;- Renamed the console wrapper and made it so the npm starting command can be passed as a parameter" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat] reimplemented the tester engine&#10;- Using picocli to implement the .jar as a command line application&#10;- Updated the tester to allow execution from any directory using compiled .class files&#10;- Renamed the console wrapper and made it so the npm starting command can be passed as a parameter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -651,17 +702,7 @@
           <line>60</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/BaseTest.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/BaseTest.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <breakpoint enabled="true" type="java-exception">
+        <breakpoint type="java-exception">
           <properties class="java.lang.RuntimeException" package="java.lang" />
           <option name="timeStamp" value="10" />
         </breakpoint>

@@ -4,52 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12d682f-6111-484c-bcef-cc6fdc79eaea" name="Changes" comment="[feat] reimplemented the tester engine&#10;- Using picocli to implement the .jar as a command line application&#10;- Updated the tester to allow execution from any directory using compiled .class files&#10;- Renamed the console wrapper and made it so the npm starting command can be passed as a parameter">
-      <change afterPath="$PROJECT_DIR$/ext-test-classes/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b12d682f-6111-484c-bcef-cc6fdc79eaea" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/ArtistSearch/AbsoluteXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/ArtistSearch/AbsoluteXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/ArtistSearch/HookXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/ArtistSearch/HookXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/ArtistSearch/KatalonXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/ArtistSearch/KatalonXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/ArtistSearch/RelativeXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/ArtistSearch/RelativeXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/ArtistSearch/RobulaPlusXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/ArtistSearch/RobulaPlusXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/ArtistSearch/RobulaXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/ArtistSearch/RobulaXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/ArtistSearch/SeleniumXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/ArtistSearch/SeleniumXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/LikedSongs/AbsoluteXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/LikedSongs/AbsoluteXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/LikedSongs/HookXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/LikedSongs/HookXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/LikedSongs/KatalonXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/LikedSongs/KatalonXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/LikedSongs/RelativeXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/LikedSongs/RelativeXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/LikedSongs/RobulaPlusXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/LikedSongs/RobulaPlusXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/LikedSongs/RobulaXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/LikedSongs/RobulaXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/LikedSongs/SeleniumXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/LikedSongs/SeleniumXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/MyPlaylists/AbsoluteXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/MyPlaylists/AbsoluteXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/MyPlaylists/HookXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/MyPlaylists/HookXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/MyPlaylists/KatalonXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/MyPlaylists/KatalonXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/MyPlaylists/RelativeXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/MyPlaylists/RelativeXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/MyPlaylists/RobulaPlusXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/MyPlaylists/RobulaPlusXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/MyPlaylists/RobulaXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/MyPlaylists/RobulaXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/MyPlaylists/SeleniumXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/MyPlaylists/SeleniumXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/PlaySong/AbsoluteXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/PlaySong/AbsoluteXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/PlaySong/HookXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/PlaySong/HookXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/PlaySong/KatalonXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/PlaySong/KatalonXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/PlaySong/RelativeXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/PlaySong/RelativeXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/PlaySong/RobulaPlusXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/PlaySong/RobulaPlusXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/PlaySong/RobulaXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/PlaySong/RobulaXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/completed-tests/PlaySong/SeleniumXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/completed-tests/PlaySong/SeleniumXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutation-generator/common/src/main/java/org/unina/data/MutationDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-generator/common/src/main/java/org/unina/data/MutationDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/MutationTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/MutationTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/TestRunnerEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/TestRunnerEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/AbsoluteXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/AbsoluteXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/HookXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/HookXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/KatalonXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/KatalonXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/RelativeXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/RelativeXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/RobulaPlusXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/RobulaPlusXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/RobulaXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/RobulaXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/classes/SeleniumXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/SeleniumXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/data/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/WebDriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +103,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.editor",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   },
@@ -357,6 +314,7 @@
       <workItem from="1769539193195" duration="12083000" />
       <workItem from="1769606935586" duration="8150000" />
       <workItem from="1769627630020" duration="1016000" />
+      <workItem from="1769691618612" duration="3268000" />
     </task>
     <task id="LOCAL-00001" summary="[initial] caricamento di file di progetto">
       <option name="closed" value="true" />

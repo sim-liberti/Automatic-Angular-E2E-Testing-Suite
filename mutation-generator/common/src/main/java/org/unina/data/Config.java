@@ -30,7 +30,7 @@ public class Config {
     }
 
     private static String validate(Config config) {
-        if (config.seed.isEmpty()){
+        if (!config.seed.isEmpty()){
             try {
                 Integer.parseInt(config.seed);
             } catch (NumberFormatException e) {

@@ -1,0 +1,491 @@
+Name,Id,Locator,Tag,Status,Error
+PlaylistCard,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+PlaylistCard,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
+PlaylistCard,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-card[@ng-reflect-title='The Goats']//a (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '108 songs')] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+PlaylistCard,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+PlaylistCard,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,BROKEN,stale element reference: stale element not found in the current frame
+PlaylistCard,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '108 songs')] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='media-info ng-star-inserted'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+PlaylistCard,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+PlaylistCard,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+PlaylistCard,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,BROKEN,stale element reference: stale element not found in the current frame
+PlaylistCard,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+SongCount,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlist/div[1]/as-media-summary/div/div[2]/div[2] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,PASSED,null
+SongCount,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
+SongCount,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '108 songs')] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='media-info ng-star-inserted'] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
+SongCount,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+SongCount,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+SongCount,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,BROKEN,stale element reference: stale element not found in the current frame
+SongCount,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '108 songs')] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='media-info ng-star-inserted'] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+SongListContainer,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+SongListContainer,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+SongListContainer,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
+SongListContainer,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '108 songs')] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='media-info ng-star-inserted'] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+SongListContainer,mutation_d_text_cont_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+SongListContainer,mutation_d_text_cont_mod_mut_beta,HookXPathTest,beta,PASSED,null
+SongListContainer,mutation_d_text_cont_mod_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
+SongListContainer,mutation_d_text_cont_mod_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_d_text_cont_mod_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '108 songs')] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_d_text_cont_mod_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='media-info ng-star-inserted'] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_d_text_cont_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+PlaylistCard,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-playlist-list-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-card-2][1]//*[@x-test-tpl-a-1]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
+PlaylistCard,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-card[@ng-reflect-title='The Goats']//a (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+PlaylistCard,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+PlaylistCard,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,BROKEN,stale element reference: stale element not found in the current frame
+PlaylistCard,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+SongListContainer,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+SongListContainer,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
+SongListContainer,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,BROKEN,stale element reference: stale element not found in the current frame
+SongListContainer,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '108 songs')] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='media-info ng-star-inserted'] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
+PlaylistCard,mutation_a_attr_val_mod_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_a_attr_val_mod_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_a_attr_val_mod_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_a_attr_val_mod_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_a_attr_val_mod_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_a_attr_val_mod_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_a_attr_val_mod_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+PlaylistCard,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+PlaylistCard,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,BROKEN,stale element reference: stale element not found in the current frame
+PlaylistCard,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+SongListContainer,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlist/div[2]/div"}
+SongListContainer,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+SongListContainer,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
+SongListContainer,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '108 songs')] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='media-info ng-star-inserted'] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//as-playlist/div[2]/div"}
+SongCount,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+SongCount,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+SongCount,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,BROKEN,stale element reference: stale element not found in the current frame
+SongCount,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '108 songs')] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='media-info ng-star-inserted'] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+SongCount,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+SongCount,mutation_f_tag_mov_container_mut_gamma,HookXPathTest,gamma,PASSED,null
+SongCount,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,BROKEN,stale element reference: stale element not found in the current frame
+SongCount,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '108 songs')] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='media-info ng-star-inserted'] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+PlaylistCard,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+PlaylistCard,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+PlaylistCard,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
+PlaylistCard,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+SongListContainer,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,FAILED,expected:<0> but was:<100>
+SongListContainer,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
+SongListContainer,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,BROKEN,stale element reference: stale element not found in the current frame
+SongListContainer,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '108 songs')] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='media-info ng-star-inserted'] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,FAILED,expected:<0> but was:<100>
+SongCount,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlist/div[1]/as-media-summary/div/div[2]/div[2] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-media-summary-2]//*[@x-test-tpl-div-2]//*[@x-test-hook-div-10] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,BROKEN,stale element reference: stale element not found in the current frame
+SongCount,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '108 songs')] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='media-info ng-star-inserted'] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.cssSelector: .media-info (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-playlist-list-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-card-2][1]//*[@x-test-tpl-a-1]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
+PlaylistCard,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-card[@ng-reflect-title='The Goats']//a (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+SongCount,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+SongCount,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,BROKEN,stale element reference: stale element not found in the current frame
+SongCount,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '108 songs')] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='media-info ng-star-inserted'] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+PlaylistCard,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+PlaylistCard,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+PlaylistCard,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,BROKEN,stale element reference: stale element not found in the current frame
+PlaylistCard,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+SongCount,mutation_e_text_cont_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+SongCount,mutation_e_text_cont_rem_mut_beta,HookXPathTest,beta,PASSED,null
+SongCount,mutation_e_text_cont_rem_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
+SongCount,mutation_e_text_cont_rem_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_e_text_cont_rem_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '108 songs')] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_e_text_cont_rem_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='media-info ng-star-inserted'] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_e_text_cont_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+PlaylistCard,mutation_b_attr_rem_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlist/div[1]/as-media-summary/div/div[2]/div[2] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_b_attr_rem_mut_beta,HookXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-media-summary-2]//*[@x-test-tpl-div-2]//*[@x-test-hook-div-10] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_b_attr_rem_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
+PlaylistCard,mutation_b_attr_rem_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_b_attr_rem_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_b_attr_rem_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_b_attr_rem_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlist/div[1]/as-media-summary/div/div[2]/div[2] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+SongCount,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,BROKEN,stale element reference: stale element not found in the current frame
+SongCount,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '108 songs')] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='media-info ng-star-inserted'] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+SongListContainer,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+SongListContainer,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+SongListContainer,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,BROKEN,stale element reference: stale element not found in the current frame
+SongListContainer,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '108 songs')] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='media-info ng-star-inserted'] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+SongCount,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,FAILED,expected:<0> but was:<100>
+SongListContainer,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+SongListContainer,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,BROKEN,stale element reference: stale element not found in the current frame
+SongListContainer,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '108 songs')] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='media-info ng-star-inserted'] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,FAILED,expected:<0> but was:<100>
+PlaylistCard,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+PlaylistCard,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
+PlaylistCard,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,BROKEN,stale element reference: stale element not found in the current frame
+PlaylistCard,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '108 songs')] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='media-info ng-star-inserted'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+PlaylistCard,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+SongListContainer,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+SongListContainer,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,BROKEN,stale element reference: stale element not found in the current frame
+SongListContainer,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '108 songs')] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='media-info ng-star-inserted'] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+SongListContainer,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlist/div[2]/div"}
+SongListContainer,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-5]//*[@x-test-hook-div-13]"}
+SongListContainer,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
+SongListContainer,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-media-summary[@type='Playlist']//div[3] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '108 songs')] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='media-info ng-star-inserted'] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-playlist-list-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-card-2][1]//*[@x-test-tpl-a-1]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
+SongCount,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-card[@ng-reflect-title='The Goats']//a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-playlist-list-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-card-2][1]//*[@x-test-tpl-a-1]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,BROKEN,stale element reference: stale element not found in the current frame
+SongCount,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-card[@ng-reflect-title='The Goats']//a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-playlist-list-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-card-2][1]//*[@x-test-tpl-a-1]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,BROKEN,stale element reference: stale element not found in the current frame
+SongListContainer,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-card[@ng-reflect-title='The Goats']//a (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_d_text_cont_mod_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_d_text_cont_mod_mut_beta,HookXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-playlist-list-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-card-2][1]//*[@x-test-tpl-a-1]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_d_text_cont_mod_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
+SongCount,mutation_d_text_cont_mod_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-card[@ng-reflect-title='The Goats']//a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_d_text_cont_mod_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_d_text_cont_mod_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_d_text_cont_mod_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-playlist-list-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-card-2][1]//*[@x-test-tpl-a-1]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,BROKEN,stale element reference: stale element not found in the current frame
+SongCount,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-card[@ng-reflect-title='The Goats']//a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-playlist-list-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-card-2][1]//*[@x-test-tpl-a-1]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,BROKEN,stale element reference: stale element not found in the current frame
+SongCount,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-card[@ng-reflect-title='The Goats']//a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-playlist-list-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-card-2][1]//*[@x-test-tpl-a-1]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,BROKEN,stale element reference: stale element not found in the current frame
+SongCount,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-card[@ng-reflect-title='The Goats']//a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_f_tag_mov_container_mut_alpha,HookXPathTest,alpha,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-playlist-list-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-card-2][1]//*[@x-test-tpl-a-1]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,BROKEN,stale element reference: stale element not found in the current frame
+SongCount,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-card[@ng-reflect-title='The Goats']//a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_f_tag_mov_container_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-playlist-list-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-card-2][1]//*[@x-test-tpl-a-1]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,BROKEN,stale element reference: stale element not found in the current frame
+SongListContainer,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-card[@ng-reflect-title='The Goats']//a (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-playlist-list-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-card-2][1]//*[@x-test-tpl-a-1]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Source Code'])[1]/following::h2[1] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-card[@ng-reflect-title='The Goats']//a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-playlist-list-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-card-2][1]//*[@x-test-tpl-a-1]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
+SongCount,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-card[@ng-reflect-title='The Goats']//a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-playlist-list-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-card-2][1]//*[@x-test-tpl-a-1]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,BROKEN,stale element reference: stale element not found in the current frame
+SongCount,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-card[@ng-reflect-title='The Goats']//a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-playlist-list-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-card-2][1]//*[@x-test-tpl-a-1]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,BROKEN,stale element reference: stale element not found in the current frame
+SongCount,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-card[@ng-reflect-title='The Goats']//a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-playlist-list-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-card-2][1]//*[@x-test-tpl-a-1]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
+SongCount,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-card[@ng-reflect-title='The Goats']//a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-playlist-list-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-card-2][1]//*[@x-test-tpl-a-1]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,BROKEN,stale element reference: stale element not found in the current frame
+SongCount,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-card[@ng-reflect-title='The Goats']//a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-playlist-list-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-card-2][1]//*[@x-test-tpl-a-1]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,BROKEN,stale element reference: stale element not found in the current frame
+SongListContainer,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-card[@ng-reflect-title='The Goats']//a (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_e_text_cont_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_e_text_cont_rem_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_e_text_cont_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_e_text_cont_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_e_text_cont_rem_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_e_text_cont_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_e_text_cont_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-playlist-list-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-card-2][1]//*[@x-test-tpl-a-1]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,BROKEN,stale element reference: stale element not found in the current frame
+SongCount,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //as-card[@ng-reflect-title='The Goats']//a (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'][@_ngcontent-ng-c810943523=''] (tried for 5 second(s) with 500 milliseconds interval)
+SongCount,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_f_tag_mov_container_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_f_tag_mov_container_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a (tried for 5 second(s) with 500 milliseconds interval)
+SongListContainer,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,BROKEN,Error communicating with the remote browser. It may have died.
+SongListContainer,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,BROKEN,Error communicating with the remote browser. It may have died.
+SongListContainer,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,BROKEN,Error communicating with the remote browser. It may have died.
+SongListContainer,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Error communicating with the remote browser. It may have died.
+SongListContainer,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,BROKEN,Error communicating with the remote browser. It may have died.
+SongListContainer,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,BROKEN,Error communicating with the remote browser. It may have died.
+SongCount,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,BROKEN,Error communicating with the remote browser. It may have died.
+SongCount,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,BROKEN,Error communicating with the remote browser. It may have died.
+SongCount,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,BROKEN,Error communicating with the remote browser. It may have died.
+SongCount,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,BROKEN,Error communicating with the remote browser. It may have died.
+SongCount,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,Error communicating with the remote browser. It may have died.
+SongCount,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,BROKEN,Error communicating with the remote browser. It may have died.
+SongCount,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,BROKEN,Error communicating with the remote browser. It may have died.
+SongListContainer,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,BROKEN,Error communicating with the remote browser. It may have died.
+SongListContainer,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,BROKEN,Error communicating with the remote browser. It may have died.
+SongListContainer,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,BROKEN,Error communicating with the remote browser. It may have died.
+SongListContainer,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,BROKEN,Error communicating with the remote browser. It may have died.
+SongListContainer,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Error communicating with the remote browser. It may have died.
+SongListContainer,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,BROKEN,Error communicating with the remote browser. It may have died.
+SongListContainer,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,BROKEN,Error communicating with the remote browser. It may have died.
+SongCount,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,BROKEN,Error communicating with the remote browser. It may have died.
+SongCount,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,BROKEN,Error communicating with the remote browser. It may have died.
+SongCount,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,BROKEN,Error communicating with the remote browser. It may have died.
+SongCount,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,BROKEN,Error communicating with the remote browser. It may have died.
+SongCount,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,Error communicating with the remote browser. It may have died.
+SongCount,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,BROKEN,Error communicating with the remote browser. It may have died.
+SongCount,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,BROKEN,Error communicating with the remote browser. It may have died.
+SongListContainer,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongListContainer,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCount,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,BROKEN,Error communicating with the remote browser. It may have died.
+SongCount,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,BROKEN,Error communicating with the remote browser. It may have died.
+SongCount,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,BROKEN,Error communicating with the remote browser. It may have died.
+SongCount,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,BROKEN,Error communicating with the remote browser. It may have died.
+SongCount,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Error communicating with the remote browser. It may have died.
+SongCount,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,BROKEN,Error communicating with the remote browser. It may have died.
+SongCount,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,BROKEN,Error communicating with the remote browser. It may have died.

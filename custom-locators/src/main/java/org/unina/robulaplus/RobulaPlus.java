@@ -72,12 +72,7 @@ public class RobulaPlus {
     public static void main(String[] args) {
         record element(String name, String xpath, String source){}
         List<element> elements = new ArrayList<>();
-        elements.add(new element("SongsNavbar", "/html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-nav-bar[1]/ul[1]/li[6]/a[1]", "home.html"));
-        elements.add(new element("FirstSong", "/html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-main-view[1]/div[2]/as-tracks[1]/div[1]/div[1]/as-playlist-track[1]/as-media-table-row[1]/as-track-main-info[1]", "liked-songs.html"));
-        elements.add(new element("NavHome", "/html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-nav-bar[1]/ul[1]/li[1]/a[1]", "home.html"));
-        elements.add(new element("NowPlaying", "/html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-now-playing-bar[1]/footer[1]/div[1]/as-track-current-info[1]/div[2]/div[1]/a[1]", "home.html"));
-        elements.add(new element("PlayBtn", "/html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-now-playing-bar[1]/footer[1]/div[2]/as-player-controls[1]/div[1]/as-play-button[1]/button[1]", "home.html"));
-        elements.add(new element("NextBtn", "/html[1]/body[1]/angular-spotify-root[1]/as-layout[1]/as-now-playing-bar[1]/footer[1]/div[2]/as-player-controls[1]/div[1]/div[2]", "home.html"));
+        elements.add(new element("X", "/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[2]/div", "search.html"));
 
         RobulaPlus robula = new RobulaPlus();
         for (element e: elements) {

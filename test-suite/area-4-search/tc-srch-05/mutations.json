@@ -1,0 +1,31 @@
+{
+  "mutations": [
+    {
+      "name": "NavbarLinkLi",
+      "file_path": "/home/simon/Documents/Projects/angular-spotify/libs/web/shell/ui/nav-bar/src/lib/nav-bar.component.html",
+      "target_matcher": {
+        "type": "class",
+        "key": "",
+        "value": "nav-link-container"
+      }
+    },
+    {
+      "name": "InputField",
+      "file_path": "/home/simon/Documents/Projects/angular-spotify/libs/web/search/feature/src/lib/search.component.html",
+      "target_matcher": {
+        "type": "class",
+        "key": "",
+        "value": "search-control"
+      }
+    },
+    {
+      "name": "ClearBtn",
+      "file_path": "/home/simon/Documents/Projects/angular-spotify/libs/web/shared/ui/input/src/lib/input.component.html",
+      "target_matcher": {
+        "type": "class",
+        "key": "",
+        "value": "input-icon-container"
+      }
+    }
+  ]
+}

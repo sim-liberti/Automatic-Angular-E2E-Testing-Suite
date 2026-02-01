@@ -1,8 +1,0 @@
-Locatore,Test totali,Successi,Fragilità,Obsolescenza,Non testati
-RelativeXPathTest,75,5,0,46,24
-AbsoluteXPathTest,75,3,2,46,24
-RobulaXPathTest,75,5,0,46,24
-KatalonXPathTest,75,0,5,46,24
-SeleniumXPathTest,75,0,5,46,24
-RobulaPlusXPathTest,75,5,0,46,24
-HookXPathTest,75,4,1,46,24

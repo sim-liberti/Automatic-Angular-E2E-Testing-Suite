@@ -1,0 +1,31 @@
+{
+  "mutations": [
+    {
+      "name": "PlaylistCard",
+      "file_path": "/home/simon/Documents/Projects/angular-spotify/libs/web/shared/ui/media/src/lib/card.component.html",
+      "target_matcher": {
+        "type": "class",
+        "key": "",
+        "value": "card-cover"
+      }
+    },
+    {
+      "name": "SongListContainer",
+      "file_path": "/home/simon/Documents/Projects/angular-spotify/libs/web/playlist/feature/detail/src/lib/playlist.component.html",
+      "target_matcher": {
+        "type": "class",
+        "key": "",
+        "value": "mb-8"
+      }
+    },
+    {
+      "name": "SongCount",
+      "file_path": "/home/simon/Documents/Projects/angular-spotify/libs/web/shared/ui/media-summary/src/lib/media-summary.component.html",
+      "target_matcher": {
+        "type": "class",
+        "key": "",
+        "value": "target"
+      }
+    }
+  ]
+}

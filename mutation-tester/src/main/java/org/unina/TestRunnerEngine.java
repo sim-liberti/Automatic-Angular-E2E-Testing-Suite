@@ -129,7 +129,7 @@ public class TestRunnerEngine {
 
         TestExecutionResult result = analyzeResult(listener.getSummary());
 
-        System.out.println("Test ended: " + cls.getSimpleName() + " [" + result.status + "]");
+        System.out.println("Test ended: " + cls.getSimpleName() + " [" + result.status + "] " + result.errorMessage);
         System.out.println("---------------------------------------------");
 
         TestExecution execution = new TestExecution(mutation.name, cls.getSimpleName(), mutation.element);
@@ -182,7 +182,6 @@ public class TestRunnerEngine {
                     }
                 } catch (Exception e) {
                     System.err.println("Error while reading file: " + file.getName());
-                    e.printStackTrace();
                 }
             }
         }
@@ -197,7 +196,7 @@ public class TestRunnerEngine {
         Throwable ex = failure.getException();
         String msg = ex.getMessage() != null
                 ? ex.getMessage().replace(",", " ")
-                : "";
+                : ex.toString();
         String regex = "^(Build|System|Driver|Capabilities|Session ID| {2}\\(Session|For docu|Command|Element).*";
         msg = msg.replaceAll("(?m)" + regex, "");
         msg = msg.replaceAll("(?m)" + "\n", "");

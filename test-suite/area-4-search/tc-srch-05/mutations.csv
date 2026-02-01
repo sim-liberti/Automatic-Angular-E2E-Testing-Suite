@@ -1,0 +1,100 @@
+Nome,Elemento,Mutazione,Stato,Errore
+NavbarLinkLi,alpha,a,KO,Target element has no attributes
+NavbarLinkLi,beta,a,KO,Target element has no attributes
+NavbarLinkLi,alpha,b,KO,Target element has no valid candidate attributes
+NavbarLinkLi,beta,b,KO,Target element has no valid candidate attributes
+NavbarLinkLi,alpha,c,KO,Target element has no id attribute
+NavbarLinkLi,beta,c,KO,Target element has no id attribute
+NavbarLinkLi,alpha,d,KO,Target element text content is empty
+NavbarLinkLi,beta,d,OK,
+NavbarLinkLi,alpha,e,KO,Target element text content is empty
+NavbarLinkLi,beta,e,OK,
+NavbarLinkLi,alpha,f,KO,The parent is null or empty
+NavbarLinkLi,beta,f,OK,
+NavbarLinkLi,alpha,g,OK,
+NavbarLinkLi,beta,g,OK,
+NavbarLinkLi,alpha,h,OK,
+NavbarLinkLi,beta,h,OK,
+NavbarLinkLi,alpha,i,OK,
+NavbarLinkLi,beta,i,OK,
+NavbarLinkLi,alpha,j,OK,
+NavbarLinkLi,beta,j,OK,
+NavbarLinkLi,alpha,k,OK,
+NavbarLinkLi,beta,k,OK,
+InputField,alpha,a,OK,
+InputField,delta,a,KO,Target element has no attributes
+InputField,beta,a,KO,Target element has no attributes
+InputField,gamma,a,KO,Target element has no attributes
+InputField,alpha,b,OK,
+InputField,delta,b,KO,Target element has no valid candidate attributes
+InputField,beta,b,KO,Target element has no valid candidate attributes
+InputField,gamma,b,KO,Target element has no valid candidate attributes
+InputField,alpha,c,KO,Target element has no id attribute
+InputField,delta,c,KO,Target element has no id attribute
+InputField,beta,c,KO,Target element has no id attribute
+InputField,gamma,c,KO,Target element has no id attribute
+InputField,alpha,d,KO,Target element text content is empty
+InputField,delta,d,KO,Target element has no child nodes
+InputField,beta,d,OK,
+InputField,gamma,d,KO,Target element text content is empty
+InputField,alpha,e,KO,Target element text content is empty
+InputField,delta,e,KO,Target element has no child nodes
+InputField,beta,e,KO,Target element text content is empty
+InputField,gamma,e,KO,Target element text content is empty
+InputField,alpha,f,OK,
+InputField,delta,f,OK,
+InputField,beta,f,OK,
+InputField,gamma,f,KO,The parent is null or empty
+InputField,alpha,g,OK,
+InputField,delta,g,OK,
+InputField,beta,g,OK,
+InputField,gamma,g,OK,
+InputField,alpha,h,OK,
+InputField,delta,h,OK,
+InputField,beta,h,OK,
+InputField,gamma,h,OK,
+InputField,alpha,i,OK,
+InputField,delta,i,OK,
+InputField,beta,i,OK,
+InputField,gamma,i,OK,
+InputField,alpha,j,OK,
+InputField,delta,j,OK,
+InputField,beta,j,OK,
+InputField,gamma,j,OK,
+InputField,alpha,k,OK,
+InputField,delta,k,OK,
+InputField,beta,k,OK,
+InputField,gamma,k,OK,
+ClearBtn,alpha,a,OK,
+ClearBtn,delta,a,OK,
+ClearBtn,beta,a,OK,
+ClearBtn,alpha,b,OK,
+ClearBtn,delta,b,OK,
+ClearBtn,beta,b,OK,
+ClearBtn,alpha,c,KO,Target element has no id attribute
+ClearBtn,delta,c,KO,Target element has no id attribute
+ClearBtn,beta,c,KO,Target element has no id attribute
+ClearBtn,alpha,d,KO,Target element text content is empty
+ClearBtn,delta,d,KO,Target element has no child nodes
+ClearBtn,beta,d,OK,
+ClearBtn,alpha,e,KO,Target element text content is empty
+ClearBtn,delta,e,KO,Target element has no child nodes
+ClearBtn,beta,e,OK,
+ClearBtn,alpha,f,OK,
+ClearBtn,delta,f,OK,
+ClearBtn,beta,f,KO,The parent is null or empty
+ClearBtn,alpha,g,OK,
+ClearBtn,delta,g,OK,
+ClearBtn,beta,g,OK,
+ClearBtn,alpha,h,OK,
+ClearBtn,delta,h,OK,
+ClearBtn,beta,h,OK,
+ClearBtn,alpha,i,OK,
+ClearBtn,delta,i,OK,
+ClearBtn,beta,i,OK,
+ClearBtn,alpha,j,OK,
+ClearBtn,delta,j,OK,
+ClearBtn,beta,j,OK,
+ClearBtn,alpha,k,OK,
+ClearBtn,delta,k,OK,
+ClearBtn,beta,k,OK,

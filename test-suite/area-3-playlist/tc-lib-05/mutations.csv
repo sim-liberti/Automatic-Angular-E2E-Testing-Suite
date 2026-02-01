@@ -1,0 +1,100 @@
+Nome,Elemento,Mutazione,Stato,Errore
+PlaylistCard,alpha,a,OK,
+PlaylistCard,delta,a,KO,Target element has no attributes
+PlaylistCard,beta,a,OK,
+PlaylistCard,alpha,b,OK,
+PlaylistCard,delta,b,KO,Target element has no valid candidate attributes
+PlaylistCard,beta,b,OK,
+PlaylistCard,alpha,c,KO,Target element has no id attribute
+PlaylistCard,delta,c,KO,Target element has no id attribute
+PlaylistCard,beta,c,KO,Target element has no id attribute
+PlaylistCard,alpha,d,KO,Target element text content is empty
+PlaylistCard,delta,d,KO,Target element text content is empty
+PlaylistCard,beta,d,KO,Target element text content is empty
+PlaylistCard,alpha,e,KO,Target element text content is empty
+PlaylistCard,delta,e,KO,Target element text content is empty
+PlaylistCard,beta,e,KO,Target element text content is empty
+PlaylistCard,alpha,f,OK,
+PlaylistCard,delta,f,OK,
+PlaylistCard,beta,f,KO,The parent is null or empty
+PlaylistCard,alpha,g,OK,
+PlaylistCard,delta,g,OK,
+PlaylistCard,beta,g,OK,
+PlaylistCard,alpha,h,OK,
+PlaylistCard,delta,h,OK,
+PlaylistCard,beta,h,OK,
+PlaylistCard,alpha,i,OK,
+PlaylistCard,delta,i,OK,
+PlaylistCard,beta,i,OK,
+PlaylistCard,alpha,j,OK,
+PlaylistCard,delta,j,OK,
+PlaylistCard,beta,j,OK,
+PlaylistCard,alpha,k,OK,
+PlaylistCard,delta,k,OK,
+PlaylistCard,beta,k,OK,
+PlaylistNavLink,alpha,a,OK,
+PlaylistNavLink,delta,a,OK,
+PlaylistNavLink,beta,a,OK,
+PlaylistNavLink,gamma,a,OK,
+PlaylistNavLink,alpha,b,OK,
+PlaylistNavLink,delta,b,OK,
+PlaylistNavLink,beta,b,OK,
+PlaylistNavLink,gamma,b,OK,
+PlaylistNavLink,alpha,c,KO,Target element has no id attribute
+PlaylistNavLink,delta,c,KO,Target element has no id attribute
+PlaylistNavLink,beta,c,KO,Target element has no id attribute
+PlaylistNavLink,gamma,c,KO,Target element has no id attribute
+PlaylistNavLink,alpha,d,OK,
+PlaylistNavLink,delta,d,KO,Target element text content is empty
+PlaylistNavLink,beta,d,KO,Target element text content is empty
+PlaylistNavLink,gamma,d,KO,Target element text content is empty
+PlaylistNavLink,alpha,e,OK,
+PlaylistNavLink,delta,e,KO,Target element text content is empty
+PlaylistNavLink,beta,e,KO,Target element text content is empty
+PlaylistNavLink,gamma,e,KO,Target element text content is empty
+PlaylistNavLink,alpha,f,OK,
+PlaylistNavLink,delta,f,OK,
+PlaylistNavLink,beta,f,KO,The parent is null or empty
+PlaylistNavLink,gamma,f,KO,The parent is null or empty
+PlaylistNavLink,alpha,g,OK,
+PlaylistNavLink,delta,g,OK,
+PlaylistNavLink,beta,g,OK,
+PlaylistNavLink,gamma,g,OK,
+PlaylistNavLink,alpha,h,OK,
+PlaylistNavLink,delta,h,OK,
+PlaylistNavLink,beta,h,OK,
+PlaylistNavLink,gamma,h,OK,
+PlaylistNavLink,alpha,i,OK,
+PlaylistNavLink,delta,i,OK,
+PlaylistNavLink,beta,i,OK,
+PlaylistNavLink,gamma,i,OK,
+PlaylistNavLink,alpha,j,OK,
+PlaylistNavLink,delta,j,OK,
+PlaylistNavLink,beta,j,OK,
+PlaylistNavLink,gamma,j,OK,
+PlaylistNavLink,alpha,k,OK,
+PlaylistNavLink,delta,k,OK,
+PlaylistNavLink,beta,k,OK,
+PlaylistNavLink,gamma,k,OK,
+NavbarLinkLi,alpha,a,KO,Target element has no attributes
+NavbarLinkLi,beta,a,KO,Target element has no attributes
+NavbarLinkLi,alpha,b,KO,Target element has no valid candidate attributes
+NavbarLinkLi,beta,b,KO,Target element has no valid candidate attributes
+NavbarLinkLi,alpha,c,KO,Target element has no id attribute
+NavbarLinkLi,beta,c,KO,Target element has no id attribute
+NavbarLinkLi,alpha,d,KO,Target element text content is empty
+NavbarLinkLi,beta,d,OK,
+NavbarLinkLi,alpha,e,KO,Target element text content is empty
+NavbarLinkLi,beta,e,OK,
+NavbarLinkLi,alpha,f,KO,The parent is null or empty
+NavbarLinkLi,beta,f,OK,
+NavbarLinkLi,alpha,g,OK,
+NavbarLinkLi,beta,g,OK,
+NavbarLinkLi,alpha,h,OK,
+NavbarLinkLi,beta,h,OK,
+NavbarLinkLi,alpha,i,OK,
+NavbarLinkLi,beta,i,OK,
+NavbarLinkLi,alpha,j,OK,
+NavbarLinkLi,beta,j,OK,
+NavbarLinkLi,alpha,k,OK,
+NavbarLinkLi,beta,k,OK,

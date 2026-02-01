@@ -45,11 +45,11 @@ public class MutationDatabase {
     public Set<Mutation> getPendingMutations() {
         Set<Mutation> mutations = new HashSet<>();
 
-        String sql = "SELECT * FROM mutations ORDER BY mutation_name ASC LIMIT 1"; //LIMIT 1
+        String sql = "SELECT * FROM mutations"; // ORDER BY mutation_name ASC LIMIT 1
 
         try (Connection conn = DriverManager.getConnection(DB_URL);
-             PreparedStatement pstmt = conn.prepareStatement(sql);
-             ResultSet rs = pstmt.executeQuery()) {
+             PreparedStatement stmt = conn.prepareStatement(sql);
+             ResultSet rs = stmt.executeQuery()) {
 
             while (rs.next()) {
                 mutations.add(new Mutation(
@@ -61,7 +61,7 @@ public class MutationDatabase {
                 ));
             }
         } catch (SQLException e) {
-            System.out.println("Errore durante il recupero dati: " + e.getMessage());
+            System.out.println("Cannot retrieve data: " + e.getMessage());
         }
 
         return mutations;
@@ -74,10 +74,10 @@ public class MutationDatabase {
 
         try {
             Connection conn = DriverManager.getConnection(DB_URL);
-            PreparedStatement pstmt = conn.prepareStatement(sql);
-            pstmt.setString(1, uuid);
+            PreparedStatement stmt = conn.prepareStatement(sql);
+            stmt.setString(1, uuid);
 
-            ResultSet rs = pstmt.executeQuery();
+            ResultSet rs = stmt.executeQuery();
             while (rs.next()) {
                 MutatedFile mut = new MutatedFile();
                 mut.filePath = rs.getString("target_file_path");
@@ -99,24 +99,24 @@ public class MutationDatabase {
 
         try (Connection conn = DriverManager.getConnection(DB_URL)) {
             conn.setAutoCommit(false);
-            try (PreparedStatement pstmtMutant = conn.prepareStatement(insertMutant)){
-                pstmtMutant.setString(1, mutantUUID);
-                pstmtMutant.setString(2, element);
-                pstmtMutant.setString(3, mutation_name);
-                pstmtMutant.setString(4, mutation_type);
-                pstmtMutant.setString(5, mutation_id);
-                pstmtMutant.executeUpdate();
+            try (PreparedStatement stmtMutant = conn.prepareStatement(insertMutant)){
+                stmtMutant.setString(1, mutantUUID);
+                stmtMutant.setString(2, element);
+                stmtMutant.setString(3, mutation_name);
+                stmtMutant.setString(4, mutation_type);
+                stmtMutant.setString(5, mutation_id);
+                stmtMutant.executeUpdate();
 
                 for (Document doc : mutatedDocuments) {
-                    try (PreparedStatement pstmtFile = conn.prepareStatement(insertFile)) {
+                    try (PreparedStatement stmtFile = conn.prepareStatement(insertFile)) {
                         String filePath = doc.baseUri();
                         String code = doc.body().html();
 
-                        pstmtFile.setString(1, java.util.UUID.randomUUID().toString());
-                        pstmtFile.setString(2, filePath);
-                        pstmtFile.setString(3, code);
-                        pstmtFile.setString(4, mutantUUID);
-                        pstmtFile.executeUpdate();
+                        stmtFile.setString(1, java.util.UUID.randomUUID().toString());
+                        stmtFile.setString(2, filePath);
+                        stmtFile.setString(3, code);
+                        stmtFile.setString(4, mutantUUID);
+                        stmtFile.executeUpdate();
                     }
                 }
                 conn.commit();

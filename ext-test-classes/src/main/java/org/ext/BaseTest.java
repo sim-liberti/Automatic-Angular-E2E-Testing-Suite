@@ -25,17 +25,17 @@ public abstract class BaseTest {
 
     @Before
     public final void setUp() {
-        baseUrl = "https://192.168.20.4:4200";
+        baseUrl = "https://192.168.20.4:4200/";
         driver = WebDriverFactory.getDriver();
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         if (driver == null) {
             WebDriverFactory.init();
             driver = WebDriverFactory.getDriver();
-            wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+            wait = new WebDriverWait(driver, Duration.ofSeconds(5));
             authenticate();
         }
         driver.get(baseUrl);
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
     }
 
     @After
@@ -55,7 +55,7 @@ public abstract class BaseTest {
             );
             element.click();
             element.clear();
-            element.sendKeys("redacted");
+            element.sendKeys("sim.liberti@gmail.com");
 
             // Continue
             element = wait.until(

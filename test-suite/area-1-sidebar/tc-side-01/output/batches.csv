@@ -1,0 +1,141 @@
+Name,Id,Locator,Tag,Status,Error
+NavbarLink,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[1]/a"}
+NavbarLink,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+NavbarLink,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+NavbarLink,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+NavbarLink,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+NavbarLink,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+NavbarLink,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+NavbarLink,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[1]/a"}
+NavbarLink,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][1]//*[@x-test-hook-a-5]"}
+NavbarLink,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+NavbarLink,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+NavbarLink,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+NavbarLink,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+NavbarLink,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+NavbarLink,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[1]/a"}
+NavbarLink,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][1]//*[@x-test-hook-a-5]"}
+NavbarLink,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::a[1]"}
+NavbarLink,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[normalize-space()='Home']"}
+NavbarLink,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@ng-reflect-router-link='']"}
+NavbarLink,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[@ng-reflect-router-link='']"}
+NavbarLink,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[contains(text() 'Home')]"}
+NavbarLink,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[1]/a"}
+NavbarLink,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][1]//*[@x-test-hook-a-5]"}
+NavbarLink,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::a[1]"}
+NavbarLink,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[normalize-space()='Home']"}
+NavbarLink,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@ng-reflect-router-link='']"}
+NavbarLink,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[@ng-reflect-router-link='']"}
+NavbarLink,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[contains(text() 'Home')]"}
+NavbarLink,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+NavbarLink,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+NavbarLink,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+NavbarLink,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+NavbarLink,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+NavbarLink,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+NavbarLink,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,FAILED,java.lang.AssertionError
+NavbarLink,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+NavbarLink,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+NavbarLink,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+NavbarLink,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+NavbarLink,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+NavbarLink,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+NavbarLink,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+NavbarLink,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[1]/a"}
+NavbarLink,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][1]//*[@x-test-hook-a-5]"}
+NavbarLink,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+NavbarLink,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+NavbarLink,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+NavbarLink,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+NavbarLink,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,FAILED,java.lang.AssertionError
+NavbarLink,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_e_text_cont_rem_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_e_text_cont_rem_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_e_text_cont_rem_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_e_text_cont_rem_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_e_text_cont_rem_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_e_text_cont_rem_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_e_text_cont_rem_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[1]/a"}
+NavbarLink,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][1]//*[@x-test-hook-a-5]"}
+NavbarLink,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::a[1]"}
+NavbarLink,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[normalize-space()='Home']"}
+NavbarLink,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@ng-reflect-router-link='']"}
+NavbarLink,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[@ng-reflect-router-link='']"}
+NavbarLink,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[contains(text() 'Home')]"}
+NavbarLink,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[1]/a"}
+NavbarLink,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+NavbarLink,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+NavbarLink,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+NavbarLink,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+NavbarLink,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+NavbarLink,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+NavbarLink,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[1]/a"}
+NavbarLink,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+NavbarLink,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,java.lang.AssertionError
+NavbarLink,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[normalize-space()='Home']"}
+NavbarLink,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+NavbarLink,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[@ng-reflect-router-link='']"}
+NavbarLink,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[contains(text() 'Home')]"}
+NavbarLink,mutation_d_text_cont_mod_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+NavbarLink,mutation_d_text_cont_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+NavbarLink,mutation_d_text_cont_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+NavbarLink,mutation_d_text_cont_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+NavbarLink,mutation_d_text_cont_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+NavbarLink,mutation_d_text_cont_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+NavbarLink,mutation_d_text_cont_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+NavbarLink,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[1]/a"}
+NavbarLink,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][1]//*[@x-test-hook-a-5]"}
+NavbarLink,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::a[1]"}
+NavbarLink,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[normalize-space()='Home']"}
+NavbarLink,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@ng-reflect-router-link='']"}
+NavbarLink,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[@ng-reflect-router-link='']"}
+NavbarLink,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[contains(text() 'Home')]"}
+NavbarLink,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+NavbarLink,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+NavbarLink,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+NavbarLink,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::a[1]"}
+NavbarLink,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[normalize-space()='Home']"}
+NavbarLink,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+NavbarLink,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+NavbarLink,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null

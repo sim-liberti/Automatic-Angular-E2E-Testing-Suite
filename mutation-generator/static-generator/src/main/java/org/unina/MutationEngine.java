@@ -72,6 +72,7 @@ public class MutationEngine {
                 if (!mutationResult.mutationApplied){
                     System.out.println("Error: " + mutationResult.failureMessage);
                 }
+                System.out.println("---------");
             }
         }
     }

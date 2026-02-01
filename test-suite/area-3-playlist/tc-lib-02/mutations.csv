@@ -1,0 +1,111 @@
+Nome,Elemento,Mutazione,Stato,Errore
+PlaylistCard,alpha,a,OK,
+PlaylistCard,delta,a,KO,Target element has no attributes
+PlaylistCard,beta,a,OK,
+PlaylistCard,alpha,b,OK,
+PlaylistCard,delta,b,KO,Target element has no valid candidate attributes
+PlaylistCard,beta,b,OK,
+PlaylistCard,alpha,c,KO,Target element has no id attribute
+PlaylistCard,delta,c,KO,Target element has no id attribute
+PlaylistCard,beta,c,KO,Target element has no id attribute
+PlaylistCard,alpha,d,KO,Target element text content is empty
+PlaylistCard,delta,d,KO,Target element text content is empty
+PlaylistCard,beta,d,KO,Target element text content is empty
+PlaylistCard,alpha,e,KO,Target element text content is empty
+PlaylistCard,delta,e,KO,Target element text content is empty
+PlaylistCard,beta,e,KO,Target element text content is empty
+PlaylistCard,alpha,f,OK,
+PlaylistCard,delta,f,OK,
+PlaylistCard,beta,f,KO,The parent is null or empty
+PlaylistCard,alpha,g,OK,
+PlaylistCard,delta,g,OK,
+PlaylistCard,beta,g,OK,
+PlaylistCard,alpha,h,OK,
+PlaylistCard,delta,h,OK,
+PlaylistCard,beta,h,OK,
+PlaylistCard,alpha,i,OK,
+PlaylistCard,delta,i,OK,
+PlaylistCard,beta,i,OK,
+PlaylistCard,alpha,j,OK,
+PlaylistCard,delta,j,OK,
+PlaylistCard,beta,j,OK,
+PlaylistCard,alpha,k,OK,
+PlaylistCard,delta,k,OK,
+PlaylistCard,beta,k,OK,
+SongListContainer,alpha,a,KO,Target element has no attributes
+SongListContainer,delta,a,KO,Target element has no attributes
+SongListContainer,beta,a,KO,Target element has no attributes
+SongListContainer,alpha,b,KO,Target element has no valid candidate attributes
+SongListContainer,delta,b,KO,Target element has no valid candidate attributes
+SongListContainer,beta,b,KO,Target element has no valid candidate attributes
+SongListContainer,alpha,c,KO,Target element has no id attribute
+SongListContainer,delta,c,KO,Target element has no id attribute
+SongListContainer,beta,c,KO,Target element has no id attribute
+SongListContainer,alpha,d,OK,
+SongListContainer,delta,d,KO,Target element text content is empty
+SongListContainer,beta,d,OK,
+SongListContainer,alpha,e,OK,
+SongListContainer,delta,e,KO,Target element text content is empty
+SongListContainer,beta,e,OK,
+SongListContainer,alpha,f,OK,
+SongListContainer,delta,f,OK,
+SongListContainer,beta,f,OK,
+SongListContainer,alpha,g,OK,
+SongListContainer,delta,g,OK,
+SongListContainer,beta,g,OK,
+SongListContainer,alpha,h,OK,
+SongListContainer,delta,h,OK,
+SongListContainer,beta,h,OK,
+SongListContainer,alpha,i,OK,
+SongListContainer,delta,i,OK,
+SongListContainer,beta,i,OK,
+SongListContainer,alpha,j,OK,
+SongListContainer,delta,j,OK,
+SongListContainer,beta,j,OK,
+SongListContainer,alpha,k,OK,
+SongListContainer,delta,k,OK,
+SongListContainer,beta,k,OK,
+SongCount,alpha,a,KO,Target element has no attributes
+SongCount,delta,a,KO,Target element has no attributes
+SongCount,beta,a,KO,Target element has no attributes
+SongCount,gamma,a,KO,Target element has no attributes
+SongCount,alpha,b,KO,Target element has no valid candidate attributes
+SongCount,delta,b,KO,Target element has no valid candidate attributes
+SongCount,beta,b,KO,Target element has no valid candidate attributes
+SongCount,gamma,b,KO,Target element has no valid candidate attributes
+SongCount,alpha,c,KO,Target element has no id attribute
+SongCount,delta,c,KO,Target element has no id attribute
+SongCount,beta,c,KO,Target element has no id attribute
+SongCount,gamma,c,KO,Target element has no id attribute
+SongCount,alpha,d,OK,
+SongCount,delta,d,OK,
+SongCount,beta,d,OK,
+SongCount,gamma,d,KO,Target element text content is empty
+SongCount,alpha,e,OK,
+SongCount,delta,e,OK,
+SongCount,beta,e,OK,
+SongCount,gamma,e,KO,Target element text content is empty
+SongCount,alpha,f,OK,
+SongCount,delta,f,OK,
+SongCount,beta,f,OK,
+SongCount,gamma,f,OK,
+SongCount,alpha,g,OK,
+SongCount,delta,g,OK,
+SongCount,beta,g,OK,
+SongCount,gamma,g,OK,
+SongCount,alpha,h,OK,
+SongCount,delta,h,OK,
+SongCount,beta,h,OK,
+SongCount,gamma,h,OK,
+SongCount,alpha,i,OK,
+SongCount,delta,i,OK,
+SongCount,beta,i,OK,
+SongCount,gamma,i,OK,
+SongCount,alpha,j,OK,
+SongCount,delta,j,OK,
+SongCount,beta,j,OK,
+SongCount,gamma,j,OK,
+SongCount,alpha,k,OK,
+SongCount,delta,k,OK,
+SongCount,beta,k,OK,
+SongCount,gamma,k,OK,

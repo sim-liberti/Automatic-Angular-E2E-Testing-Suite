@@ -27,7 +27,7 @@ public class SeleniumXPathTest extends BaseTest {
 
         // Search input
         WebElement searchInput = wait.until(ExpectedConditions.visibilityOfElementLocated(
-            By.cssSelector(".ng-touched")
+            By.cssSelector(".input-container > .ng-untouched")
         ));
         searchInput.clear();
         searchInput.sendKeys("Billie Jean");
@@ -35,7 +35,7 @@ public class SeleniumXPathTest extends BaseTest {
 
         // Results
         List<WebElement> results = driver.findElement(
-            By.xpath("//div[2]/div")
+            By.cssSelector(".mb-8")
         ).findElements(By.xpath(".//*[normalize-space()='Billie Jean']"));
         assertFalse("Searched song not found.", results.isEmpty());
     }

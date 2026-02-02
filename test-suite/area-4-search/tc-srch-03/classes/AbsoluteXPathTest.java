@@ -10,34 +10,32 @@ import java.util.List;
 import java.util.Objects;
 
 import static org.junit.Assert.*;
-import static org.junit.Assert.assertTrue;
 
-public class SeleniumXPathTest extends BaseTest {
+public class AbsoluteXPathTest extends BaseTest {
     @Override
-    public String getLocator() { return "SELENIUM_LOCATOR"; }
+    public String getLocator() { return "ABSOLUTE_LOCATOR"; }
 
     @Test
-    public void testSeleniumXPath() throws Exception {
+    public void testAbsoluteXPath() throws Exception {
         driver.get(baseUrl);
 
         // Search link in sidebar
         wait.until(ExpectedConditions.elementToBeClickable(
-            By.xpath("//a[contains(text(),'Search')]")
+            By.xpath("/html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a")
         )).click();
 
         // Search input
         WebElement searchInput = wait.until(ExpectedConditions.visibilityOfElementLocated(
-            By.cssSelector(".input-container > .ng-untouched")
+            By.xpath("/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input")
         ));
         searchInput.clear();
-        searchInput.sendKeys("Geolier Secondin 2");
+        searchInput.sendKeys("TonyPitony");
         Thread.sleep(1000);
 
         // Results
         List<WebElement> results = driver.findElement(
-            By.cssSelector(".mb-8")
-        ).findElements(By.xpath(".//*[normalize-space()='Geolier Secondin 2']"));
-        assertTrue(results.isEmpty());
+            By.xpath("/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div")
+        ).findElements(By.xpath(".//h2[normalize-space()='TonyPitony']"));
+        assertFalse(results.isEmpty());
     }
-
 }

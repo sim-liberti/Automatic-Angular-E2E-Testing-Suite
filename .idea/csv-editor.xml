@@ -94,6 +94,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/test-suite/area-3-playlist/tc-lib-02/output/batches.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/test-suite/area-3-playlist/tc-lib-05/mutations.csv">
           <value>
             <Attribute>
@@ -109,6 +116,20 @@
           </value>
         </entry>
         <entry key="/test-suite/area-3-playlist/tc-lib-05/output/stats.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/test-suite/area-4-search/tc-srch-01/mutations.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/test-suite/area-4-search/tc-srch-02/mutations.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

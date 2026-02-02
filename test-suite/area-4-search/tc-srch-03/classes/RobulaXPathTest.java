@@ -12,32 +12,31 @@ import java.util.Objects;
 import static org.junit.Assert.*;
 import static org.junit.Assert.assertTrue;
 
-public class SeleniumXPathTest extends BaseTest {
+public class RobulaXPathTest extends BaseTest {
     @Override
-    public String getLocator() { return "SELENIUM_LOCATOR"; }
+    public String getLocator() { return "ROBULA_LOCATOR"; }
 
     @Test
-    public void testSeleniumXPath() throws Exception {
+    public void testRobulaXPath() throws InterruptedException {
         driver.get(baseUrl);
 
         // Search link in sidebar
         wait.until(ExpectedConditions.elementToBeClickable(
-            By.xpath("//a[contains(text(),'Search')]")
+            By.xpath("//a[@ng-reflect-router-link='/search']")
         )).click();
 
         // Search input
         WebElement searchInput = wait.until(ExpectedConditions.visibilityOfElementLocated(
-            By.cssSelector(".input-container > .ng-untouched")
+            By.xpath("//input")
         ));
         searchInput.clear();
-        searchInput.sendKeys("Geolier Secondin 2");
+        searchInput.sendKeys("TonyPitony");
         Thread.sleep(1000);
 
         // Results
         List<WebElement> results = driver.findElement(
-            By.cssSelector(".mb-8")
-        ).findElements(By.xpath(".//*[normalize-space()='Geolier Secondin 2']"));
-        assertTrue(results.isEmpty());
+            By.xpath("//div[3]/div")
+        ).findElements(By.xpath(".//*[normalize-space()='TonyPitony']"));
+        assertFalse(results.isEmpty());
     }
-
 }

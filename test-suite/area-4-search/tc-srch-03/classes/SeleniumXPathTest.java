@@ -30,14 +30,14 @@ public class SeleniumXPathTest extends BaseTest {
             By.cssSelector(".input-container > .ng-untouched")
         ));
         searchInput.clear();
-        searchInput.sendKeys("Geolier Secondin 2");
+        searchInput.sendKeys("TonyPitony");
         Thread.sleep(1000);
 
         // Results
         List<WebElement> results = driver.findElement(
-            By.cssSelector(".mb-8")
-        ).findElements(By.xpath(".//*[normalize-space()='Geolier Secondin 2']"));
-        assertTrue(results.isEmpty());
+            By.cssSelector(".ng-star-inserted:nth-child(3) > .common-grid")
+        ).findElements(By.xpath(".//*[normalize-space()='TonyPitony']"));
+        assertFalse(results.isEmpty());
     }
 
 }

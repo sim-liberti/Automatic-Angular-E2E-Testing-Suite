@@ -36,11 +36,11 @@ InputField,gamma,c,KO,Target element has no id attribute
 InputField,alpha,d,KO,Target element text content is empty
 InputField,delta,d,KO,Target element has no child nodes
 InputField,beta,d,OK,
-InputField,gamma,d,KO,Target element text content is empty
+InputField,gamma,d,OK,
 InputField,alpha,e,KO,Target element text content is empty
 InputField,delta,e,KO,Target element has no child nodes
-InputField,beta,e,KO,Target element text content is empty
-InputField,gamma,e,KO,Target element text content is empty
+InputField,beta,e,OK,
+InputField,gamma,e,OK,
 InputField,alpha,f,OK,
 InputField,delta,f,OK,
 InputField,beta,f,OK,
@@ -65,80 +65,80 @@ InputField,alpha,k,OK,
 InputField,delta,k,OK,
 InputField,beta,k,OK,
 InputField,gamma,k,OK,
-SongCard,alpha,a,OK,
-SongCard,delta,a,OK,
-SongCard,beta,a,OK,
-SongCard,gamma,a,OK,
-SongCard,alpha,b,OK,
-SongCard,delta,b,OK,
-SongCard,beta,b,OK,
-SongCard,gamma,b,OK,
-SongCard,alpha,c,KO,Target element has no id attribute
-SongCard,delta,c,KO,Target element has no id attribute
-SongCard,beta,c,KO,Target element has no id attribute
-SongCard,gamma,c,KO,Target element has no id attribute
-SongCard,alpha,d,KO,Target element text content is empty
-SongCard,delta,d,KO,Target element text content is empty
-SongCard,beta,d,KO,Target element text content is empty
-SongCard,gamma,d,KO,Target element text content is empty
-SongCard,alpha,e,KO,Target element text content is empty
-SongCard,delta,e,KO,Target element text content is empty
-SongCard,beta,e,KO,Target element text content is empty
-SongCard,gamma,e,KO,Target element text content is empty
-SongCard,alpha,f,OK,
-SongCard,delta,f,OK,
-SongCard,beta,f,OK,
-SongCard,gamma,f,KO,The parent is null or empty
-SongCard,alpha,g,OK,
-SongCard,delta,g,OK,
-SongCard,beta,g,OK,
-SongCard,gamma,g,OK,
-SongCard,alpha,h,OK,
-SongCard,delta,h,OK,
-SongCard,beta,h,OK,
-SongCard,gamma,h,OK,
-SongCard,alpha,i,OK,
-SongCard,delta,i,OK,
-SongCard,beta,i,OK,
-SongCard,gamma,i,OK,
-SongCard,alpha,j,OK,
-SongCard,delta,j,OK,
-SongCard,beta,j,OK,
-SongCard,gamma,j,OK,
-SongCard,alpha,k,OK,
-SongCard,delta,k,OK,
-SongCard,beta,k,OK,
-SongCard,gamma,k,OK,
-SongCardContainer,alpha,a,OK,
-SongCardContainer,beta,a,KO,Target element has no attributes
-SongCardContainer,gamma,a,KO,Target element has no attributes
-SongCardContainer,alpha,b,OK,
-SongCardContainer,beta,b,KO,Target element has no valid candidate attributes
-SongCardContainer,gamma,b,KO,Target element has no valid candidate attributes
-SongCardContainer,alpha,c,KO,Target element has no id attribute
-SongCardContainer,beta,c,KO,Target element has no id attribute
-SongCardContainer,gamma,c,KO,Target element has no id attribute
-SongCardContainer,alpha,d,KO,Target element text content is empty
-SongCardContainer,beta,d,OK,
-SongCardContainer,gamma,d,KO,Target element text content is empty
-SongCardContainer,alpha,e,KO,Target element text content is empty
-SongCardContainer,beta,e,OK,
-SongCardContainer,gamma,e,KO,Target element text content is empty
-SongCardContainer,alpha,f,KO,The parent is null or empty
-SongCardContainer,beta,f,OK,
-SongCardContainer,gamma,f,OK,
-SongCardContainer,alpha,g,OK,
-SongCardContainer,beta,g,OK,
-SongCardContainer,gamma,g,OK,
-SongCardContainer,alpha,h,OK,
-SongCardContainer,beta,h,OK,
-SongCardContainer,gamma,h,OK,
-SongCardContainer,alpha,i,OK,
-SongCardContainer,beta,i,OK,
-SongCardContainer,gamma,i,OK,
-SongCardContainer,alpha,j,OK,
-SongCardContainer,beta,j,OK,
-SongCardContainer,gamma,j,OK,
-SongCardContainer,alpha,k,OK,
-SongCardContainer,beta,k,OK,
-SongCardContainer,gamma,k,OK,
+ArtistCard,alpha,a,OK,
+ArtistCard,beta,a,KO,Target element has no attributes
+ArtistCard,gamma,a,KO,Target element has no attributes
+ArtistCard,alpha,b,OK,
+ArtistCard,beta,b,KO,Target element has no valid candidate attributes
+ArtistCard,gamma,b,KO,Target element has no valid candidate attributes
+ArtistCard,alpha,c,KO,Target element has no id attribute
+ArtistCard,beta,c,KO,Target element has no id attribute
+ArtistCard,gamma,c,KO,Target element has no id attribute
+ArtistCard,alpha,d,KO,Target element text content is empty
+ArtistCard,beta,d,OK,
+ArtistCard,gamma,d,KO,Target element text content is empty
+ArtistCard,alpha,e,KO,Target element text content is empty
+ArtistCard,beta,e,OK,
+ArtistCard,gamma,e,KO,Target element text content is empty
+ArtistCard,alpha,f,KO,The parent is null or empty
+ArtistCard,beta,f,OK,
+ArtistCard,gamma,f,OK,
+ArtistCard,alpha,g,OK,
+ArtistCard,beta,g,OK,
+ArtistCard,gamma,g,OK,
+ArtistCard,alpha,h,OK,
+ArtistCard,beta,h,OK,
+ArtistCard,gamma,h,OK,
+ArtistCard,alpha,i,OK,
+ArtistCard,beta,i,OK,
+ArtistCard,gamma,i,OK,
+ArtistCard,alpha,j,OK,
+ArtistCard,beta,j,OK,
+ArtistCard,gamma,j,OK,
+ArtistCard,alpha,k,OK,
+ArtistCard,beta,k,OK,
+ArtistCard,gamma,k,OK,
+CardTitle,alpha,a,KO,Target element has no attributes
+CardTitle,delta,a,KO,Target element has no attributes
+CardTitle,beta,a,KO,Target element has no attributes
+CardTitle,gamma,a,OK,
+CardTitle,alpha,b,KO,Target element has no valid candidate attributes
+CardTitle,delta,b,KO,Target element has no valid candidate attributes
+CardTitle,beta,b,KO,Target element has no valid candidate attributes
+CardTitle,gamma,b,OK,
+CardTitle,alpha,c,KO,Target element has no id attribute
+CardTitle,delta,c,KO,Target element has no id attribute
+CardTitle,beta,c,KO,Target element has no id attribute
+CardTitle,gamma,c,KO,Target element has no id attribute
+CardTitle,alpha,d,OK,
+CardTitle,delta,d,OK,
+CardTitle,beta,d,KO,Target element text content is empty
+CardTitle,gamma,d,KO,Target element text content is empty
+CardTitle,alpha,e,OK,
+CardTitle,delta,e,OK,
+CardTitle,beta,e,KO,Target element text content is empty
+CardTitle,gamma,e,KO,Target element text content is empty
+CardTitle,alpha,f,OK,
+CardTitle,delta,f,OK,
+CardTitle,beta,f,OK,
+CardTitle,gamma,f,KO,The parent is null or empty
+CardTitle,alpha,g,OK,
+CardTitle,delta,g,OK,
+CardTitle,beta,g,OK,
+CardTitle,gamma,g,OK,
+CardTitle,alpha,h,OK,
+CardTitle,delta,h,OK,
+CardTitle,beta,h,OK,
+CardTitle,gamma,h,OK,
+CardTitle,alpha,i,OK,
+CardTitle,delta,i,OK,
+CardTitle,beta,i,OK,
+CardTitle,gamma,i,OK,
+CardTitle,alpha,j,OK,
+CardTitle,delta,j,OK,
+CardTitle,beta,j,OK,
+CardTitle,gamma,j,OK,
+CardTitle,alpha,k,OK,
+CardTitle,delta,k,OK,
+CardTitle,beta,k,OK,
+CardTitle,gamma,k,OK,

@@ -4,35 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12d682f-6111-484c-bcef-cc6fdc79eaea" name="Changes" comment="[test] started testing on the complete testing suite">
-      <change afterPath="$PROJECT_DIR$/test-suite/area-2-player/tc-play-01/classes/AbsoluteXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-2-player/tc-play-01/classes/HookXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-2-player/tc-play-01/classes/KatalonXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-2-player/tc-play-01/classes/RelativeXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-2-player/tc-play-01/classes/RobulaPlusXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-2-player/tc-play-01/classes/RobulaXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-2-player/tc-play-01/classes/SeleniumXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-01/mutations.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-02/mutations.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-02/mutations.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-03/classes/AbsoluteXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-03/classes/HookXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-03/classes/KatalonXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-03/classes/RelativeXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-03/classes/RobulaPlusXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-03/classes/RobulaXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-03/classes/SeleniumXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-04/classes/AbsoluteXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-04/classes/HookXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-04/classes/KatalonXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-04/classes/RelativeXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-04/classes/RobulaPlusXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-04/classes/RobulaXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-04/classes/SeleniumXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
+    <list default="true" id="b12d682f-6111-484c-bcef-cc6fdc79eaea" name="Changes" comment="[test] created test classes for the search area and some of the player area">
+      <change afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-02/output/batches.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-02/output/stats.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-locators/src/main/java/org/unina/robula/Robula.java" beforeDir="false" afterPath="$PROJECT_DIR$/custom-locators/src/main/java/org/unina/robula/Robula.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-locators/src/main/java/org/unina/robulaplus/RobulaPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/custom-locators/src/main/java/org/unina/robulaplus/RobulaPlus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/AbsoluteXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/AbsoluteXPathTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/HookXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/HookXPathTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/KatalonXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/KatalonXPathTest.java" afterDir="false" />
@@ -42,10 +17,8 @@
       <change beforePath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/SeleniumXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/SeleniumXPathTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generator-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/generator-config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/mutations/mutations.csv" beforeDir="false" afterPath="$PROJECT_DIR$/output/mutations/mutations.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-suite/area-3-playlist/tc-lib-02/output/batches.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-suite/area-3-playlist/tc-lib-02/output/stats.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-01/classes/SeleniumXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-01/classes/SeleniumXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-02/classes/SeleniumXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-02/classes/SeleniumXPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/tests/batches.csv" beforeDir="false" afterPath="$PROJECT_DIR$/output/tests/batches.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/tests/stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/output/tests/stats.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +108,7 @@
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "/home/simon/Documents/Projects/Automatic-Angular-E2E-Testing-Suite/mutation-tester/src/main/java/org/unina",
-    "last_opened_file_path": "/home/simon/Documents/Projects/Automatic-Angular-E2E-Testing-Suite/test-suite/area-2-player/tc-play-01/classes",
+    "last_opened_file_path": "/home/simon/Documents/Projects/Automatic-Angular-E2E-Testing-Suite/ext-test-classes/src/main/java/org/ext",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -157,11 +130,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test-suite/area-2-player/tc-play-01/classes" />
       <recent name="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext" />
+      <recent name="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-02/output" />
+      <recent name="$PROJECT_DIR$/test-suite/area-2-player/tc-play-01/classes" />
       <recent name="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-04/classes" />
       <recent name="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-03/classes" />
-      <recent name="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-02/classes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test-suite/area-3-playlist/tc-lib-02/output" />
@@ -178,7 +151,7 @@
       <recent name="org.unina" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RobulaPlus">
+  <component name="RunManager" selected="JUnit.AbsoluteXPathTest.testAbsoluteXPath">
     <configuration name="MutationTester" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="org.unina.MutationTester" />
       <module name="mutation-tester" />
@@ -267,11 +240,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AbsoluteXPathTest.testAbsoluteXPath" />
+        <item itemvalue="Application.StaticMutationGenerator" />
         <item itemvalue="Application.RobulaPlus" />
         <item itemvalue="Application.Robula" />
         <item itemvalue="Application.MutationTester" />
-        <item itemvalue="Application.StaticMutationGenerator" />
-        <item itemvalue="JUnit.AbsoluteXPathTest.testAbsoluteXPath" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +333,7 @@
       <workItem from="1769786392930" duration="6622000" />
       <workItem from="1769855811492" duration="30652000" />
       <workItem from="1769939434527" duration="35133000" />
-      <workItem from="1770020642114" duration="8635000" />
+      <workItem from="1770020642114" duration="10413000" />
     </task>
     <task id="LOCAL-00001" summary="[initial] caricamento di file di progetto">
       <option name="closed" value="true" />
@@ -650,7 +623,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769984960177</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="[test] created test classes for the search area and some of the player area">
+      <option name="closed" value="true" />
+      <created>1770033012854</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1770033012854</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -674,7 +655,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="[feat] Added indexing of components at the start of the program and modified ComponentMetadata.java into Component.java&#10;[misc] Refactored some of the rules" />
     <MESSAGE value="[feat] re-implemented TagMovementToAnyHtmlTreePointRule&#10;[fix] fixed jsoup document parsing with xmlParser" />
     <MESSAGE value="[feat] added the classes and package to run the tests dynamically, as well as a basic printing of the results" />
     <MESSAGE value="[feat] implemented testing loop in mutation-tester" />
@@ -699,7 +679,8 @@
     <MESSAGE value="[docs] packaged the static-generator module and edited the main readme file" />
     <MESSAGE value="[feat] reimplemented the tester engine&#10;- Using picocli to implement the .jar as a command line application&#10;- Updated the tester to allow execution from any directory using compiled .class files&#10;- Renamed the console wrapper and made it so the npm starting command can be passed as a parameter" />
     <MESSAGE value="[test] started testing on the complete testing suite" />
-    <option name="LAST_COMMIT_MESSAGE" value="[test] started testing on the complete testing suite" />
+    <MESSAGE value="[test] created test classes for the search area and some of the player area" />
+    <option name="LAST_COMMIT_MESSAGE" value="[test] created test classes for the search area and some of the player area" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -10,27 +10,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/output/tests/batches.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/output/tests/stats.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/test-suite/area-1-sidebar/mutations.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="/test-suite/area-1-sidebar/tc-side-01/output/batches.csv">
           <value>
             <Attribute>
@@ -45,7 +24,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/test-suite/area-1-sidebar/tc-side-02/mutations/mutations.csv">
+        <entry key="/test-suite/area-1-sidebar/tc-side-02/mutations.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -101,6 +80,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/test-suite/area-3-playlist/tc-lib-04/mutations.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/test-suite/area-3-playlist/tc-lib-05/mutations.csv">
           <value>
             <Attribute>
@@ -129,7 +115,35 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/test-suite/area-4-search/tc-srch-01/output/batches.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/test-suite/area-4-search/tc-srch-01/output/stats.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/test-suite/area-4-search/tc-srch-02/mutations.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/test-suite/area-4-search/tc-srch-02/output/batches.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/test-suite/area-4-search/tc-srch-02/output/stats.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

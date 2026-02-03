@@ -76,25 +76,3 @@ PlaylistNavLink,alpha,k,OK,
 PlaylistNavLink,delta,k,OK,
 PlaylistNavLink,beta,k,OK,
 PlaylistNavLink,gamma,k,OK,
-NavbarLinkLi,alpha,a,KO,Target element has no attributes
-NavbarLinkLi,beta,a,KO,Target element has no attributes
-NavbarLinkLi,alpha,b,KO,Target element has no valid candidate attributes
-NavbarLinkLi,beta,b,KO,Target element has no valid candidate attributes
-NavbarLinkLi,alpha,c,KO,Target element has no id attribute
-NavbarLinkLi,beta,c,KO,Target element has no id attribute
-NavbarLinkLi,alpha,d,KO,Target element text content is empty
-NavbarLinkLi,beta,d,OK,
-NavbarLinkLi,alpha,e,KO,Target element text content is empty
-NavbarLinkLi,beta,e,OK,
-NavbarLinkLi,alpha,f,KO,The parent is null or empty
-NavbarLinkLi,beta,f,OK,
-NavbarLinkLi,alpha,g,OK,
-NavbarLinkLi,beta,g,OK,
-NavbarLinkLi,alpha,h,OK,
-NavbarLinkLi,beta,h,OK,
-NavbarLinkLi,alpha,i,OK,
-NavbarLinkLi,beta,i,OK,
-NavbarLinkLi,alpha,j,OK,
-NavbarLinkLi,beta,j,OK,
-NavbarLinkLi,alpha,k,OK,
-NavbarLinkLi,beta,k,OK,

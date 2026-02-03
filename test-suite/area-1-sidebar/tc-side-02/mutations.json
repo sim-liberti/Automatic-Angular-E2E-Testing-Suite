@@ -1,0 +1,31 @@
+{
+  "mutations": [
+    {
+      "name": "NavbarLinkA",
+      "file_path": "/home/simon/Documents/Projects/angular-spotify/libs/web/shell/ui/nav-bar/src/lib/nav-bar.component.html",
+      "target_matcher": {
+        "type": "class",
+        "key": "",
+        "value": "nav-link"
+      }
+    },
+    {
+      "name": "NavbarLinkLi",
+      "file_path": "/home/simon/Documents/Projects/angular-spotify/libs/web/shell/ui/nav-bar/src/lib/nav-bar.component.html",
+      "target_matcher": {
+        "type": "class",
+        "key": "",
+        "value": "nav-link-container"
+      }
+    },
+    {
+      "name": "NavbarLinkUl",
+      "file_path": "/home/simon/Documents/Projects/angular-spotify/libs/web/shell/ui/nav-bar/src/lib/nav-bar.component.html",
+      "target_matcher": {
+        "type": "class",
+        "key": "",
+        "value": "m-0"
+      }
+    }
+  ]
+}

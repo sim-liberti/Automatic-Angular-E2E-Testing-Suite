@@ -17,6 +17,8 @@ import java.net.URL;
 import java.net.URLClassLoader;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Paths;
+import java.time.Duration;
+import java.time.Instant;
 import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -45,14 +47,21 @@ public class TestRunnerEngine {
 
         Thread.currentThread().setContextClassLoader(externalLoader);
 
+        Instant start = Instant.now();
         try {
             for (Mutation mutation : mutations) {
+                db.updateMutation(mutation.mutation_id, "RUNNING");
                 System.out.printf("\n%d out of %d remaining.\n", remaining--, (long) mutations.size());
                 history.add(processMutation(mutation, npm, db, testClasses));
+                db.updateMutation(mutation.mutation_id, "COMPLETE");
             }
         } finally {
             npm.stop();
             saveResults(history);
+            Instant end = Instant.now();
+            long timeElapsed = Duration.between(start, end).toSeconds();
+            System.out.println("\nTests completed.");
+            System.out.println("Execution time: " + timeElapsed + " seconds.");
         }
     }
 

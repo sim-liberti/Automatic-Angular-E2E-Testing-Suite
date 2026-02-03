@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import java.util.List;
 import java.util.Objects;
 
 import static org.junit.Assert.*;
@@ -20,24 +19,23 @@ public class SeleniumXPathTest extends BaseTest {
     public void testSeleniumXPath() throws Exception {
         driver.get(baseUrl);
 
-        // Search link in sidebar
+        // Link MyPlaylists
+        driver.findElement(
+            By.xpath("//a[contains(text(),'My Playlists')]")
+        ).click();
+
+        Thread.sleep(200);
+        // First playlist
         wait.until(ExpectedConditions.elementToBeClickable(
-            By.xpath("//a[contains(text(),'Search')]")
+            By.xpath("(//a[contains(@href, '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]")
         )).click();
 
-        // Search input
-        WebElement searchInput = wait.until(ExpectedConditions.visibilityOfElementLocated(
-            By.cssSelector(".input-container > .ng-untouched")
-        ));
-        searchInput.clear();
-        searchInput.sendKeys("TonyPitony");
-        Thread.sleep(1000);
-
-        // Results
-        List<WebElement> results = driver.findElement(
-            By.cssSelector(".ng-star-inserted:nth-child(3) > .common-grid")
-        ).findElements(By.xpath(".//*[normalize-space()='TonyPitony']"));
-        assertFalse(results.isEmpty());
+        // Playlist sidebar
+        WebElement playlist = driver.findElement(
+            By.xpath("//a[contains(@href, '/playlist/0vhooTWkjMKTZXvnXthXdo')]")
+        );
+        Thread.sleep(500);
+        assertTrue(Objects.requireNonNull(playlist.getDomAttribute("class")).contains("active"));
     }
 
 }

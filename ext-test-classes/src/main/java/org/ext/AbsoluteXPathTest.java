@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import java.util.List;
 import java.util.Objects;
 
 import static org.junit.Assert.*;
@@ -19,23 +18,23 @@ public class AbsoluteXPathTest extends BaseTest {
     public void testAbsoluteXPath() throws Exception {
         driver.get(baseUrl);
 
-        // Search link in sidebar
+        // Link MyPlaylists
+        driver.findElement(
+            By.xpath("/html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[4]/a")
+        ).click();
+
+        Thread.sleep(200);
+        // First playlist
         wait.until(ExpectedConditions.elementToBeClickable(
-            By.xpath("/html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a")
+            By.xpath("/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a")
         )).click();
 
-        // Search input
-        WebElement searchInput = wait.until(ExpectedConditions.visibilityOfElementLocated(
-            By.xpath("/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input")
-        ));
-        searchInput.clear();
-        searchInput.sendKeys("TonyPitony");
-        Thread.sleep(1000);
-
-        // Results
-        List<WebElement> results = driver.findElement(
-            By.xpath("/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div")
-        ).findElements(By.xpath(".//h2[normalize-space()='TonyPitony']"));
-        assertFalse(results.isEmpty());
+        // Playlist sidebar
+        WebElement playlist = driver.findElement(
+            By.xpath("/html/body/angular-spotify-root/as-layout/as-nav-bar/as-nav-links/ul/li[1]/as-nav-link/a")
+        );
+        Thread.sleep(500);
+        assertTrue(Objects.requireNonNull(playlist.getDomAttribute("class")).contains("active"));
     }
+
 }

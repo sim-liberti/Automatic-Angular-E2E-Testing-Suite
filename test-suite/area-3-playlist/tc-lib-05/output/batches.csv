@@ -1,88 +1,4 @@
 Name,Id,Locator,Tag,Status,Error
-NavbarLinkLi,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[4]/a"}
-NavbarLinkLi,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][4]//*[@x-test-hook-a-5]"}
-NavbarLinkLi,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
-NavbarLinkLi,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,FAILED,java.lang.AssertionError
-PlaylistCard,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
-PlaylistCard,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,FAILED,java.lang.AssertionError
-PlaylistCard,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistCard,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
-PlaylistCard,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
-PlaylistCard,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
-PlaylistCard,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,FAILED,java.lang.AssertionError
-PlaylistCard,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistCard,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-playlist-list-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-card-2][1]//*[@x-test-tpl-a-1]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistCard,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,FAILED,java.lang.AssertionError
-PlaylistCard,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //as-card[@ng-reflect-title='The Goats']//a) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistCard,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX']) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistCard,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //a[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX']) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistCard,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[4]/a"}
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][4]//*[@x-test-hook-a-5]"}
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Browse'])[1]/following::a[1]"}
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[normalize-space()='My Playlists']"}
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@ng-reflect-router-link='/collection/playlists']"}
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[@ng-reflect-router-link='/collection/playlists']"}
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[contains(text() 'My Playlists')]"}
-PlaylistCard,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
-PlaylistCard,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,FAILED,java.lang.AssertionError
-PlaylistCard,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,FAILED,java.lang.AssertionError
-PlaylistCard,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
-PlaylistCard,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX']) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistCard,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //a[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX']) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistCard,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,FAILED,java.lang.AssertionError
-PlaylistCard,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
-PlaylistCard,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,FAILED,java.lang.AssertionError
-PlaylistCard,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistCard,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-PlaylistCard,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX']) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistCard,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //a[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX']) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistCard,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,FAILED,java.lang.AssertionError
-PlaylistNavLink,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
-PlaylistNavLink,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-as-nav-links-7]//*[@x-test-tpl-ul-2]//*[@x-test-hook-li-3][1]//*[@x-test-hook-as-nav-link-4]//*[@x-test-tpl-a-1]//*[@x-test-hook-span-3]"}
-PlaylistNavLink,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistNavLink,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-PlaylistNavLink,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
-PlaylistNavLink,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-PlaylistNavLink,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[contains(. 'The Goats')]"}
-PlaylistNavLink,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
-PlaylistNavLink,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-as-nav-links-7]//*[@x-test-tpl-ul-2]//*[@x-test-hook-li-3][1]//*[@x-test-hook-as-nav-link-4]//*[@x-test-tpl-a-1]//*[@x-test-hook-span-3]"}
-PlaylistNavLink,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistNavLink,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-PlaylistNavLink,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
-PlaylistNavLink,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-PlaylistNavLink,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[contains(. 'The Goats')]"}
-PlaylistCard,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[4]/a"}
-NavbarLinkLi,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,FAILED,java.lang.AssertionError
-NavbarLinkLi,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
-NavbarLinkLi,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,FAILED,java.lang.AssertionError
-PlaylistNavLink,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
-PlaylistNavLink,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-as-nav-links-7]//*[@x-test-tpl-ul-2]//*[@x-test-hook-li-3][1]//*[@x-test-hook-as-nav-link-4]//*[@x-test-tpl-a-1]//*[@x-test-hook-span-3]"}
-PlaylistNavLink,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistNavLink,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
-PlaylistNavLink,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
-PlaylistNavLink,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
-PlaylistNavLink,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[contains(. 'The Goats')]"}
 PlaylistCard,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 PlaylistCard,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 PlaylistCard,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
@@ -90,90 +6,13 @@ PlaylistCard,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICA
 PlaylistCard,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 PlaylistCard,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 PlaylistCard,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
-PlaylistNavLink,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-as-nav-links-7]//*[@x-test-tpl-ul-2]//*[@x-test-hook-li-3][1]//*[@x-test-hook-as-nav-link-4]//*[@x-test-tpl-a-1]//*[@x-test-hook-span-3]"}
-PlaylistNavLink,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistNavLink,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
-PlaylistNavLink,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
-PlaylistNavLink,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
-PlaylistNavLink,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[contains(. 'The Goats')]"}
-PlaylistCard,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-nav-bar/as-nav-links/ul/li[1]/as-nav-link/a"}
-PlaylistNavLink,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-as-nav-links-7]//*[@x-test-tpl-ul-2]//*[@x-test-hook-li-3][1]//*[@x-test-hook-as-nav-link-4]//*[@x-test-tpl-a-1]//*[@x-test-hook-span-3]"}
-PlaylistNavLink,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistNavLink,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[@title='The Goats']"}
-PlaylistNavLink,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@title='The Goats']"}
-PlaylistNavLink,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistNavLink,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistNavLink,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
-PlaylistCard,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,FAILED,java.lang.AssertionError
-PlaylistCard,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistCard,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
-PlaylistCard,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX']) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistCard,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //a[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX']) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistCard,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,FAILED,java.lang.AssertionError
-NavbarLinkLi,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[4]/a"}
-NavbarLinkLi,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][4]//*[@x-test-hook-a-5]"}
-NavbarLinkLi,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,BROKEN,stale element reference: stale element not found in the current frame
-NavbarLinkLi,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-NavbarLinkLi,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
-NavbarLinkLi,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-NavbarLinkLi,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,java.lang.AssertionError
-NavbarLinkLi,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,FAILED,java.lang.AssertionError
-NavbarLinkLi,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
-NavbarLinkLi,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,FAILED,java.lang.AssertionError
-PlaylistNavLink,mutation_b_attr_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
-PlaylistNavLink,mutation_b_attr_rem_mut_beta,HookXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-as-nav-links-7]//*[@x-test-tpl-ul-2]//*[@x-test-hook-li-3][1]//*[@x-test-hook-as-nav-link-4]//*[@x-test-tpl-a-1]//*[@x-test-hook-span-3]"}
-PlaylistNavLink,mutation_b_attr_rem_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistNavLink,mutation_b_attr_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
-PlaylistNavLink,mutation_b_attr_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
-PlaylistNavLink,mutation_b_attr_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
-PlaylistNavLink,mutation_b_attr_rem_mut_beta,SeleniumXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[contains(. 'The Goats')]"}
-PlaylistCard,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
-PlaylistCard,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,FAILED,java.lang.AssertionError
-PlaylistCard,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistCard,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
-PlaylistCard,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX']) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistCard,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //a[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX']) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistCard,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,FAILED,java.lang.AssertionError
+PlaylistCard,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+PlaylistCard,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,PASSED,null
+PlaylistCard,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+PlaylistCard,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+PlaylistCard,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 PlaylistCard,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 PlaylistCard,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 PlaylistCard,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
@@ -181,237 +20,20 @@ PlaylistCard,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLI
 PlaylistCard,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 PlaylistCard,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 PlaylistCard,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
-PlaylistNavLink,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-as-nav-links-7]//*[@x-test-tpl-ul-2]//*[@x-test-hook-li-3][1]//*[@x-test-hook-as-nav-link-4]//*[@x-test-tpl-a-1]//*[@x-test-hook-span-3]"}
-PlaylistNavLink,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistNavLink,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,FAILED,java.lang.AssertionError
-PlaylistNavLink,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
-PlaylistNavLink,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
-PlaylistNavLink,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[contains(. 'The Goats')]"}
-NavbarLinkLi,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
-NavbarLinkLi,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,FAILED,java.lang.AssertionError
-NavbarLinkLi,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,BROKEN,stale element reference: stale element not found in the current frame
-NavbarLinkLi,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-NavbarLinkLi,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
-NavbarLinkLi,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-NavbarLinkLi,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,FAILED,java.lang.AssertionError
-PlaylistNavLink,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
-PlaylistNavLink,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,FAILED,java.lang.AssertionError
-PlaylistNavLink,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistNavLink,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
-PlaylistNavLink,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
-PlaylistNavLink,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
-PlaylistNavLink,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistCard,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
-PlaylistCard,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,FAILED,java.lang.AssertionError
-PlaylistCard,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistCard,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-PlaylistCard,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
-PlaylistCard,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-PlaylistCard,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,java.lang.AssertionError
-NavbarLinkLi,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,FAILED,java.lang.AssertionError
-NavbarLinkLi,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
-NavbarLinkLi,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,FAILED,java.lang.AssertionError
-PlaylistNavLink,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
-PlaylistNavLink,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-as-nav-links-7]//*[@x-test-tpl-ul-2]//*[@x-test-hook-li-3][1]//*[@x-test-hook-as-nav-link-4]//*[@x-test-tpl-a-1]//*[@x-test-hook-span-3]"}
-PlaylistNavLink,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistNavLink,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-PlaylistNavLink,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
-PlaylistNavLink,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-PlaylistNavLink,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[contains(. 'The Goats')]"}
-NavbarLinkLi,mutation_d_text_cont_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_d_text_cont_mod_mut_beta,HookXPathTest,beta,FAILED,java.lang.AssertionError
-NavbarLinkLi,mutation_d_text_cont_mod_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
-NavbarLinkLi,mutation_d_text_cont_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_d_text_cont_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_d_text_cont_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_d_text_cont_mod_mut_beta,SeleniumXPathTest,beta,FAILED,java.lang.AssertionError
-PlaylistCard,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
-PlaylistCard,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,FAILED,java.lang.AssertionError
-PlaylistCard,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistCard,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
-PlaylistCard,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX']) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistCard,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //a[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX']) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistCard,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,FAILED,java.lang.AssertionError
-PlaylistNavLink,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_a_attr_val_mod_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_a_attr_val_mod_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_a_attr_val_mod_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_a_attr_val_mod_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_a_attr_val_mod_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_a_attr_val_mod_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_a_attr_val_mod_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
-PlaylistNavLink,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-as-nav-links-7]//*[@x-test-tpl-ul-2]//*[@x-test-hook-li-3][1]//*[@x-test-hook-as-nav-link-4]//*[@x-test-tpl-a-1]//*[@x-test-hook-span-3]"}
-PlaylistNavLink,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistNavLink,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-PlaylistNavLink,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
-PlaylistNavLink,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-PlaylistNavLink,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[contains(. 'The Goats')]"}
-PlaylistNavLink,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistCard,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,FAILED,java.lang.AssertionError
-PlaylistCard,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistCard,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //as-card[@ng-reflect-title='The Goats']//a) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistCard,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
-PlaylistCard,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //a[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX']) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistCard,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_e_text_cont_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_e_text_cont_rem_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_e_text_cont_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_e_text_cont_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_e_text_cont_rem_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_e_text_cont_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_e_text_cont_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[4]/a"}
-NavbarLinkLi,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,FAILED,java.lang.AssertionError
-NavbarLinkLi,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,BROKEN,stale element reference: stale element not found in the current frame
-NavbarLinkLi,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-NavbarLinkLi,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
-NavbarLinkLi,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-NavbarLinkLi,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,java.lang.AssertionError
-PlaylistNavLink,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
-PlaylistNavLink,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-as-nav-links-7]//*[@x-test-tpl-ul-2]//*[@x-test-hook-li-3][1]//*[@x-test-hook-as-nav-link-4]//*[@x-test-tpl-a-1]//*[@x-test-hook-span-3]"}
-PlaylistNavLink,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistNavLink,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
-PlaylistNavLink,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
-PlaylistNavLink,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
-PlaylistNavLink,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[contains(. 'The Goats')]"}
-PlaylistNavLink,mutation_b_attr_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
-PlaylistNavLink,mutation_b_attr_rem_mut_delta,HookXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-as-nav-links-7]//*[@x-test-tpl-ul-2]//*[@x-test-hook-li-3][1]//*[@x-test-hook-as-nav-link-4]//*[@x-test-tpl-a-1]//*[@x-test-hook-span-3]"}
-PlaylistNavLink,mutation_b_attr_rem_mut_delta,KatalonXPathTest,delta,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistNavLink,mutation_b_attr_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
-PlaylistNavLink,mutation_b_attr_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
-PlaylistNavLink,mutation_b_attr_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
-PlaylistNavLink,mutation_b_attr_rem_mut_delta,SeleniumXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[contains(. 'The Goats')]"}
-PlaylistCard,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistCard,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-nav-bar/as-nav-links/ul/li[1]/as-nav-link/a"}
-PlaylistNavLink,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-as-nav-links-7]//*[@x-test-tpl-ul-2]//*[@x-test-hook-li-3][1]//*[@x-test-hook-as-nav-link-4]//*[@x-test-tpl-a-1]//*[@x-test-hook-span-3]"}
-PlaylistNavLink,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistNavLink,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[@title='The Goats']"}
-PlaylistNavLink,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
-PlaylistNavLink,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistNavLink,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistNavLink,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,PASSED,null
-PlaylistNavLink,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-as-nav-links-7]//*[@x-test-tpl-ul-2]//*[@x-test-hook-li-3][1]//*[@x-test-hook-as-nav-link-4]//*[@x-test-tpl-a-1]//*[@x-test-hook-span-3]"}
-PlaylistNavLink,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistNavLink,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,PASSED,null
-PlaylistNavLink,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
-PlaylistNavLink,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,PASSED,null
-PlaylistNavLink,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[contains(. 'The Goats')]"}
-PlaylistNavLink,mutation_a_attr_val_mod_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_a_attr_val_mod_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_a_attr_val_mod_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_a_attr_val_mod_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_a_attr_val_mod_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_a_attr_val_mod_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_a_attr_val_mod_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
-PlaylistNavLink,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-as-nav-links-7]//*[@x-test-tpl-ul-2]//*[@x-test-hook-li-3][1]//*[@x-test-hook-as-nav-link-4]//*[@x-test-tpl-a-1]//*[@x-test-hook-span-3]"}
-PlaylistNavLink,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistNavLink,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
-PlaylistNavLink,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
-PlaylistNavLink,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
-PlaylistNavLink,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[contains(. 'The Goats')]"}
-PlaylistCard,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
-PlaylistCard,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,FAILED,java.lang.AssertionError
-PlaylistCard,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistCard,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-PlaylistCard,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX']) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistCard,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //a[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX']) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistCard,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,FAILED,java.lang.AssertionError
-PlaylistNavLink,mutation_a_attr_val_mod_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_a_attr_val_mod_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_a_attr_val_mod_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_a_attr_val_mod_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_a_attr_val_mod_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_a_attr_val_mod_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_a_attr_val_mod_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
-PlaylistNavLink,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-as-nav-links-7]//*[@x-test-tpl-ul-2]//*[@x-test-hook-li-3][1]//*[@x-test-hook-as-nav-link-4]//*[@x-test-tpl-a-1]//*[@x-test-hook-span-3]"}
-PlaylistNavLink,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,BROKEN,stale element reference: stale element not found in the current frame
-PlaylistNavLink,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
-PlaylistNavLink,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
-PlaylistNavLink,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
-PlaylistNavLink,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[contains(. 'The Goats')]"}
 PlaylistCard,mutation_b_attr_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,java.lang.AssertionError
 PlaylistCard,mutation_b_attr_rem_mut_beta,HookXPathTest,beta,FAILED,java.lang.AssertionError
-PlaylistCard,mutation_b_attr_rem_mut_beta,KatalonXPathTest,beta,BROKEN,stale element reference: stale element not found in the current frame
+PlaylistCard,mutation_b_attr_rem_mut_beta,KatalonXPathTest,beta,FAILED,java.lang.AssertionError
 PlaylistCard,mutation_b_attr_rem_mut_beta,RelativeXPathTest,beta,FAILED,java.lang.AssertionError
-PlaylistCard,mutation_b_attr_rem_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX']) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistCard,mutation_b_attr_rem_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //a[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX']) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-PlaylistCard,mutation_b_attr_rem_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[4]/a"}
-NavbarLinkLi,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][4]//*[@x-test-hook-a-5]"}
-NavbarLinkLi,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Browse'])[1]/following::a[1]"}
-NavbarLinkLi,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[normalize-space()='My Playlists']"}
-NavbarLinkLi,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@ng-reflect-router-link='/collection/playlists']"}
-NavbarLinkLi,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[@ng-reflect-router-link='/collection/playlists']"}
-NavbarLinkLi,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[contains(text() 'My Playlists')]"}
-PlaylistNavLink,mutation_b_attr_rem_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_b_attr_rem_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_b_attr_rem_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_b_attr_rem_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_b_attr_rem_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_b_attr_rem_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-PlaylistNavLink,mutation_b_attr_rem_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_b_attr_rem_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_b_attr_rem_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_b_attr_rem_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistNavLink,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 PlaylistNavLink,mutation_a_attr_val_mod_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 PlaylistNavLink,mutation_a_attr_val_mod_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 PlaylistNavLink,mutation_a_attr_val_mod_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
@@ -419,6 +41,20 @@ PlaylistNavLink,mutation_a_attr_val_mod_mut_gamma,RelativeXPathTest,gamma,NOT_AP
 PlaylistNavLink,mutation_a_attr_val_mod_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 PlaylistNavLink,mutation_a_attr_val_mod_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 PlaylistNavLink,mutation_a_attr_val_mod_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+PlaylistCard,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+PlaylistCard,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+PlaylistCard,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+PlaylistCard,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 PlaylistNavLink,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 PlaylistNavLink,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 PlaylistNavLink,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
@@ -426,24 +62,297 @@ PlaylistNavLink,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_AP
 PlaylistNavLink,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 PlaylistNavLink,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 PlaylistNavLink,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_b_attr_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+PlaylistNavLink,mutation_b_attr_rem_mut_beta,HookXPathTest,beta,PASSED,null
+PlaylistNavLink,mutation_b_attr_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+PlaylistNavLink,mutation_b_attr_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+PlaylistNavLink,mutation_b_attr_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+PlaylistNavLink,mutation_b_attr_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+PlaylistNavLink,mutation_b_attr_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+PlaylistCard,mutation_a_attr_val_mod_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_a_attr_val_mod_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_a_attr_val_mod_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_a_attr_val_mod_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_a_attr_val_mod_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_a_attr_val_mod_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_a_attr_val_mod_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+PlaylistCard,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+PlaylistCard,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+PlaylistCard,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+PlaylistCard,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+PlaylistCard,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+PlaylistCard,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_a_attr_val_mod_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_a_attr_val_mod_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_a_attr_val_mod_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_a_attr_val_mod_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_a_attr_val_mod_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_a_attr_val_mod_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_a_attr_val_mod_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,BROKEN,Expected condition failed: waiting for condition (element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-playlist-list-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-card-2][1]//*[@x-test-tpl-a-1]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,FAILED,java.lang.AssertionError
+PlaylistCard,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //as-card[@ng-reflect-title='The Goats']//a (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistNavLink,mutation_b_attr_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_b_attr_rem_mut_delta,HookXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_b_attr_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_b_attr_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_b_attr_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_b_attr_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_b_attr_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
+PlaylistCard,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 PlaylistNavLink,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
-PlaylistNavLink,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-as-nav-links-7]//*[@x-test-tpl-ul-2]//*[@x-test-hook-li-3][1]//*[@x-test-hook-as-nav-link-4]//*[@x-test-tpl-a-1]//*[@x-test-hook-span-3]"}
-PlaylistNavLink,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,BROKEN,stale element reference: stale element not found in the current frame
+PlaylistNavLink,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 PlaylistNavLink,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 PlaylistNavLink,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 PlaylistNavLink,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-PlaylistNavLink,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[contains(. 'The Goats')]"}
+PlaylistNavLink,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-nav-bar/as-nav-links/ul/li[1]/as-nav-link/a"}
+PlaylistNavLink,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+PlaylistNavLink,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,FAILED,java.lang.AssertionError
+PlaylistNavLink,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[@title='The Goats']"}
+PlaylistNavLink,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+PlaylistNavLink,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,BROKEN,stale element reference: stale element not found in the current frame
+PlaylistNavLink,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+PlaylistCard,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+PlaylistNavLink,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+PlaylistNavLink,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+PlaylistNavLink,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+PlaylistNavLink,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+PlaylistNavLink,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+PlaylistNavLink,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+PlaylistNavLink,mutation_b_attr_rem_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_b_attr_rem_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_b_attr_rem_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_b_attr_rem_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_b_attr_rem_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_b_attr_rem_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_b_attr_rem_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlists/div/as-playlist-list/div/as-card[1]/a (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+PlaylistCard,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+PlaylistCard,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //as-card[@ng-reflect-title='The Goats']//a (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+PlaylistCard,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistNavLink,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+PlaylistCard,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+PlaylistCard,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+PlaylistCard,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+PlaylistCard,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+PlaylistCard,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+PlaylistCard,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+PlaylistCard,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+PlaylistCard,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+PlaylistCard,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,PASSED,null
 PlaylistNavLink,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
-PlaylistNavLink,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-as-nav-links-7]//*[@x-test-tpl-ul-2]//*[@x-test-hook-li-3][1]//*[@x-test-hook-as-nav-link-4]//*[@x-test-tpl-a-1]//*[@x-test-hook-span-3]"}
-PlaylistNavLink,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,BROKEN,stale element reference: stale element not found in the current frame
+PlaylistNavLink,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 PlaylistNavLink,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 PlaylistNavLink,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 PlaylistNavLink,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-PlaylistNavLink,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[contains(. 'The Goats')]"}
-NavbarLinkLi,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+PlaylistNavLink,mutation_a_attr_val_mod_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_a_attr_val_mod_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_a_attr_val_mod_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_a_attr_val_mod_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_a_attr_val_mod_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_a_attr_val_mod_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistNavLink,mutation_a_attr_val_mod_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+PlaylistCard,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+PlaylistCard,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+PlaylistCard,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+PlaylistCard,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+PlaylistCard,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+PlaylistNavLink,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+PlaylistCard,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+PlaylistCard,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+PlaylistCard,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+PlaylistCard,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+PlaylistCard,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX'] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistCard,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+PlaylistNavLink,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-nav-bar/as-nav-links/ul/li[1]/as-nav-link/a"}
+PlaylistNavLink,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-as-nav-links-7]//*[@x-test-tpl-ul-2]//*[@x-test-hook-li-3][1]//*[@x-test-hook-as-nav-link-4]//*[@x-test-tpl-a-1]"}
+PlaylistNavLink,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,FAILED,java.lang.AssertionError
+PlaylistNavLink,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[@title='The Goats']"}
+PlaylistNavLink,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@title='The Goats']"}
+PlaylistNavLink,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,BROKEN,stale element reference: stale element not found in the current frame
+PlaylistNavLink,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (//a[contains(@href  '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2] (tried for 5 second(s) with 500 milliseconds interval)
+PlaylistNavLink,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+PlaylistNavLink,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null

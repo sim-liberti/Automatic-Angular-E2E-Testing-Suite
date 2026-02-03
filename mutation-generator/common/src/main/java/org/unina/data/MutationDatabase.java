@@ -14,7 +14,8 @@ public class MutationDatabase {
                 "element TEXT, " +
                 "mutation_name TEXT, " +
                 "mutation_type TEXT, " +
-                "mutation_id TEXT)";
+                "mutation_id TEXT," +
+                "status TEXT DEFAULT 'PENDING')"; // PENDING, RUNNING, COMPLETE
 
         String filesTableSQL = "CREATE TABLE IF NOT EXISTS mutated_files (" +
                 "uuid TEXT PRIMARY KEY, " +
@@ -45,7 +46,7 @@ public class MutationDatabase {
     public Set<Mutation> getPendingMutations() {
         Set<Mutation> mutations = new HashSet<>();
 
-        String sql = "SELECT * FROM mutations"; // ORDER BY mutation_name ASC LIMIT 1
+        String sql = "SELECT * FROM mutations WHERE status IN ('PENDING', 'RUNNING')"; // ORDER BY mutation_name ASC LIMIT 1
 
         try (Connection conn = DriverManager.getConnection(DB_URL);
              PreparedStatement stmt = conn.prepareStatement(sql);
@@ -129,4 +130,16 @@ public class MutationDatabase {
         }
     }
 
+    public void updateMutation(String mutation_id, String status) throws SQLException {
+        String sql = "UPDATE mutations SET status = ? WHERE uuid = ?";
+        try (Connection conn = DriverManager.getConnection(DB_URL)) {
+            var stmt = conn.prepareStatement(sql);
+            stmt.setString(1, status);
+            stmt.setString(2, mutation_id);
+            stmt.executeUpdate();
+        } catch (SQLException e) {
+            System.out.println("Error updating the mutation: " + e.getMessage());
+            throw e;
+        }
+    }
 }

@@ -1,8 +1,8 @@
-Locator,Total,Success,Fragility,Obsolescence,Not Compiled
-RelativeXPathTest,96,33,14,17,32
-AbsoluteXPathTest,96,29,18,17,32
-RobulaXPathTest,96,32,15,17,32
-KatalonXPathTest,96,3,44,17,32
-SeleniumXPathTest,96,33,14,17,32
-RobulaPlusXPathTest,96,37,10,17,32
-HookXPathTest,96,34,13,17,32
+﻿Locator,Total,Success,Fragility,Obsolescence,Not Compiled
+RelativeXPathTest,42,16,10,1,15
+AbsoluteXPathTest,42,17,9,1,15
+RobulaXPathTest,42,17,9,1,15
+KatalonXPathTest,42,0,26,1,15
+SeleniumXPathTest,42,17,9,1,15
+RobulaPlusXPathTest,42,17,9,1,15
+HookXPathTest,42,20,6,1,15

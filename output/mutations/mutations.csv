@@ -1,144 +1,78 @@
 Nome,Elemento,Mutazione,Stato,Errore
-NavbarLinkLi,alpha,a,KO,Target element has no attributes
-NavbarLinkLi,beta,a,KO,Target element has no attributes
-NavbarLinkLi,alpha,b,KO,Target element has no valid candidate attributes
-NavbarLinkLi,beta,b,KO,Target element has no valid candidate attributes
-NavbarLinkLi,alpha,c,KO,Target element has no id attribute
-NavbarLinkLi,beta,c,KO,Target element has no id attribute
-NavbarLinkLi,alpha,d,KO,Target element text content is empty
-NavbarLinkLi,beta,d,OK,
-NavbarLinkLi,alpha,e,KO,Target element text content is empty
-NavbarLinkLi,beta,e,OK,
-NavbarLinkLi,alpha,f,KO,The parent is null or empty
-NavbarLinkLi,beta,f,OK,
-NavbarLinkLi,alpha,g,OK,
-NavbarLinkLi,beta,g,OK,
-NavbarLinkLi,alpha,h,OK,
-NavbarLinkLi,beta,h,OK,
-NavbarLinkLi,alpha,i,OK,
-NavbarLinkLi,beta,i,OK,
-NavbarLinkLi,alpha,j,OK,
-NavbarLinkLi,beta,j,OK,
-NavbarLinkLi,alpha,k,OK,
-NavbarLinkLi,beta,k,OK,
-InputField,alpha,a,OK,
-InputField,delta,a,KO,Target element has no attributes
-InputField,beta,a,KO,Target element has no attributes
-InputField,gamma,a,KO,Target element has no attributes
-InputField,alpha,b,OK,
-InputField,delta,b,KO,Target element has no valid candidate attributes
-InputField,beta,b,KO,Target element has no valid candidate attributes
-InputField,gamma,b,KO,Target element has no valid candidate attributes
-InputField,alpha,c,KO,Target element has no id attribute
-InputField,delta,c,KO,Target element has no id attribute
-InputField,beta,c,KO,Target element has no id attribute
-InputField,gamma,c,KO,Target element has no id attribute
-InputField,alpha,d,KO,Target element text content is empty
-InputField,delta,d,KO,Target element has no child nodes
-InputField,beta,d,OK,
-InputField,gamma,d,OK,
-InputField,alpha,e,KO,Target element text content is empty
-InputField,delta,e,KO,Target element has no child nodes
-InputField,beta,e,OK,
-InputField,gamma,e,OK,
-InputField,alpha,f,OK,
-InputField,delta,f,OK,
-InputField,beta,f,OK,
-InputField,gamma,f,KO,The parent is null or empty
-InputField,alpha,g,OK,
-InputField,delta,g,OK,
-InputField,beta,g,OK,
-InputField,gamma,g,OK,
-InputField,alpha,h,OK,
-InputField,delta,h,OK,
-InputField,beta,h,OK,
-InputField,gamma,h,OK,
-InputField,alpha,i,OK,
-InputField,delta,i,OK,
-InputField,beta,i,OK,
-InputField,gamma,i,OK,
-InputField,alpha,j,OK,
-InputField,delta,j,OK,
-InputField,beta,j,OK,
-InputField,gamma,j,OK,
-InputField,alpha,k,OK,
-InputField,delta,k,OK,
-InputField,beta,k,OK,
-InputField,gamma,k,OK,
-ArtistCard,alpha,a,OK,
-ArtistCard,beta,a,KO,Target element has no attributes
-ArtistCard,gamma,a,KO,Target element has no attributes
-ArtistCard,alpha,b,OK,
-ArtistCard,beta,b,KO,Target element has no valid candidate attributes
-ArtistCard,gamma,b,KO,Target element has no valid candidate attributes
-ArtistCard,alpha,c,KO,Target element has no id attribute
-ArtistCard,beta,c,KO,Target element has no id attribute
-ArtistCard,gamma,c,KO,Target element has no id attribute
-ArtistCard,alpha,d,KO,Target element text content is empty
-ArtistCard,beta,d,OK,
-ArtistCard,gamma,d,KO,Target element text content is empty
-ArtistCard,alpha,e,KO,Target element text content is empty
-ArtistCard,beta,e,OK,
-ArtistCard,gamma,e,KO,Target element text content is empty
-ArtistCard,alpha,f,KO,The parent is null or empty
-ArtistCard,beta,f,OK,
-ArtistCard,gamma,f,OK,
-ArtistCard,alpha,g,OK,
-ArtistCard,beta,g,OK,
-ArtistCard,gamma,g,OK,
-ArtistCard,alpha,h,OK,
-ArtistCard,beta,h,OK,
-ArtistCard,gamma,h,OK,
-ArtistCard,alpha,i,OK,
-ArtistCard,beta,i,OK,
-ArtistCard,gamma,i,OK,
-ArtistCard,alpha,j,OK,
-ArtistCard,beta,j,OK,
-ArtistCard,gamma,j,OK,
-ArtistCard,alpha,k,OK,
-ArtistCard,beta,k,OK,
-ArtistCard,gamma,k,OK,
-CardTitle,alpha,a,KO,Target element has no attributes
-CardTitle,delta,a,KO,Target element has no attributes
-CardTitle,beta,a,KO,Target element has no attributes
-CardTitle,gamma,a,OK,
-CardTitle,alpha,b,KO,Target element has no valid candidate attributes
-CardTitle,delta,b,KO,Target element has no valid candidate attributes
-CardTitle,beta,b,KO,Target element has no valid candidate attributes
-CardTitle,gamma,b,OK,
-CardTitle,alpha,c,KO,Target element has no id attribute
-CardTitle,delta,c,KO,Target element has no id attribute
-CardTitle,beta,c,KO,Target element has no id attribute
-CardTitle,gamma,c,KO,Target element has no id attribute
-CardTitle,alpha,d,OK,
-CardTitle,delta,d,OK,
-CardTitle,beta,d,KO,Target element text content is empty
-CardTitle,gamma,d,KO,Target element text content is empty
-CardTitle,alpha,e,OK,
-CardTitle,delta,e,OK,
-CardTitle,beta,e,KO,Target element text content is empty
-CardTitle,gamma,e,KO,Target element text content is empty
-CardTitle,alpha,f,OK,
-CardTitle,delta,f,OK,
-CardTitle,beta,f,OK,
-CardTitle,gamma,f,KO,The parent is null or empty
-CardTitle,alpha,g,OK,
-CardTitle,delta,g,OK,
-CardTitle,beta,g,OK,
-CardTitle,gamma,g,OK,
-CardTitle,alpha,h,OK,
-CardTitle,delta,h,OK,
-CardTitle,beta,h,OK,
-CardTitle,gamma,h,OK,
-CardTitle,alpha,i,OK,
-CardTitle,delta,i,OK,
-CardTitle,beta,i,OK,
-CardTitle,gamma,i,OK,
-CardTitle,alpha,j,OK,
-CardTitle,delta,j,OK,
-CardTitle,beta,j,OK,
-CardTitle,gamma,j,OK,
-CardTitle,alpha,k,OK,
-CardTitle,delta,k,OK,
-CardTitle,beta,k,OK,
-CardTitle,gamma,k,OK,
+PlaylistCard,alpha,a,OK,
+PlaylistCard,delta,a,KO,Target element has no attributes
+PlaylistCard,beta,a,OK,
+PlaylistCard,alpha,b,OK,
+PlaylistCard,delta,b,KO,Target element has no valid candidate attributes
+PlaylistCard,beta,b,OK,
+PlaylistCard,alpha,c,KO,Target element has no id attribute
+PlaylistCard,delta,c,KO,Target element has no id attribute
+PlaylistCard,beta,c,KO,Target element has no id attribute
+PlaylistCard,alpha,d,KO,Target element text content is empty
+PlaylistCard,delta,d,KO,Target element text content is empty
+PlaylistCard,beta,d,KO,Target element text content is empty
+PlaylistCard,alpha,e,KO,Target element text content is empty
+PlaylistCard,delta,e,KO,Target element text content is empty
+PlaylistCard,beta,e,KO,Target element text content is empty
+PlaylistCard,alpha,f,OK,
+PlaylistCard,delta,f,OK,
+PlaylistCard,beta,f,KO,The parent is null or empty
+PlaylistCard,alpha,g,OK,
+PlaylistCard,delta,g,OK,
+PlaylistCard,beta,g,OK,
+PlaylistCard,alpha,h,OK,
+PlaylistCard,delta,h,OK,
+PlaylistCard,beta,h,OK,
+PlaylistCard,alpha,i,OK,
+PlaylistCard,delta,i,OK,
+PlaylistCard,beta,i,OK,
+PlaylistCard,alpha,j,OK,
+PlaylistCard,delta,j,OK,
+PlaylistCard,beta,j,OK,
+PlaylistCard,alpha,k,OK,
+PlaylistCard,delta,k,OK,
+PlaylistCard,beta,k,OK,
+PlaylistNavLink,alpha,a,OK,
+PlaylistNavLink,delta,a,OK,
+PlaylistNavLink,beta,a,OK,
+PlaylistNavLink,gamma,a,OK,
+PlaylistNavLink,alpha,b,OK,
+PlaylistNavLink,delta,b,OK,
+PlaylistNavLink,beta,b,OK,
+PlaylistNavLink,gamma,b,OK,
+PlaylistNavLink,alpha,c,KO,Target element has no id attribute
+PlaylistNavLink,delta,c,KO,Target element has no id attribute
+PlaylistNavLink,beta,c,KO,Target element has no id attribute
+PlaylistNavLink,gamma,c,KO,Target element has no id attribute
+PlaylistNavLink,alpha,d,OK,
+PlaylistNavLink,delta,d,KO,Target element text content is empty
+PlaylistNavLink,beta,d,KO,Target element text content is empty
+PlaylistNavLink,gamma,d,KO,Target element text content is empty
+PlaylistNavLink,alpha,e,OK,
+PlaylistNavLink,delta,e,KO,Target element text content is empty
+PlaylistNavLink,beta,e,KO,Target element text content is empty
+PlaylistNavLink,gamma,e,KO,Target element text content is empty
+PlaylistNavLink,alpha,f,OK,
+PlaylistNavLink,delta,f,OK,
+PlaylistNavLink,beta,f,KO,The parent is null or empty
+PlaylistNavLink,gamma,f,KO,The parent is null or empty
+PlaylistNavLink,alpha,g,OK,
+PlaylistNavLink,delta,g,OK,
+PlaylistNavLink,beta,g,OK,
+PlaylistNavLink,gamma,g,OK,
+PlaylistNavLink,alpha,h,OK,
+PlaylistNavLink,delta,h,OK,
+PlaylistNavLink,beta,h,OK,
+PlaylistNavLink,gamma,h,OK,
+PlaylistNavLink,alpha,i,OK,
+PlaylistNavLink,delta,i,OK,
+PlaylistNavLink,beta,i,OK,
+PlaylistNavLink,gamma,i,OK,
+PlaylistNavLink,alpha,j,OK,
+PlaylistNavLink,delta,j,OK,
+PlaylistNavLink,beta,j,OK,
+PlaylistNavLink,gamma,j,OK,
+PlaylistNavLink,alpha,k,OK,
+PlaylistNavLink,delta,k,OK,
+PlaylistNavLink,beta,k,OK,
+PlaylistNavLink,gamma,k,OK,

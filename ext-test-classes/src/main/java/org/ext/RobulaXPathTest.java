@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import java.util.List;
 import java.util.Objects;
 
 import static org.junit.Assert.*;
@@ -20,23 +19,22 @@ public class RobulaXPathTest extends BaseTest {
     public void testRobulaXPath() throws InterruptedException {
         driver.get(baseUrl);
 
-        // Search link in sidebar
+        // Link MyPlaylists
+        driver.findElement(
+            By.xpath("//a[@ng-reflect-router-link='/collection/playlists']")
+        ).click();
+
+        Thread.sleep(200);
+        // First playlist
         wait.until(ExpectedConditions.elementToBeClickable(
-            By.xpath("//a[@ng-reflect-router-link='/search']")
+            By.xpath("//a[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX']")
         )).click();
 
-        // Search input
-        WebElement searchInput = wait.until(ExpectedConditions.visibilityOfElementLocated(
-            By.xpath("//input")
-        ));
-        searchInput.clear();
-        searchInput.sendKeys("TonyPitony");
-        Thread.sleep(1000);
-
-        // Results
-        List<WebElement> results = driver.findElement(
-            By.xpath("//div[3]/div")
-        ).findElements(By.xpath(".//*[normalize-space()='TonyPitony']"));
-        assertFalse(results.isEmpty());
+        // Playlist sidebar
+        WebElement playlist = driver.findElement(
+            By.xpath("//a[@ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX']")
+        );
+        Thread.sleep(500);
+        assertTrue(Objects.requireNonNull(playlist.getDomAttribute("class")).contains("active"));
     }
 }

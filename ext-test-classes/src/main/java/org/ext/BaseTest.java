@@ -35,7 +35,7 @@ public abstract class BaseTest {
             authenticate();
         }
         driver.get(baseUrl);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
     }
 
     @After

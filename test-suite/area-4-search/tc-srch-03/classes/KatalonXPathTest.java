@@ -35,7 +35,7 @@ public class KatalonXPathTest extends BaseTest {
 
         // Results
         List<WebElement> results = driver.findElement(
-            By.xpath("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]")
+            By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]")
         ).findElements(By.xpath(".//*[normalize-space()='TonyPitony']"));
         assertFalse(results.isEmpty());
     }

@@ -1,564 +1,4 @@
 Name,Id,Locator,Tag,Status,Error
-SongCard,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
-SongCard,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
-SongCard,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
-SongCard,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
-SongCard,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
-SongCard,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
-SongCard,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
-InputField,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
-InputField,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
-InputField,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
-InputField,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Artists  songs  albums  or playlists'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
-InputField,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-InputField,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
-SongCardContainer,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[2]/div"}
-SongCardContainer,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-div-12]"}
-SongCardContainer,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
-SongCardContainer,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[2]/div[1]"}
-SongCardContainer,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@class='mb-8']"}
-SongCardContainer,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='mb-8']"}
-SongCardContainer,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"css selector" "selector":".mb-8"}
-SongCardContainer,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
-SongCard,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
-SongCard,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
-SongCard,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
-SongCard,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-SongCard,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
-SongCard,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-SongCard,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
-NavbarLinkLi,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
-NavbarLinkLi,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-NavbarLinkLi,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
-NavbarLinkLi,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-NavbarLinkLi,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
-SongCard,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
-SongCard,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
-SongCard,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
-SongCard,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
-SongCard,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
-SongCard,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
-SongCard,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
-SongCardContainer,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,PASSED,null
-SongCardContainer,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,PASSED,null
-SongCardContainer,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,PASSED,null
-SongCardContainer,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
-SongCardContainer,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
-SongCardContainer,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
-SongCardContainer,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
-InputField,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
-InputField,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
-InputField,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
-InputField,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
-InputField,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
-InputField,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
-InputField,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
-NavbarLinkLi,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
-NavbarLinkLi,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
-SongCard,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
-SongCardContainer,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
-SongCardContainer,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
-SongCardContainer,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
-SongCardContainer,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
-SongCardContainer,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
-SongCardContainer,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
-InputField,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
-InputField,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
-InputField,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
-InputField,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
-InputField,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
-InputField,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
-SongCard,mutation_a_attr_val_mod_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_a_attr_val_mod_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_a_attr_val_mod_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_a_attr_val_mod_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_a_attr_val_mod_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_a_attr_val_mod_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_a_attr_val_mod_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
-NavbarLinkLi,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
-NavbarLinkLi,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-NavbarLinkLi,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
-NavbarLinkLi,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-NavbarLinkLi,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
-SongCardContainer,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
-SongCardContainer,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
-SongCardContainer,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
-SongCardContainer,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
-SongCardContainer,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
-SongCardContainer,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
-SongCardContainer,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
-SongCard,mutation_a_attr_val_mod_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_a_attr_val_mod_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_a_attr_val_mod_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_a_attr_val_mod_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_a_attr_val_mod_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_a_attr_val_mod_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_a_attr_val_mod_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,PASSED,null
-SongCard,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,PASSED,null
-SongCard,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,PASSED,null
-SongCard,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,PASSED,null
-SongCard,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
-SongCard,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,PASSED,null
-SongCard,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,PASSED,null
-SongCardContainer,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_f_tag_mov_container_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
-InputField,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
-InputField,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
-InputField,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
-InputField,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
-InputField,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
-InputField,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"css selector" "selector":".mb-8"}
-InputField,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[2]/div"}
-SongCard,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-div-12]"}
-SongCard,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::div[1]"}
-SongCard,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[2]/div[1]"}
-SongCard,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@class='mb-8']"}
-SongCard,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='mb-8']"}
-SongCard,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"css selector" "selector":".mb-8"}
-InputField,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-input-3]//*[@x-test-tpl-div-1]//*[@x-test-hook-input-4] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Artists  songs  albums  or playlists'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.cssSelector: .input-container > .ng-untouched (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[2]/div"}
-SongCardContainer,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-div-12]"}
-SongCardContainer,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::div[1]"}
-SongCardContainer,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[2]/div[1]"}
-SongCardContainer,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@class='mb-8']"}
-SongCardContainer,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='mb-8']"}
-SongCardContainer,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"css selector" "selector":".mb-8"}
-InputField,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[2]/div"}
-InputField,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-div-12]"}
-InputField,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::div[1]"}
-InputField,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[2]/div[1]"}
-InputField,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@class='mb-8']"}
-InputField,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='mb-8']"}
-InputField,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"css selector" "selector":".mb-8"}
-InputField,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-input-3]//*[@x-test-tpl-div-1]//*[@x-test-hook-input-4] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::div[1]"}
-InputField,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[2]/div[1]"}
-InputField,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@class='mb-8']"}
-InputField,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='mb-8']"}
-InputField,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"css selector" "selector":".mb-8"}
-SongCardContainer,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[2]/div"}
-SongCardContainer,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-div-12]"}
-SongCardContainer,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::div[1]"}
-SongCardContainer,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[2]/div[1]"}
-SongCardContainer,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@class='mb-8']"}
-SongCardContainer,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='mb-8']"}
-SongCardContainer,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"css selector" "selector":".mb-8"}
-SongCard,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[2]/div"}
-SongCard,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-div-12]"}
-SongCard,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::div[1]"}
-SongCard,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[2]/div[1]"}
-SongCard,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@class='mb-8']"}
-SongCard,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='mb-8']"}
-SongCard,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"css selector" "selector":".mb-8"}
-SongCard,mutation_a_attr_val_mod_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_a_attr_val_mod_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_a_attr_val_mod_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_a_attr_val_mod_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_a_attr_val_mod_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_a_attr_val_mod_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_a_attr_val_mod_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[2]/div"}
-SongCard,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-div-12]"}
-SongCard,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::div[1]"}
-SongCard,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[2]/div[1]"}
-SongCard,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@class='mb-8']"}
-SongCard,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='mb-8']"}
-SongCard,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"css selector" "selector":".mb-8"}
-SongCard,mutation_b_attr_rem_mut_delta,AbsoluteXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_b_attr_rem_mut_delta,HookXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_b_attr_rem_mut_delta,KatalonXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_b_attr_rem_mut_delta,RelativeXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_b_attr_rem_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_b_attr_rem_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_b_attr_rem_mut_delta,SeleniumXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_b_attr_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_b_attr_rem_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_b_attr_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_b_attr_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_b_attr_rem_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_b_attr_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_b_attr_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_d_text_cont_mod_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_d_text_cont_mod_mut_beta,HookXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_d_text_cont_mod_mut_beta,KatalonXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_d_text_cont_mod_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_d_text_cont_mod_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_d_text_cont_mod_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_d_text_cont_mod_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_d_text_cont_mod_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_d_text_cont_mod_mut_beta,HookXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_d_text_cont_mod_mut_beta,KatalonXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_d_text_cont_mod_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_d_text_cont_mod_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_d_text_cont_mod_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_d_text_cont_mod_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-NavbarLinkLi,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_b_attr_rem_mut_gamma,AbsoluteXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_b_attr_rem_mut_gamma,HookXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_b_attr_rem_mut_gamma,KatalonXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_b_attr_rem_mut_gamma,RelativeXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_b_attr_rem_mut_gamma,RobulaPlusXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_b_attr_rem_mut_gamma,RobulaXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_b_attr_rem_mut_gamma,SeleniumXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_d_text_cont_mod_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_d_text_cont_mod_mut_beta,HookXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_d_text_cont_mod_mut_beta,KatalonXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_d_text_cont_mod_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_d_text_cont_mod_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_d_text_cont_mod_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_d_text_cont_mod_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
-SongCardContainer,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,BROKEN,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
-SongCard,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"css selector" "selector":".mb-8"}
-SongCardContainer,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[2]/div"}
-SongCardContainer,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-div-12]"}
-SongCardContainer,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::div[1]"}
-SongCardContainer,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[2]/div[1]"}
-SongCardContainer,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@class='mb-8']"}
-SongCardContainer,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='mb-8']"}
-SongCardContainer,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"css selector" "selector":".mb-8"}
-SongCard,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_e_text_cont_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_e_text_cont_rem_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_e_text_cont_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_e_text_cont_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_e_text_cont_rem_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_e_text_cont_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-NavbarLinkLi,mutation_e_text_cont_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-input-3]//*[@x-test-tpl-div-1]//*[@x-test-hook-input-4] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Artists  songs  albums  or playlists'] (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
-InputField,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.cssSelector: .input-container > .ng-untouched (tried for 5 second(s) with 500 milliseconds interval)
 InputField,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 InputField,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 InputField,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
@@ -566,45 +6,549 @@ InputField,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICA
 InputField,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 InputField,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 InputField,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-InputField,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[2]/div"}
-InputField,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-div-12]"}
-InputField,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::div[1]"}
-InputField,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[2]/div[1]"}
-InputField,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@class='mb-8']"}
-InputField,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='mb-8']"}
-InputField,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,BROKEN,no such element: Unable to locate element: {"method":"css selector" "selector":".mb-8"}
-SongCardContainer,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[2]/div"}
-SongCardContainer,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-div-12]"}
-SongCardContainer,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::div[1]"}
-SongCardContainer,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[2]/div[1]"}
-SongCardContainer,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@class='mb-8']"}
-SongCardContainer,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='mb-8']"}
-SongCardContainer,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"css selector" "selector":".mb-8"}
-SongCard,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[2]/div"}
-SongCard,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-div-12]"}
-SongCard,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::div[1]"}
-SongCard,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[2]/div[1]"}
-SongCard,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@class='mb-8']"}
-SongCard,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='mb-8']"}
-SongCard,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,BROKEN,no such element: Unable to locate element: {"method":"css selector" "selector":".mb-8"}
-SongCardContainer,mutation_e_text_cont_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_e_text_cont_rem_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_e_text_cont_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_e_text_cont_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_e_text_cont_rem_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_e_text_cont_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCardContainer,mutation_e_text_cont_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-SongCard,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[2]/div"}
-SongCard,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-div-12]"}
-SongCard,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::div[1]"}
-SongCard,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[2]/div[1]"}
-SongCard,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@class='mb-8']"}
-SongCard,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='mb-8']"}
-SongCard,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"css selector" "selector":".mb-8"}
+InputField,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+SongCard,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,PASSED,null
+SongCard,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+SongCard,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+SongCard,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+SongCard,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+SongCard,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+SongName,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+SongName,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
+SongName,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+SongName,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+SongName,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+SongName,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+SongName,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+SongName,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+SongName,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+SongName,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+SongName,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+SongName,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+SongName,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+SongName,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+SongCard,mutation_b_attr_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+SongCard,mutation_b_attr_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+SongCard,mutation_b_attr_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+SongCard,mutation_b_attr_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+SongCard,mutation_b_attr_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+SongCard,mutation_b_attr_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+SongCard,mutation_b_attr_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+InputField,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+InputField,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+InputField,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+InputField,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+InputField,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+InputField,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+InputField,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+SongName,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+InputField,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+InputField,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+InputField,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+InputField,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+InputField,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+InputField,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+SongCard,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+SongCard,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+SongCard,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+SongCard,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+SongCard,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+SongCard,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+SongCard,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+SongName,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+SongName,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,PASSED,null
+SongName,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+SongName,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+SongName,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+SongName,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+SongName,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+SongCard,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+SongCard,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+SongCard,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+SongCard,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+SongCard,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+SongCard,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+SongCard,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+SongCard,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+SongCard,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+SongCard,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+SongCard,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+SongCard,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+SongCard,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+SongCard,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
+SongName,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+SongName,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+SongName,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+SongName,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+SongName,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+SongName,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+SongName,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+InputField,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+InputField,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+InputField,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+InputField,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+InputField,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+InputField,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+SongCard,mutation_a_attr_val_mod_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+SongCard,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+SongCard,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+SongCard,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+SongCard,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+SongCard,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+SongCard,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+InputField,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+InputField,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+InputField,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+InputField,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+InputField,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+InputField,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+InputField,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+SongCard,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+SongCard,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+SongCard,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+SongCard,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+SongCard,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+SongCard,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+SongName,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+SongName,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+SongName,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+SongName,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+SongName,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+SongName,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+SongName,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+SongName,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+SongName,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+SongName,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+SongName,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+SongName,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+SongName,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+SongCard,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_d_text_cont_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+SongName,mutation_d_text_cont_mod_mut_beta,HookXPathTest,beta,PASSED,null
+SongName,mutation_d_text_cont_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+SongName,mutation_d_text_cont_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+SongName,mutation_d_text_cont_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+SongName,mutation_d_text_cont_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+SongName,mutation_d_text_cont_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+SongCard,mutation_b_attr_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+SongCard,mutation_b_attr_rem_mut_delta,HookXPathTest,delta,PASSED,null
+SongCard,mutation_b_attr_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+SongCard,mutation_b_attr_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+SongCard,mutation_b_attr_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+SongCard,mutation_b_attr_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+SongCard,mutation_b_attr_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+SongCard,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+SongCard,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+SongCard,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+SongCard,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+SongCard,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+SongCard,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+SongCard,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+SongCard,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+SongCard,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+SongCard,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+SongCard,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+SongCard,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+SongCard,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+SongCard,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-input-3]//*[@x-test-tpl-div-1]//*[@x-test-hook-input-4] (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Artists  songs  albums  or playlists'] (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.cssSelector: .input-container > .ng-untouched (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+InputField,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-input-3]//*[@x-test-tpl-div-1]//*[@x-test-hook-input-4] (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Artists  songs  albums  or playlists'] (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,BROKEN,Expected condition failed: waiting for visibility of element located by By.cssSelector: .input-container > .ng-untouched (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+InputField,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+InputField,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+InputField,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+InputField,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+InputField,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+InputField,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+InputField,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[2]/div"}
+InputField,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+InputField,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+InputField,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[2]/div[1]"}
+InputField,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+InputField,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+InputField,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+SongName,mutation_e_text_cont_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_e_text_cont_rem_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_e_text_cont_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_e_text_cont_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_e_text_cont_rem_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_e_text_cont_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_e_text_cont_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+InputField,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
+InputField,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+InputField,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+InputField,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+InputField,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+InputField,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+SongCard,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+SongCard,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+SongCard,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+SongCard,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+SongCard,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+SongCard,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+SongCard,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+SongName,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+SongName,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,PASSED,null
+SongName,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,PASSED,null
+SongName,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,PASSED,null
+SongName,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+SongName,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,PASSED,null
+SongName,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,PASSED,null
+SongCard,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+SongCard,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,PASSED,null
+SongCard,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,PASSED,null
+SongCard,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,PASSED,null
+SongCard,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+SongCard,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,PASSED,null
+SongCard,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,PASSED,null
+SongName,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+SongName,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+SongName,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+SongName,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+SongName,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+SongName,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+SongName,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+SongCard,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+SongCard,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,PASSED,null
+SongCard,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+SongCard,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+SongCard,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+SongCard,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+SongCard,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+SongCard,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+SongCard,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
+SongCard,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
+SongCard,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
+SongCard,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+SongCard,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
+SongCard,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
+SongName,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+SongName,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,PASSED,null
+SongName,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+SongName,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+SongName,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+SongName,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+SongName,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+SongCard,mutation_b_attr_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_b_attr_rem_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_b_attr_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_b_attr_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_b_attr_rem_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_b_attr_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_b_attr_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+SongCard,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+SongCard,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+SongCard,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+SongCard,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+SongCard,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+SongCard,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+SongName,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+SongName,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+SongName,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+SongName,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+SongName,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+SongName,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+SongName,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+SongName,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+SongName,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+SongName,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+SongName,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+SongName,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+SongName,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+SongName,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+SongName,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+SongName,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
+SongName,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+SongName,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+SongName,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+SongName,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+SongName,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+SongCard,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+InputField,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+InputField,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+InputField,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+InputField,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+InputField,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+InputField,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+InputField,mutation_e_text_cont_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+SongName,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+SongName,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+SongName,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+SongName,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+SongName,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+SongName,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+SongName,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+SongName,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+SongName,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+SongName,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+SongName,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+SongName,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+SongName,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+SongCard,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+SongCard,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
+SongCard,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+SongCard,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+SongCard,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+SongCard,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+SongCard,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+SongCard,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+SongCard,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+SongCard,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+SongCard,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+SongCard,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+SongCard,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+SongCard,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+SongCard,mutation_a_attr_val_mod_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-input-3]//*[@x-test-tpl-div-1]//*[@x-test-hook-input-4] (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+InputField,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[2]/div[1]"}
+InputField,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+InputField,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+InputField,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+SongCard,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+SongCard,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+SongName,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+SongName,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+SongName,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+SongName,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+SongName,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+SongName,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,BROKEN,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,BROKEN,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[2]/div[1]"}
+InputField,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+SongName,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+SongName,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+SongName,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+SongName,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+SongName,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+SongName,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+SongName,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+SongCard,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+SongCard,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,PASSED,null
+SongCard,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+SongCard,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+SongCard,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+SongCard,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+SongCard,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+SongName,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongName,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+SongName,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+SongName,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+SongName,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+SongName,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+SongName,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+SongName,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null

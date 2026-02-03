@@ -25,7 +25,7 @@ public abstract class BaseTest {
 
     @Before
     public final void setUp() {
-        baseUrl = "https://192.168.20.4:4200/";
+        baseUrl = "https://192.168.1.136:4200/";
         driver = WebDriverFactory.getDriver();
         wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         if (driver == null) {

@@ -6,9 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import java.util.List;
 import java.util.Objects;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import static org.junit.Assert.*;
 import static org.junit.Assert.assertTrue;
@@ -21,39 +20,24 @@ public class SeleniumXPathTest extends BaseTest {
     public void testSeleniumXPath() throws Exception {
         driver.get(baseUrl);
 
-        // Link MyPlaylists
-        driver.findElement(
-            By.xpath("//a[contains(text(),'My Playlists')]")
-        ).click();
-
-        // First playlist
-        wait.until(ExpectedConditions.refreshed(
-            ExpectedConditions.elementToBeClickable(By.xpath("(//a[contains(@href, '/playlist/0vhooTWkjMKTZXvnXthXdo')])[2]"))
+        // Search link in sidebar
+        wait.until(ExpectedConditions.elementToBeClickable(
+            By.xpath("//a[contains(text(),'Search')]")
         )).click();
 
-        // Song card
-        WebElement songCard = wait.until(ExpectedConditions.visibilityOfElementLocated(
-            By.xpath("//as-track-main-info")
+        // Search input
+        WebElement searchInput = wait.until(ExpectedConditions.visibilityOfElementLocated(
+            By.cssSelector(".input-container > .ng-untouched")
         ));
-        new Actions(driver).doubleClick(songCard).perform();
-
+        searchInput.clear();
+        searchInput.sendKeys("Akira Toriyama");
         Thread.sleep(1000);
-        // Next btn
-        driver.findElement(
-            By.cssSelector(".svg-icon-step-forward path")
-        ).click();
 
-        Thread.sleep(500);
-        // Second song card
-        String songCardText = driver.findElement(
-            By.cssSelector(".ng-star-inserted:nth-child(2) > .playlist-tracks-grid > .ng-star-inserted > .flex > .ellipsis-one-line")
-        ).getText();
-
-        // Now playing song
-        String nowPlayingText = wait.until(ExpectedConditions.visibilityOfElementLocated(
-            By.cssSelector(".ellipsis-one-line > .text-white")
-        )).getText();
-        assertEquals(songCardText, nowPlayingText);
+        // Results
+        List<WebElement> results = driver.findElement(
+            By.cssSelector(".ng-star-inserted:nth-child(3) > .common-grid")
+        ).findElements(By.xpath(".//h2[normalize-space()='Akira Toriyama']"));
+        assertTrue(results.isEmpty());
     }
 
 }

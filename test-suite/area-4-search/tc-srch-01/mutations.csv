@@ -1,26 +1,4 @@
 Nome,Elemento,Mutazione,Stato,Errore
-NavbarLinkLi,alpha,a,KO,Target element has no attributes
-NavbarLinkLi,beta,a,KO,Target element has no attributes
-NavbarLinkLi,alpha,b,KO,Target element has no valid candidate attributes
-NavbarLinkLi,beta,b,KO,Target element has no valid candidate attributes
-NavbarLinkLi,alpha,c,KO,Target element has no id attribute
-NavbarLinkLi,beta,c,KO,Target element has no id attribute
-NavbarLinkLi,alpha,d,KO,Target element text content is empty
-NavbarLinkLi,beta,d,OK,
-NavbarLinkLi,alpha,e,KO,Target element text content is empty
-NavbarLinkLi,beta,e,OK,
-NavbarLinkLi,alpha,f,KO,The parent is null or empty
-NavbarLinkLi,beta,f,OK,
-NavbarLinkLi,alpha,g,OK,
-NavbarLinkLi,beta,g,OK,
-NavbarLinkLi,alpha,h,OK,
-NavbarLinkLi,beta,h,OK,
-NavbarLinkLi,alpha,i,OK,
-NavbarLinkLi,beta,i,OK,
-NavbarLinkLi,alpha,j,OK,
-NavbarLinkLi,beta,j,OK,
-NavbarLinkLi,alpha,k,OK,
-NavbarLinkLi,beta,k,OK,
 InputField,alpha,a,OK,
 InputField,delta,a,KO,Target element has no attributes
 InputField,beta,a,KO,Target element has no attributes
@@ -35,12 +13,12 @@ InputField,beta,c,KO,Target element has no id attribute
 InputField,gamma,c,KO,Target element has no id attribute
 InputField,alpha,d,KO,Target element text content is empty
 InputField,delta,d,KO,Target element has no child nodes
-InputField,beta,d,OK,
-InputField,gamma,d,OK,
+InputField,beta,d,KO,Target element text content is empty
+InputField,gamma,d,KO,Target element text content is empty
 InputField,alpha,e,KO,Target element text content is empty
 InputField,delta,e,KO,Target element has no child nodes
 InputField,beta,e,OK,
-InputField,gamma,e,OK,
+InputField,gamma,e,KO,Target element text content is empty
 InputField,alpha,f,OK,
 InputField,delta,f,OK,
 InputField,beta,f,OK,
@@ -109,3 +87,36 @@ SongCard,alpha,k,OK,
 SongCard,delta,k,OK,
 SongCard,beta,k,OK,
 SongCard,gamma,k,OK,
+SongName,alpha,a,OK,
+SongName,delta,a,KO,Target element has no attributes
+SongName,beta,a,KO,Target element has no attributes
+SongName,alpha,b,OK,
+SongName,delta,b,KO,Target element has no valid candidate attributes
+SongName,beta,b,KO,Target element has no valid candidate attributes
+SongName,alpha,c,KO,Target element has no id attribute
+SongName,delta,c,KO,Target element has no id attribute
+SongName,beta,c,KO,Target element has no id attribute
+SongName,alpha,d,OK,
+SongName,delta,d,OK,
+SongName,beta,d,OK,
+SongName,alpha,e,OK,
+SongName,delta,e,OK,
+SongName,beta,e,OK,
+SongName,alpha,f,OK,
+SongName,delta,f,OK,
+SongName,beta,f,OK,
+SongName,alpha,g,OK,
+SongName,delta,g,OK,
+SongName,beta,g,OK,
+SongName,alpha,h,OK,
+SongName,delta,h,OK,
+SongName,beta,h,OK,
+SongName,alpha,i,OK,
+SongName,delta,i,OK,
+SongName,beta,i,OK,
+SongName,alpha,j,OK,
+SongName,delta,j,OK,
+SongName,beta,j,OK,
+SongName,alpha,k,OK,
+SongName,delta,k,OK,
+SongName,beta,k,OK,

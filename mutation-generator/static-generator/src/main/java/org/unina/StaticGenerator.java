@@ -11,7 +11,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class App {
+public class StaticGenerator {
     public static void main(String[] args) {
         ObjectMapper mapper = new ObjectMapper();
         Config config = new Config();

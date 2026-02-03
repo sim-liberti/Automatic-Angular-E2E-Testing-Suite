@@ -7,6 +7,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.Objects;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import static org.junit.Assert.*;
 import static org.junit.Assert.assertTrue;
@@ -24,19 +26,34 @@ public class KatalonXPathTest extends BaseTest {
             By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Browse'])[1]/following::a[1]")
         ).click();
 
-        Thread.sleep(200);
         // First playlist
-        wait.until(ExpectedConditions.elementToBeClickable(
+        wait.until(ExpectedConditions.visibilityOfElementLocated(
             By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Source Code'])[1]/following::h2[1]")
         )).click();
 
-        Thread.sleep(200);
-        // Playlist sidebar
-        WebElement playlist = driver.findElement(
-            By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Liked songs'])[1]/following::a[1]")
-        );
+        // Song card
+        WebElement songCard = wait.until(ExpectedConditions.visibilityOfElementLocated(
+            By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Album'])[1]/following::as-track-main-info[1]")
+        ));
+        new Actions(driver).doubleClick(songCard).perform();
+
+        Thread.sleep(1000);
+        // Next btn
+        driver.findElement(
+            By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Stop'])[1]/preceding::div[13]")
+        ).click();
+
         Thread.sleep(500);
-        assertTrue(Objects.requireNonNull(playlist.getDomAttribute("class")).contains("active"));
+        // Second song card
+        String songCardText = driver.findElement(
+            By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Michael Jackson'])[2]/preceding::div[1]")
+        ).getText();
+
+        // Now playing song
+        String nowPlayingText = wait.until(ExpectedConditions.visibilityOfElementLocated(
+            By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Jan 28, 2026'])[5]/following::a[1]")
+        )).getText();
+        assertEquals(songCardText, nowPlayingText);
     }
 
 }

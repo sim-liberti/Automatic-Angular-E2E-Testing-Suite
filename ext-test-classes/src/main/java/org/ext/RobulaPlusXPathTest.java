@@ -7,6 +7,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.Objects;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import static org.junit.Assert.*;
 import static org.junit.Assert.assertTrue;
@@ -21,21 +23,37 @@ public class RobulaPlusXPathTest extends BaseTest {
 
         // Link MyPlaylists
         driver.findElement(
-            By.xpath("//*[@ng-reflect-router-link='/collection/playlists']")
+            By.xpath("//*[@href='/collection/playlists']")
         ).click();
 
-        Thread.sleep(200);
         // First playlist
-        wait.until(ExpectedConditions.elementToBeClickable(
-            By.xpath("//*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX']")
+        wait.until(ExpectedConditions.visibilityOfElementLocated(
+            By.xpath("//*[@class='card' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX']")
         )).click();
 
-        // Playlist sidebar
-        WebElement playlist = driver.findElement(
-            By.xpath("//*[@title='The Goats']")
-        );
+        // Song card
+        WebElement songCard = wait.until(ExpectedConditions.visibilityOfElementLocated(
+            By.xpath("//*[1]/*/as-track-main-info")
+        ));
+        new Actions(driver).doubleClick(songCard).perform();
+
+        Thread.sleep(1000);
+        // Next btn
+        driver.findElement(
+            By.xpath("//*[@class='flex justify-center']/*[3]")
+        ).click();
+
         Thread.sleep(500);
-        assertTrue(Objects.requireNonNull(playlist.getDomAttribute("class")).contains("active"));
+        // Second song card
+        String songCardText = driver.findElement(
+            By.xpath("//*[2]/*/as-track-main-info")
+        ).getText();
+
+        // Now playing song
+        String nowPlayingText = wait.until(ExpectedConditions.visibilityOfElementLocated(
+            By.xpath("//*[@class='text-white hover:underline']")
+        )).getText();
+        assertEquals(songCardText, nowPlayingText);
     }
 
 }

@@ -32,47 +32,80 @@ PlaylistCard,beta,j,OK,
 PlaylistCard,alpha,k,OK,
 PlaylistCard,delta,k,OK,
 PlaylistCard,beta,k,OK,
-PlaylistNavLink,alpha,a,OK,
-PlaylistNavLink,delta,a,OK,
-PlaylistNavLink,beta,a,OK,
-PlaylistNavLink,gamma,a,OK,
-PlaylistNavLink,alpha,b,OK,
-PlaylistNavLink,delta,b,OK,
-PlaylistNavLink,beta,b,OK,
-PlaylistNavLink,gamma,b,OK,
-PlaylistNavLink,alpha,c,KO,Target element has no id attribute
-PlaylistNavLink,delta,c,KO,Target element has no id attribute
-PlaylistNavLink,beta,c,KO,Target element has no id attribute
-PlaylistNavLink,gamma,c,KO,Target element has no id attribute
-PlaylistNavLink,alpha,d,OK,
-PlaylistNavLink,delta,d,KO,Target element text content is empty
-PlaylistNavLink,beta,d,KO,Target element text content is empty
-PlaylistNavLink,gamma,d,KO,Target element text content is empty
-PlaylistNavLink,alpha,e,OK,
-PlaylistNavLink,delta,e,KO,Target element text content is empty
-PlaylistNavLink,beta,e,KO,Target element text content is empty
-PlaylistNavLink,gamma,e,KO,Target element text content is empty
-PlaylistNavLink,alpha,f,OK,
-PlaylistNavLink,delta,f,OK,
-PlaylistNavLink,beta,f,KO,The parent is null or empty
-PlaylistNavLink,gamma,f,KO,The parent is null or empty
-PlaylistNavLink,alpha,g,OK,
-PlaylistNavLink,delta,g,OK,
-PlaylistNavLink,beta,g,OK,
-PlaylistNavLink,gamma,g,OK,
-PlaylistNavLink,alpha,h,OK,
-PlaylistNavLink,delta,h,OK,
-PlaylistNavLink,beta,h,OK,
-PlaylistNavLink,gamma,h,OK,
-PlaylistNavLink,alpha,i,OK,
-PlaylistNavLink,delta,i,OK,
-PlaylistNavLink,beta,i,OK,
-PlaylistNavLink,gamma,i,OK,
-PlaylistNavLink,alpha,j,OK,
-PlaylistNavLink,delta,j,OK,
-PlaylistNavLink,beta,j,OK,
-PlaylistNavLink,gamma,j,OK,
-PlaylistNavLink,alpha,k,OK,
-PlaylistNavLink,delta,k,OK,
-PlaylistNavLink,beta,k,OK,
-PlaylistNavLink,gamma,k,OK,
+SongCard,alpha,a,OK,
+SongCard,delta,a,OK,
+SongCard,beta,a,OK,
+SongCard,gamma,a,OK,
+SongCard,alpha,b,OK,
+SongCard,delta,b,OK,
+SongCard,beta,b,OK,
+SongCard,gamma,b,OK,
+SongCard,alpha,c,KO,Target element has no id attribute
+SongCard,delta,c,KO,Target element has no id attribute
+SongCard,beta,c,KO,Target element has no id attribute
+SongCard,gamma,c,KO,Target element has no id attribute
+SongCard,alpha,d,KO,Target element text content is empty
+SongCard,delta,d,KO,Target element text content is empty
+SongCard,beta,d,KO,Target element text content is empty
+SongCard,gamma,d,KO,Target element text content is empty
+SongCard,alpha,e,KO,Target element text content is empty
+SongCard,delta,e,KO,Target element text content is empty
+SongCard,beta,e,KO,Target element text content is empty
+SongCard,gamma,e,KO,Target element text content is empty
+SongCard,alpha,f,OK,
+SongCard,delta,f,OK,
+SongCard,beta,f,OK,
+SongCard,gamma,f,KO,The parent is null or empty
+SongCard,alpha,g,OK,
+SongCard,delta,g,OK,
+SongCard,beta,g,OK,
+SongCard,gamma,g,OK,
+SongCard,alpha,h,OK,
+SongCard,delta,h,OK,
+SongCard,beta,h,OK,
+SongCard,gamma,h,OK,
+SongCard,alpha,i,OK,
+SongCard,delta,i,OK,
+SongCard,beta,i,OK,
+SongCard,gamma,i,OK,
+SongCard,alpha,j,OK,
+SongCard,delta,j,OK,
+SongCard,beta,j,OK,
+SongCard,gamma,j,OK,
+SongCard,alpha,k,OK,
+SongCard,delta,k,OK,
+SongCard,beta,k,OK,
+SongCard,gamma,k,OK,
+SongName,alpha,a,OK,
+SongName,delta,a,KO,Target element has no attributes
+SongName,beta,a,KO,Target element has no attributes
+SongName,alpha,b,OK,
+SongName,delta,b,KO,Target element has no valid candidate attributes
+SongName,beta,b,KO,Target element has no valid candidate attributes
+SongName,alpha,c,KO,Target element has no id attribute
+SongName,delta,c,KO,Target element has no id attribute
+SongName,beta,c,KO,Target element has no id attribute
+SongName,alpha,d,OK,
+SongName,delta,d,OK,
+SongName,beta,d,OK,
+SongName,alpha,e,OK,
+SongName,delta,e,OK,
+SongName,beta,e,OK,
+SongName,alpha,f,OK,
+SongName,delta,f,OK,
+SongName,beta,f,OK,
+SongName,alpha,g,OK,
+SongName,delta,g,OK,
+SongName,beta,g,OK,
+SongName,alpha,h,OK,
+SongName,delta,h,OK,
+SongName,beta,h,OK,
+SongName,alpha,i,OK,
+SongName,delta,i,OK,
+SongName,beta,i,OK,
+SongName,alpha,j,OK,
+SongName,delta,j,OK,
+SongName,beta,j,OK,
+SongName,alpha,k,OK,
+SongName,delta,k,OK,
+SongName,beta,k,OK,

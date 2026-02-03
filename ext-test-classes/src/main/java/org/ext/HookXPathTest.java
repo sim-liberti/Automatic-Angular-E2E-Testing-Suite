@@ -3,9 +3,12 @@ package org.ext;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.Objects;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -24,15 +27,32 @@ public class HookXPathTest extends BaseTest {
         ).click();
 
         // First playlist
-        wait.until(ExpectedConditions.refreshed(
-            ExpectedConditions.elementToBeClickable(By.xpath("//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-playlist-list-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-card-2][1]//*[@x-test-tpl-a-1]"))
+        wait.until(ExpectedConditions.elementToBeClickable(
+            By.xpath("//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-playlist-list-2]//*[@x-test-tpl-div-1]//*[@x-test-hook-as-card-2][1]//*[@x-test-tpl-a-1]")
         )).click();
 
-        // Playlist sidebar
-        WebElement playlist = driver.findElement(
-            By.xpath("//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-as-nav-links-7]//*[@x-test-tpl-ul-2]//*[@x-test-hook-li-3][1]//*[@x-test-hook-as-nav-link-4]//*[@x-test-tpl-a-1]")
-        );
+        // Song card
+        WebElement songCard = wait.until(ExpectedConditions.visibilityOfElementLocated(
+            By.xpath("//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-5]//*[@x-test-hook-as-playlist-track-14][1]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4]")
+        ));
+        new Actions(driver).doubleClick(songCard).perform();
+
+        Thread.sleep(1000);
+        // Next btn
+        driver.findElement(
+            By.xpath("//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-now-playing-bar-4]//*[@x-test-tpl-footer-1]//*[@x-test-hook-as-player-controls-5]//*[@x-test-tpl-div-1]//*[@x-test-hook-div-5]")
+        ).click();
+
         Thread.sleep(500);
-        assertTrue(Objects.requireNonNull(playlist.getDomAttribute("class")).contains("active"));
+        // Second song card
+        String songCardText = driver.findElement(
+            By.xpath("//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-main-view-3]//*[@x-test-tpl-div-2]//*[@x-test-tpl-div-5]//*[@x-test-hook-as-playlist-track-14][2]//*[@x-test-tpl-as-media-table-row-1]//*[@x-test-hook-as-track-main-info-4]//*[@x-test-tpl-div-3]//*[@x-test-hook-div-4]")
+        ).getText();
+
+        // Now playing song
+        String nowPlayingText = wait.until(ExpectedConditions.visibilityOfElementLocated(
+            By.xpath("//*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-now-playing-bar-4]//*[@x-test-tpl-footer-1]//*[@x-test-hook-as-track-current-info-3]//*[@x-test-tpl-div-3]//*[@x-test-hook-a-5]")
+        )).getText();
+        assertEquals(songCardText, nowPlayingText);
     }
 }

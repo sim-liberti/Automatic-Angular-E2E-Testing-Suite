@@ -4,12 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12d682f-6111-484c-bcef-cc6fdc79eaea" name="Changes" comment="[test] completed area-01 and tc-lib-01/02/03/05">
-      <change afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-03/mutations.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-03/mutations.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-04/mutations.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-04/mutations.json" afterDir="false" />
+    <list default="true" id="b12d682f-6111-484c-bcef-cc6fdc79eaea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/db-forest-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-03/classes/AbsoluteXPathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-03/classes/HookXPathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-03/classes/KatalonXPathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-03/classes/RelativeXPathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-03/classes/RobulaPlusXPathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-03/classes/RobulaXPathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-03/classes/SeleniumXPathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-03/mutations.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-04/mutations.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-04/mutations.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-locators/src/main/java/org/unina/robula/Robula.java" beforeDir="false" afterPath="$PROJECT_DIR$/custom-locators/src/main/java/org/unina/robula/Robula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-locators/src/main/java/org/unina/robulaplus/RobulaPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/custom-locators/src/main/java/org/unina/robulaplus/RobulaPlus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-locators/src/main/resources/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/custom-locators/src/main/resources/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/AbsoluteXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/AbsoluteXPathTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/HookXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/HookXPathTest.java" afterDir="false" />
@@ -19,18 +32,7 @@
       <change beforePath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/RobulaXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/RobulaXPathTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/SeleniumXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/SeleniumXPathTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generator-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/generator-config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/mutations/mutations.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-01/mutations.csv" beforeDir="false" afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-01/mutations.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-01/output/batches.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-01/output/stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-01/output/stats.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-02/mutations.json" beforeDir="false" afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-02/mutations.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-02/output/batches.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-02/output/stats.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-03/classes/KatalonXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-03/classes/KatalonXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-05/mutations.csv" beforeDir="false" afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-05/mutations.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-05/mutations.json" beforeDir="false" afterPath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-05/mutations.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-05/output/batches.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-05/output/stats.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/mutations/mutations.csv" beforeDir="false" afterPath="$PROJECT_DIR$/output/mutations/mutations.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,73 +90,73 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App (1).executor": "Debug",
-    "Application.App.executor": "Run",
-    "Application.MutationTester.executor": "Run",
-    "Application.Robula.executor": "Run",
-    "Application.RobulaPlus.executor": "Run",
-    "Application.StaticGenerator.executor": "Run",
-    "Application.StaticMutationGenerator.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JUnit.AbsoluteXPathTest.testAbsoluteXPath.executor": "Run",
-    "JUnit.HookTest.testHookXPath.executor": "Debug",
-    "JUnit.HookXPathTest.testHookXPath.executor": "Debug",
-    "JUnit.KatalonXPathTest.testKatalonXPath.executor": "Run",
-    "JUnit.MutationRulesTest.executor": "Run",
-    "JUnit.MutationRulesTest.testApplyAttributeIdentifierModificationRule_shouldReturnTrue.executor": "Run",
-    "JUnit.SearchSongTest.testSearchSong.executor": "Debug",
-    "JUnit.SeleniumXPathTest.testSeleniumXPath.executor": "Run",
-    "JUnit.UntitledTestCase.testUntitledTestCase.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "/home/simon/Documents/Projects/Automatic-Angular-E2E-Testing-Suite/mutation-tester/src/main/java/org/unina",
-    "last_opened_file_path": "/home/simon/Documents/Projects/Automatic-Angular-E2E-Testing-Suite/test-suite/area-4-search/tc-srch-04",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/simon/Documents/Projects/Automatic-Angular-E2E-Testing-Suite/mutation-tester-core/src/main/java/org/unina/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MutationTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Robula.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RobulaPlus.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StaticGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StaticMutationGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JUnit.AbsoluteXPathTest.testAbsoluteXPath.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HookTest.testHookXPath.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.HookXPathTest.testHookXPath.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.KatalonXPathTest.testKatalonXPath.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MutationRulesTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MutationRulesTest.testApplyAttributeIdentifierModificationRule_shouldReturnTrue.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchSongTest.testSearchSong.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.SeleniumXPathTest.testSeleniumXPath.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UntitledTestCase.testUntitledTestCase.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/simon/Documents/Projects/Automatic-Angular-E2E-Testing-Suite/mutation-tester/src/main/java/org/unina&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/simon/Documents/Projects/Automatic-Angular-E2E-Testing-Suite/ext-test-classes/src/main/java/org/ext&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/simon/Documents/Projects/Automatic-Angular-E2E-Testing-Suite/mutation-tester-core/src/main/java/org/unina/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-04" />
       <recent name="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext" />
-      <recent name="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-03/classes" />
-      <recent name="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-03" />
-      <recent name="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-05" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-04/classes" />
+      <recent name="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-04" />
+      <recent name="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-03/classes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-03/output/wat?" />
+      <recent name="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-04/output" />
+      <recent name="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-03/output" />
       <recent name="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-04/output" />
       <recent name="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-03/output" />
-      <recent name="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-05/output" />
-      <recent name="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-05" />
-      <recent name="$PROJECT_DIR$/test-suite/area-4-search/tc-srch-02/output" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.ext" />
@@ -217,6 +219,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HookXPathTest.testHookXPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ext-test-classes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ext.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ext" />
+      <option name="MAIN_CLASS_NAME" value="org.ext.HookXPathTest" />
+      <option name="METHOD_NAME" value="testHookXPath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="mutation-tester" />
       <method v="2">
@@ -233,11 +251,13 @@
       <item itemvalue="Application.RobulaPlus" />
       <item itemvalue="Application.StaticGenerator" />
       <item itemvalue="Application.MutationTester" />
+      <item itemvalue="JUnit.HookXPathTest.testHookXPath" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MutationTester" />
         <item itemvalue="Application.StaticGenerator" />
+        <item itemvalue="JUnit.HookXPathTest.testHookXPath" />
         <item itemvalue="Application.Robula" />
         <item itemvalue="Application.RobulaPlus" />
       </list>

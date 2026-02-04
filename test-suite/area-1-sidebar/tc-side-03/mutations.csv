@@ -1,0 +1,111 @@
+Nome,Elemento,Mutazione,Stato,Errore
+PlaylistNavLink,alpha,a,OK,
+PlaylistNavLink,delta,a,OK,
+PlaylistNavLink,beta,a,OK,
+PlaylistNavLink,gamma,a,OK,
+PlaylistNavLink,alpha,b,OK,
+PlaylistNavLink,delta,b,OK,
+PlaylistNavLink,beta,b,OK,
+PlaylistNavLink,gamma,b,OK,
+PlaylistNavLink,alpha,c,KO,Target element has no id attribute
+PlaylistNavLink,delta,c,KO,Target element has no id attribute
+PlaylistNavLink,beta,c,KO,Target element has no id attribute
+PlaylistNavLink,gamma,c,KO,Target element has no id attribute
+PlaylistNavLink,alpha,d,OK,
+PlaylistNavLink,delta,d,KO,Target element text content is empty
+PlaylistNavLink,beta,d,OK,
+PlaylistNavLink,gamma,d,KO,Target element text content is empty
+PlaylistNavLink,alpha,e,OK,
+PlaylistNavLink,delta,e,KO,Target element text content is empty
+PlaylistNavLink,beta,e,OK,
+PlaylistNavLink,gamma,e,KO,Target element text content is empty
+PlaylistNavLink,alpha,f,OK,
+PlaylistNavLink,delta,f,OK,
+PlaylistNavLink,beta,f,KO,The parent is null or empty
+PlaylistNavLink,gamma,f,KO,The parent is null or empty
+PlaylistNavLink,alpha,g,OK,
+PlaylistNavLink,delta,g,OK,
+PlaylistNavLink,beta,g,OK,
+PlaylistNavLink,gamma,g,OK,
+PlaylistNavLink,alpha,h,OK,
+PlaylistNavLink,delta,h,OK,
+PlaylistNavLink,beta,h,OK,
+PlaylistNavLink,gamma,h,OK,
+PlaylistNavLink,alpha,i,OK,
+PlaylistNavLink,delta,i,OK,
+PlaylistNavLink,beta,i,OK,
+PlaylistNavLink,gamma,i,OK,
+PlaylistNavLink,alpha,j,OK,
+PlaylistNavLink,delta,j,OK,
+PlaylistNavLink,beta,j,OK,
+PlaylistNavLink,gamma,j,OK,
+PlaylistNavLink,alpha,k,OK,
+PlaylistNavLink,delta,k,OK,
+PlaylistNavLink,beta,k,OK,
+PlaylistNavLink,gamma,k,OK,
+PlaylistNavContainer,alpha,a,OK,
+PlaylistNavContainer,beta,a,KO,Target element has no attributes
+PlaylistNavContainer,gamma,a,KO,Target element has no attributes
+PlaylistNavContainer,alpha,b,OK,
+PlaylistNavContainer,beta,b,KO,Target element has no valid candidate attributes
+PlaylistNavContainer,gamma,b,KO,Target element has no valid candidate attributes
+PlaylistNavContainer,alpha,c,KO,Target element has no id attribute
+PlaylistNavContainer,beta,c,KO,Target element has no id attribute
+PlaylistNavContainer,gamma,c,KO,Target element has no id attribute
+PlaylistNavContainer,alpha,d,KO,Target element text content is empty
+PlaylistNavContainer,beta,d,KO,Target element text content is empty
+PlaylistNavContainer,gamma,d,OK,
+PlaylistNavContainer,alpha,e,KO,Target element text content is empty
+PlaylistNavContainer,beta,e,KO,Target element text content is empty
+PlaylistNavContainer,gamma,e,OK,
+PlaylistNavContainer,alpha,f,KO,The parent is null or empty
+PlaylistNavContainer,beta,f,KO,The parent is null or empty
+PlaylistNavContainer,gamma,f,OK,
+PlaylistNavContainer,alpha,g,OK,
+PlaylistNavContainer,beta,g,OK,
+PlaylistNavContainer,gamma,g,OK,
+PlaylistNavContainer,alpha,h,OK,
+PlaylistNavContainer,beta,h,OK,
+PlaylistNavContainer,gamma,h,OK,
+PlaylistNavContainer,alpha,i,OK,
+PlaylistNavContainer,beta,i,OK,
+PlaylistNavContainer,gamma,i,OK,
+PlaylistNavContainer,alpha,j,OK,
+PlaylistNavContainer,beta,j,OK,
+PlaylistNavContainer,gamma,j,OK,
+PlaylistNavContainer,alpha,k,OK,
+PlaylistNavContainer,beta,k,OK,
+PlaylistNavContainer,gamma,k,OK,
+PlaylistName,alpha,a,KO,Target element has no attributes
+PlaylistName,delta,a,OK,
+PlaylistName,beta,a,KO,Target element has no attributes
+PlaylistName,alpha,b,KO,Target element has no valid candidate attributes
+PlaylistName,delta,b,OK,
+PlaylistName,beta,b,KO,Target element has no valid candidate attributes
+PlaylistName,alpha,c,KO,Target element has no id attribute
+PlaylistName,delta,c,KO,Target element has no id attribute
+PlaylistName,beta,c,KO,Target element has no id attribute
+PlaylistName,alpha,d,OK,
+PlaylistName,delta,d,KO,Target element has no child nodes
+PlaylistName,beta,d,KO,Target element text content is empty
+PlaylistName,alpha,e,OK,
+PlaylistName,delta,e,KO,Target element has no child nodes
+PlaylistName,beta,e,KO,Target element text content is empty
+PlaylistName,alpha,f,OK,
+PlaylistName,delta,f,OK,
+PlaylistName,beta,f,OK,
+PlaylistName,alpha,g,OK,
+PlaylistName,delta,g,OK,
+PlaylistName,beta,g,OK,
+PlaylistName,alpha,h,OK,
+PlaylistName,delta,h,OK,
+PlaylistName,beta,h,OK,
+PlaylistName,alpha,i,OK,
+PlaylistName,delta,i,OK,
+PlaylistName,beta,i,OK,
+PlaylistName,alpha,j,OK,
+PlaylistName,delta,j,OK,
+PlaylistName,beta,j,OK,
+PlaylistName,alpha,k,OK,
+PlaylistName,delta,k,OK,
+PlaylistName,beta,k,OK,

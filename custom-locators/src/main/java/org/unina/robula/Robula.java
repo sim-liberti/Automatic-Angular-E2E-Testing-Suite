@@ -72,7 +72,7 @@ public class Robula {
     public static void main(String[] args) {
         record element(String name, String xpath, String source){}
         List<element> elements = new ArrayList<>();
-        elements.add(new element("X", "/html/body/angular-spotify-root/as-layout/as-now-playing-bar/footer/div[2]/as-player-controls/div/div[2]", "home.html"));
+        elements.add(new element("1", "/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-playlist/div[1]/as-media-summary/div/h2", "playlist.html"));
 
         Robula robula = new Robula();
         for (element e: elements) {

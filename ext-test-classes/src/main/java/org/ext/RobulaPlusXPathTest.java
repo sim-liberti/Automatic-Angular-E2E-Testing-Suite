@@ -6,8 +6,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import java.util.List;
 import java.util.Objects;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import static org.junit.Assert.*;
 import static org.junit.Assert.assertTrue;
@@ -20,24 +21,40 @@ public class RobulaPlusXPathTest extends BaseTest {
     public void testRobulaXPath() throws Exception {
         driver.get(baseUrl);
 
-        // Search link in sidebar
-        wait.until(ExpectedConditions.elementToBeClickable(
-            By.xpath("//*[@ng-reflect-router-link='/search']")
+        // Link MyPlaylists
+        driver.findElement(
+            By.xpath("//*[@ng-reflect-router-link='/collection/playlists']")
+        ).click();
+
+        // First playlist
+        wait.until(ExpectedConditions.visibilityOfElementLocated(
+            By.xpath("//*[@_ngcontent-ng-c810943523='' and @ng-reflect-router-link='/playlist/0vhooTWkjMKTZXvnXthX']")
         )).click();
 
-        // Search input
-        WebElement searchInput = wait.until(ExpectedConditions.visibilityOfElementLocated(
-            By.xpath("//input")
+        // Song card
+        WebElement songCard = wait.until(ExpectedConditions.visibilityOfElementLocated(
+            By.xpath("//*[@ng-reflect-index='0']/*")
         ));
-        searchInput.clear();
-        searchInput.sendKeys("Akira Toriyama");
-        Thread.sleep(1000);
+        new Actions(driver).doubleClick(songCard).perform();
 
-        // Results
-        List<WebElement> results = driver.findElement(
-            By.xpath("//*[3]/*[@class='common-grid']")
-        ).findElements(By.xpath(".//h2[normalize-space()='Akira Toriyama']"));
-        assertTrue(results.isEmpty());
+        // Now playing song
+        Thread.sleep(500);
+        String prevPlayingText = wait.until(ExpectedConditions.visibilityOfElementLocated(
+            By.xpath("//*[@class='text-white hover:underline']")
+        )).getText();
+
+        // Next Btn
+        driver.findElement(
+            By.xpath("//*[@_ngcontent-ng-c38434958='' and @x-test-hook-div-5='']")
+        ).click();
+
+        // Next playing song
+        Thread.sleep(500);
+        String nextPlayingText = wait.until(ExpectedConditions.visibilityOfElementLocated(
+            By.xpath("//*[@class='text-white hover:underline']")
+        )).getText();
+
+        assertNotEquals(prevPlayingText, nextPlayingText);
     }
 
 }

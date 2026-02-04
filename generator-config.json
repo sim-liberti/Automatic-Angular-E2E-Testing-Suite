@@ -3,30 +3,21 @@
   "repositoryRootPath": "/home/simon/Documents/Projects/angular-spotify",
   "mutations": [
     {
-      "name": "InputField",
-      "file_path": "/home/simon/Documents/Projects/angular-spotify/libs/web/search/feature/src/lib/search.component.html",
+      "name": "NowPlaying",
+      "file_path": "/home/simon/Documents/Projects/angular-spotify/libs/web/shared/ui/track-current-info/src/lib/track-current-info.component.html",
       "target_matcher": {
         "type": "class",
         "key": "",
-        "value": "search-control"
+        "value": "text-white"
       }
     },
     {
-      "name": "ArtistCard",
-      "file_path": "/home/simon/Documents/Projects/angular-spotify/libs/web/search/feature/src/lib/search.component.html",
+      "name": "NextBtn",
+      "file_path": "/home/simon/Documents/Projects/angular-spotify/libs/web/shell/ui/player-controls/src/lib/player-controls.component.html",
       "target_matcher": {
         "type": "attribute",
-        "key": "[roundedImage]",
-        "value": "true"
-      }
-    },
-    {
-      "name": "CardTitle",
-      "file_path": "/home/simon/Documents/Projects/angular-spotify/libs/web/shared/ui/media/src/lib/card.component.html",
-      "target_matcher": {
-        "type": "class",
-        "key": "",
-        "value": "card-title"
+        "key": "(click)",
+        "value": "next()"
       }
     }
   ]

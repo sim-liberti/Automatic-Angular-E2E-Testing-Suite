@@ -56,10 +56,15 @@ java -jar static-generator.jar
 A `mutations.db` file will be generated at the project root. This database stores every mutation, including its name, type, ID, and the associated file path.
 
 ### Test the application
-Currently, tests are executed manually via an IDE.
-1. Create Test Classes: Place your test classes inside the `mutation-tester/org.unina/classes/` folder. 
-2. Extend BaseTest: Ensure every test class extends BaseTest. This class handles the Selenium WebDriver initialization and authentication logic (which can be customized). 
-3. Run the Tester: Run the App.java file located in the `mutation-tester/` module.
+Currently, tests are triggered manually via the IDE. 
+To use this tool, ensure that your test classes are already authored in JUnit and pre-compiled into `.class` files.
+
+**Prerequisites:**
+- **Compilation:** all test classes, including base classes and dependencies, must be compiled
+- **Framework:** tests must be written using **JUnit**
+- **Dependencies:** ensure all required classes are present in the build path
+
+To launch the tool, update the `main` method in the [MutationTester](https://github.com/sim-liberti/Automatic-Angular-E2E-Testing-Suite/blob/master/mutation-tester/src/main/java/org/unina/MutationTester.java) file, by adding your test folder path to the `args` array.
 
 **Test Results:** 
 

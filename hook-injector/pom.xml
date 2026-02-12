@@ -36,7 +36,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>org.unina.MutationTester</mainClass>
+                            <mainClass>org.unina.HookInjector</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

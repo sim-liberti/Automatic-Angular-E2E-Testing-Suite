@@ -39,7 +39,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>org.unina.MutationTester</mainClass>
+                            <mainClass>org.unina.StaticGenerator</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

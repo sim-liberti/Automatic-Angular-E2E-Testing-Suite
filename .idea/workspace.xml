@@ -4,35 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12d682f-6111-484c-bcef-cc6fdc79eaea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/db-forest-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-03/classes/AbsoluteXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-03/classes/HookXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-03/classes/KatalonXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-03/classes/RelativeXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-03/classes/RobulaPlusXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-03/classes/RobulaXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-03/classes/SeleniumXPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-03/mutations.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-04/mutations.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suite/area-1-sidebar/tc-side-04/mutations.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="b12d682f-6111-484c-bcef-cc6fdc79eaea" name="Changes" comment="[fix] minor fixes&#10;- better error classification&#10;- checks and creates the output folder for tests and mutations">
+      <change afterPath="$PROJECT_DIR$/test-suite/AnuglarSpotifyTests.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-locators/src/main/java/org/unina/robula/Robula.java" beforeDir="false" afterPath="$PROJECT_DIR$/custom-locators/src/main/java/org/unina/robula/Robula.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-locators/src/main/java/org/unina/robulaplus/RobulaPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/custom-locators/src/main/java/org/unina/robulaplus/RobulaPlus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-locators/src/main/resources/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/custom-locators/src/main/resources/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/AbsoluteXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/AbsoluteXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/HookXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/HookXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/KatalonXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/KatalonXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/RelativeXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/RelativeXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/RobulaPlusXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/RobulaPlusXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/RobulaXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/RobulaXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/SeleniumXPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext-test-classes/src/main/java/org/ext/SeleniumXPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/generator-config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/mutations/mutations.csv" beforeDir="false" afterPath="$PROJECT_DIR$/output/mutations/mutations.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hook-injector/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/hook-injector/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -664,7 +640,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770077301421</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="[fix] minor fixes&#10;- better error classification&#10;- checks and creates the output folder for tests and mutations">
+      <option name="closed" value="true" />
+      <created>1771685395131</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1771685395131</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -688,7 +672,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="[feat] implemented testing loop in mutation-tester" />
     <MESSAGE value="[feat] fixed location bug in mutation rules" />
     <MESSAGE value="[fix] fixed HTML content bug in mutated files using htmlParser() and saving only .body() in the db" />
     <MESSAGE value="[feat] reimplemented the tester engine main loop and refactored the tests classes to use JUnit4 and assertions" />
@@ -713,7 +696,8 @@
     <MESSAGE value="[test] created test classes for the search area and some of the player area" />
     <MESSAGE value="[test] completed tc-search-02. Starting tc-search-03" />
     <MESSAGE value="[test] completed area-01 and tc-lib-01/02/03/05" />
-    <option name="LAST_COMMIT_MESSAGE" value="[test] completed area-01 and tc-lib-01/02/03/05" />
+    <MESSAGE value="[fix] minor fixes&#10;- better error classification&#10;- checks and creates the output folder for tests and mutations" />
+    <option name="LAST_COMMIT_MESSAGE" value="[fix] minor fixes&#10;- better error classification&#10;- checks and creates the output folder for tests and mutations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

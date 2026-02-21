@@ -16,11 +16,16 @@ Before executing the injector, you must set up the `test-guard` environment.
     Run the following command to install the required Node.js modules:
     ```bash
     npm install
-    ```
-    > **Troubleshooting:** If the installation fails due to C compilation errors, try running:
-    > ```bash
-    > CFLAGS="-std=gnu89" npm install
-    > ```
+    ``` 
+
+**Troubleshooting**
+
+The installation process may fail if your system lacks the necessary C/C++ development tools required to compile native add-ons. Use the following workarounds based on your operating system:
+- **Linux environments:** Standard build tools are typically pre-installed, but compiler compatibility issues may occur. You can resolve this by explicitly specifying the C standard during installation:
+  ```bash
+  CFLAGS="-std=gnu89" npm install
+  ```
+- **Windows environments:** The Visual C++ build tools are strictly required. Refer to this [installation guide](https://github.com/bycloudai/InstallVSBuildToolsWindows) to properly configure your local environment. Once the build tools are successfully installed, re-run `npm install`.
 
 ## Usage
 

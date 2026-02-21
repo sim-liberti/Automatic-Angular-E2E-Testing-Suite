@@ -9,7 +9,7 @@ The project relies on a modular architecture:
 ├── 📁 hook-injector        // Module to inject custom hooks into the application under test
 ├── 📁 mutation-generator
 |   ├── 📁 common           // Shared logic and utilities
-|   ├── 📁 llm-generator    // (Upcoming) Mutation generator via LLM prompts
+|   ├── 📁 llm-generator    // (Not implemented) Mutation generator via LLM prompts
 |   └── 📁 static-generator // Mutation generator using static analysis
 ├── 📁 mutation-tester      // Module to execute automatic tests on generated mutations
 ├── generator-config.json   // Main configuration file for the suite
@@ -76,3 +76,6 @@ Upon completion, two files are generated in the output folder:
 For advanced usage regarding custom locators or hook injection, please refer to the specific module documentation:
 - [Custom Locators Documentation](custom-locators/README.md)
 - [Hook Injector Documentation](hook-injector/README.md)
+
+## Tests on the Angular-Spotify application
+To learn how to set up the [Angular-Spotify]() application and simulate my results in the test-suite folder, refer to the appropriate [readme file](test-suite/AnuglarSpotifyTests.md).

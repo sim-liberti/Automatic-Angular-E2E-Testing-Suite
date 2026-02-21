@@ -55,7 +55,7 @@ public abstract class BaseTest {
             );
             element.click();
             element.clear();
-            element.sendKeys("sim.liberti@gmail.com");
+            element.sendKeys("redacted");
 
             // Continue
             element = wait.until(

@@ -41,7 +41,14 @@ public class MutationEngine {
             generateMutations(mutation, parser, db);
             System.out.println("================================");
         }
-        saveCsv(Paths.get("output/mutations/mutations.csv").toString());
+
+        String outputDir = "output/mutations/";
+        try {
+            Files.createDirectories(Paths.get(outputDir));
+        } catch (IOException e) {
+            System.err.println("Cannot create output directory: " + e.getLocalizedMessage());
+        }
+        saveCsv(Paths.get(outputDir + "mutations.csv").toString());
     }
 
     public static void generateMutations(MutationConfig mutation, Parser parser, MutationDatabase db) throws IOException {

@@ -16,6 +16,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.time.Duration;
 import java.time.Instant;
@@ -201,7 +202,7 @@ public class TestRunnerEngine {
             return new TestExecutionResult(TestStatus.PASSED, null);
         }
 
-        var failure = summary.getFailures().get(0);
+        var failure = summary.getFailures().getFirst();
         Throwable ex = failure.getException();
         String msg = ex.getMessage() != null
                 ? ex.getMessage().replace(",", " ")
@@ -211,7 +212,7 @@ public class TestRunnerEngine {
         msg = msg.replaceAll("(?m)" + "\n", "");
 
         TestStatus status = (ex instanceof java.lang.AssertionError ||
-                ex.getClass().getName().contains("WebDriverException")) // String check is safer for optional deps
+                ex instanceof org.openqa.selenium.WebDriverException) // String check is safer for optional deps
                 ? TestStatus.FAILED
                 : TestStatus.BROKEN;
 
@@ -266,8 +267,16 @@ public class TestRunnerEngine {
         System.out.println("\nTest results:");
         System.out.println(statsCsv);
 
-        saveCsv(batchCsv.toString(), Paths.get("output/tests/batches.csv").toString());
-        saveCsv(statsCsv.toString(), Paths.get("output/tests/stats.csv").toString());
+        String outputDir = "output/tests/";
+
+        try {
+            Files.createDirectories(Paths.get(outputDir));
+        } catch (IOException e) {
+            System.err.println("Cannot create output directory: " + e.getLocalizedMessage());
+        }
+
+        saveCsv(batchCsv.toString(), Paths.get(outputDir + "batches.csv").toString());
+        saveCsv(statsCsv.toString(), Paths.get(outputDir + "stats.csv").toString());
     }
 
     private static void saveCsv(String content, String path) {

@@ -9,7 +9,7 @@ Before executing the injector, you must set up the `test-guard` environment.
 1.  **Navigate to the module directory:**
     Open your terminal and change the directory to `test-hooks/test-guard`.
     ```bash
-    cd test-hooks/test-guard
+    cd ./hook-injector/test-hooks/test-guard
     ```
 
 2.  **Install Dependencies:**
@@ -34,6 +34,7 @@ Once the dependencies are installed, you can build and run the tool using the pr
 ### 1. Build the Project
 Compile the project using Maven:
 ```bash
+cd ./hook-injector
 mvn clean install
 ```
 

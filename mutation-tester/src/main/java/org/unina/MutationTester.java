@@ -59,10 +59,10 @@ public class MutationTester implements Callable<Integer> {
         return 0;
     }
 
-    public static void main(String[] unused) {
-        String[] args = {
-            "--test-dir", "/home/simon/Documents/Projects/Automatic-Angular-E2E-Testing-Suite/ext-test-classes/target/classes/"
-        };
+    public static void main(String[] args) {
+//        String[] args = {
+//            "--test-dir", "/home/simon/Documents/Projects/Automatic-Angular-E2E-Testing-Suite/ext-test-classes/target/classes/"
+//        };
         int exitCode = new CommandLine(new MutationTester()).execute(args);
         System.exit(exitCode);
     }

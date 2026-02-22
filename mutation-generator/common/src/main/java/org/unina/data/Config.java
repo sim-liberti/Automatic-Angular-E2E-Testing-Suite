@@ -12,6 +12,7 @@ import java.util.Map;
 public class Config {
     public String seed;
     public String repositoryRootPath;
+    public String npmRunCommand;
     public List<MutationConfig> mutations;
 
     public static Config loadConfiguration(Path jsonPath) {
@@ -30,12 +31,14 @@ public class Config {
     }
 
     private static String validate(Config config) {
-        if (!config.seed.isEmpty()){
-            try {
-                Integer.parseInt(config.seed);
-            } catch (NumberFormatException e) {
-                return "Seed must be an integer value";
-            }
+        try {
+            Integer.parseInt(config.seed);
+        } catch (NumberFormatException e) {
+            return "Seed must be an integer value";
+        }
+
+        if (config.npmRunCommand.isEmpty()){
+            return "Npm run command must be specified";
         }
 
         return "";

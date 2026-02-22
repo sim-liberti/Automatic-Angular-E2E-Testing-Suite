@@ -68,7 +68,7 @@ public class TestRunnerEngine {
 
     private static boolean startTargetApplication(NpmConsoleWrapper npm, Config config) throws IOException {
         System.out.println("Starting TypeScript application (npm start)...");
-        npm.start(config.repositoryRootPath, "npm start");
+        npm.start(config.repositoryRootPath, config.npmRunCommand);
 
         if (!npm.waitForRebuild(NPM_START_TIMEOUT_SEC)) {
             System.err.println("Failed to start TypeScript application within timeout.");

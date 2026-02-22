@@ -22,12 +22,17 @@ The project relies on a modular architecture:
 - [Maven](https://maven.apache.org/download.cgi)
 - Target project: a front-end project based on [AngularJS](https://angularjs.org/).
 
+### Releases
+You can run this tool by either building it from source or by using the pre-compiled binaries.
+If you want to skip the build process, you can download the ready-to-use .jar files directly from the Releases section of this repository. Once downloaded, place the `.jar` files in the project root and proceed directly to configuration and execution.
+
 ### Configuration
 To start using the tool, configure the `generator-config.json` file.
 
 **Configuration parameters**
 - `seed`: (Optional) A seed used to initialize the [RandomSelector](https://github.com/sim-liberti/Automatic-Angular-E2E-Testing-Suite/blob/master/mutation-generator/common/src/main/java/org/unina/util/RandomSelector.java) to ensure reproducible results. Leave blank for random execution.
 - `repositoryRootPath`: The absolute path to the Angular project you wish to mutate.
+- `npmRunCommand`: The command you use to run the Angular application (eg: `npm run dev`)
 - `mutations`: An array of objects defining the mutation rules.
   - `name`: The name of the mutation.
   - `file_path`: The absolute path of the file where the tag to mutate is located.
@@ -36,8 +41,10 @@ To start using the tool, configure the `generator-config.json` file.
     - `key`: The key of the attribute of the target element. Only necessary if you choose the `attribute` type.
     - `value`: The value of the class, text, id or attribute of the target element.
 
-### 2. Generate Mutations
-With the configuration in place, you need to compile the generator module and then execute it.
+> **NOTE:** All the shell commands in the following guide are written to be executed from the project root, referred to as (root).
+
+### Generate Mutations
+With the configuration in place, you need to compile the generator module and then execute it. If you downloaded the pre-compiled .jar file, skip to step 2.
 
 **Step 1: Build the Module**
 
@@ -45,26 +52,41 @@ Run the following Maven command to build specifically the static-generator modul
 ```bash
 mvn clean install -pl :static-generator -am
 ```
+After a successful build, the compiled .jar file will be created at `(root)/mutation-generator/static-generator/target/static-generator-1.0.0-jar-with-dependencies.jar`. Copy the created file to the project root.
 
 **Step 2: Run the Generator**
 
-After a successful build, a `static-generator.jar` file will be created at the project root. Execute it with:
+After downloading or compiling the .jar file, execute it with:
 ```bash
 java -jar static-generator.jar
 ```
+_Note: if you compiled the binary, use `static-generator-1.0.0-jar-with-dependencies.jar`_
 
 A `mutations.db` file will be generated at the project root. This database stores every mutation, including its name, type, ID, and the associated file path.
 
 ### Test the application
-Currently, tests are triggered manually via the IDE. 
-To use this tool, ensure that your test classes are already authored in JUnit and pre-compiled into `.class` files.
+With the configuration and the generated mutations in place, you need to compile the tester module. If you downloaded the pre-compiled .jar, skip to step 2.
 
 **Prerequisites:**
 - **Compilation:** all test classes, including base classes and dependencies, must be compiled
 - **Framework:** tests must be written using **JUnit**
 - **Dependencies:** ensure all required classes are present in the build path
 
-To launch the tool, update the `main` method in the [MutationTester](https://github.com/sim-liberti/Automatic-Angular-E2E-Testing-Suite/blob/master/mutation-tester/src/main/java/org/unina/MutationTester.java) file, by adding your test folder path to the `args` array.
+**Step 1: Build the Module**
+
+Run the following Maven command to build specifically the static-generator module and its dependencies:
+```bash
+mvn clean install -pl :mutation-tester -am
+```
+After a successful build, the compiled .jar file will be created at `(root)/mutation-tester/target/mutation-tester-1.0.0-jar-with-dependencies.jar`. Copy the created file to the project root.
+
+**Step 2: Run the Tester**
+
+After downloading or compiling the .jar file, execute it with:
+```bash
+java -jar mutation-tester.jar -td "path/to/your/compiled/test/classes"
+```
+_Note: if you compiled the binary, use `mutation-tester-1.0.0-jar-with-dependencies.jar`_
 
 **Test Results:** 
 
@@ -78,4 +100,4 @@ For advanced usage regarding custom locators or hook injection, please refer to 
 - [Hook Injector Documentation](hook-injector/README.md)
 
 ## Tests on the Angular-Spotify application
-To learn how to set up the [Angular-Spotify]() application and simulate my results in the test-suite folder, refer to the appropriate [readme file](test-suite/AnuglarSpotifyTests.md).
+To learn how to set up the [Angular-Spotify](https://github.com/trungvose/angular-spotify) application and simulate my results in the test-suite folder, refer to the appropriate [readme file](test-suite/AnuglarSpotifyTests.md).

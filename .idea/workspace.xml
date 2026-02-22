@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12d682f-6111-484c-bcef-cc6fdc79eaea" name="Changes" comment="[fix] minor fixes&#10;- better error classification&#10;- checks and creates the output folder for tests and mutations">
-      <change afterPath="$PROJECT_DIR$/test-suite/AnuglarSpotifyTests.md" afterDir="false" />
+    <list default="true" id="b12d682f-6111-484c-bcef-cc6fdc79eaea" name="Changes" comment="[docs] updated the documentation files&#10;- Included windows fixes for the HookInjector module&#10;- Created a guide to run the tool on the Angular-Spotify application">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hook-injector/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/hook-injector/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/generator-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutation-generator/common/src/main/java/org/unina/data/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-generator/common/src/main/java/org/unina/data/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutation-generator/static-generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-generator/static-generator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/MutationTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/MutationTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/TestRunnerEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/TestRunnerEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-suite/AnuglarSpotifyTests.md" beforeDir="false" afterPath="$PROJECT_DIR$/test-suite/AnuglarSpotifyTests.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,8 +247,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
       </set>
     </attachedChunks>
   </component>
@@ -327,6 +332,8 @@
       <workItem from="1770020642114" duration="27855000" />
       <workItem from="1770077161328" duration="257000" />
       <workItem from="1770109167288" duration="7892000" />
+      <workItem from="1771690370737" duration="3000" />
+      <workItem from="1771765584402" duration="10183000" />
     </task>
     <task id="LOCAL-00001" summary="[initial] caricamento di file di progetto">
       <option name="closed" value="true" />
@@ -648,7 +655,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771685395131</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="[docs] updated the documentation files&#10;- Included windows fixes for the HookInjector module&#10;- Created a guide to run the tool on the Angular-Spotify application">
+      <option name="closed" value="true" />
+      <created>1771690191135</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1771690191135</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -672,7 +687,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="[feat] fixed location bug in mutation rules" />
     <MESSAGE value="[fix] fixed HTML content bug in mutated files using htmlParser() and saving only .body() in the db" />
     <MESSAGE value="[feat] reimplemented the tester engine main loop and refactored the tests classes to use JUnit4 and assertions" />
     <MESSAGE value="[fix] Major bug fixes&#10;- fixed BaseTest setUp function&#10;- fixed bug in ComponentIndexer for non-existent HTML component files&#10;- other minor fixes" />
@@ -697,7 +711,8 @@
     <MESSAGE value="[test] completed tc-search-02. Starting tc-search-03" />
     <MESSAGE value="[test] completed area-01 and tc-lib-01/02/03/05" />
     <MESSAGE value="[fix] minor fixes&#10;- better error classification&#10;- checks and creates the output folder for tests and mutations" />
-    <option name="LAST_COMMIT_MESSAGE" value="[fix] minor fixes&#10;- better error classification&#10;- checks and creates the output folder for tests and mutations" />
+    <MESSAGE value="[docs] updated the documentation files&#10;- Included windows fixes for the HookInjector module&#10;- Created a guide to run the tool on the Angular-Spotify application" />
+    <option name="LAST_COMMIT_MESSAGE" value="[docs] updated the documentation files&#10;- Included windows fixes for the HookInjector module&#10;- Created a guide to run the tool on the Angular-Spotify application" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -706,21 +721,6 @@
           <url>file://$PROJECT_DIR$/custom-locators/src/main/java/org/unina/robulaplus/RobulaPlus.java</url>
           <line>27</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/TestRunnerEngine.java</url>
-          <line>199</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/TestRunnerEngine.java</url>
-          <line>138</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mutation-tester/src/main/java/org/unina/TestRunnerEngine.java</url>
-          <line>133</line>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <breakpoint type="java-exception">
           <properties class="java.lang.RuntimeException" package="java.lang" />

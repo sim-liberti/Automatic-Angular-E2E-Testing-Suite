@@ -72,6 +72,7 @@ Once the configurations are saved, you can initialize the application.
 The tool includes a comprehensive test suite designed to evaluate the application's core functionality. To configure and execute these tests, follow the procedures outlined below.
 
 **Test Environment Setup**
+
 Before running the suite, you must configure the base testing classes to match your local environment.
 1. Copy the `BaseTest` and `WebDriverFactory` classes provided in the `ext-test-classes` module.
 2. Open the `BaseTest` class in your preferred IDE.
